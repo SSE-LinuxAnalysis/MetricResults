@@ -1,0 +1,168 @@
+[2020-01-16 20:23:08] [info   ] [Setup] Start executing KernelHaven with configuration file /tmp/SingleMetricAnalysis3746866645712819255.properties
+[2020-01-16 20:23:08] [info   ] [Setup] System Info:
+                                        	KernelHaven Version: Built at 2019-11-28 14:29:10
+                                        	OS Name: Linux
+                                        	OS Version: 4.4.0-170-generic
+                                        	OS Arch: amd64
+                                        	Java Home: /usr/lib/jvm/java-8-oracle/jre
+                                        	Java Vendor: Oracle Corporation
+                                        	Java Version: 1.8.0_201
+                                        	Java VM Name: Java HotSpot(TM) 64-Bit Server VM
+                                        	Java VM Version: 25.201-b09
+                                        	Java VM Vendor: Oracle Corporation
+                                        	Working Directory: /mnt/Linux-Analyses/MailCrawler/instance0/kh
+                                        	Temporary Directory: /mnt/Linux-Analyses/MailCrawler/instance0/kh/tmp
+                                        	File Encoding: UTF-8
+                                        	Java Class Path: KernelHaven.jar
+                                        	Maximum Memory: 38.33 GiB
+                                        	Available Processors: 40
+[2020-01-16 20:23:08] [info   ] [Setup] Start setting up pipeline...
+[2020-01-16 20:23:08] [info   ] [Setup] Loading jars from directory /mnt/Linux-Analyses/MailCrawler/instance0/kh/plugins
+[2020-01-16 20:23:08] [info   ] [Setup] IncrementalAnalysesInfrastructure.jar version: Built at 2019-12-12 13:33:10
+[2020-01-16 20:23:08] [info   ] [Setup] UndertakerExtractor.jar version: Built at 2019-11-28 14:31:37
+[2020-01-16 20:23:08] [info   ] [Setup] CnfUtils.jar version: Built at 2019-11-28 14:35:46
+[2020-01-16 20:23:08] [info   ] [Setup] KconfigReaderExtractor.jar version: Built at 2019-11-28 14:33:44
+[2020-01-16 20:23:08] [info   ] [Setup] CppUtils.jar version: Built at 2019-11-28 14:35:21
+[2020-01-16 20:23:08] [info   ] [Setup] ProblemSolutionSpaceDivergenceCorrectorAnalysis.jar version: Built at 2019-11-28 16:37:10
+[2020-01-16 20:23:08] [info   ] [Setup] TypeChefExtractor.jar version: Built at 2019-11-28 14:31:53
+[2020-01-16 20:23:08] [info   ] [Setup] ProblemSolutionSpaceMapperAnalysis.jar version: Built at 2019-11-28 16:11:10
+[2020-01-16 20:23:08] [info   ] [Setup] DBUtils.jar version: Built at 2019-11-28 14:35:09
+[2020-01-16 20:23:08] [info   ] [Setup] IOUtils.jar version: Built at 2019-11-28 14:34:16
+[2020-01-16 20:23:08] [info   ] [Setup] FeatureEffectAnalysis.jar version: Built at 2019-11-28 14:34:47
+[2020-01-16 20:23:08] [info   ] [Setup] SrcMLExtractor.jar version: Built at 2019-11-28 14:32:21
+[2020-01-16 20:23:08] [info   ] [Setup] BusybootPreparation.jar version: Built at 2019-11-28 14:36:12
+[2020-01-16 20:23:09] [info   ] [Setup] ProblemSolutionSpaceDivergenceDetectorAnalysis.jar version: Built at 2019-11-28 16:32:10
+[2020-01-16 20:23:09] [info   ] [Setup] MetricHaven.jar version: Built at 2020-01-15 10:20:10
+[2020-01-16 20:23:09] [info   ] [Setup] CodeBlockExtractor.jar version: Built at 2019-11-28 14:35:37
+[2020-01-16 20:23:09] [info   ] [Setup] UnDeadAnalyzer.jar version: Built at 2019-11-28 15:01:11
+[2020-01-16 20:23:09] [info   ] [Setup] EntityLocatorAnalysis.jar version: Built at 2019-11-28 14:34:59
+[2020-01-16 20:23:09] [info   ] [Setup] KbuildMinerExtractor.jar version: Built at 2019-11-28 14:33:56
+[2020-01-16 20:23:09] [info   ] [Setup] Successfully loaded 19 jars
+[2020-01-16 20:23:09] [info   ] [Setup] Loading all classes specified in loadClasses.txt ...
+[2020-01-16 20:23:09] [info   ] [Setup] Loaded 4 classes specified in loadClasses.txt files
+[2020-01-16 20:23:09] [info   ] [Setup] Instantiating extractors...
+[2020-01-16 20:23:09] [info   ] [Setup] Successfully instantiated variability extractor net.ssehub.kernel_haven.kconfigreader.KconfigReaderExtractor
+[2020-01-16 20:23:09] [info   ] [Setup] Successfully instantiated build extractor net.ssehub.kernel_haven.kbuildminer.KbuildMinerExtractor
+[2020-01-16 20:23:09] [info   ] [Setup] Successfully instantiated code extractor net.ssehub.kernel_haven.srcml.SrcMLExtractor
+[2020-01-16 20:23:09] [info   ] [Setup] Creating providers...
+[2020-01-16 20:23:09] [info   ] [Setup] Created variability provider
+[2020-01-16 20:23:09] [info   ] [Setup] Created build provider
+[2020-01-16 20:23:09] [info   ] [Setup] Created code provider
+[2020-01-16 20:23:09] [info   ] [Setup] Instantiating analysis...
+[2020-01-16 20:23:09] [info   ] [Setup] Successfully instantiated analysis net.ssehub.kernel_haven.metric_haven.metric_components.MetricsRunner
+[2020-01-16 20:23:09] [info   ] [Setup] Starting analysis...
+[2020-01-16 20:23:09] [info   ] [AnalysisPipelineController] MetricHaven executes atomic set and ignores further metric-specific configuration settings.
+[2020-01-16 20:23:09] [status ] [KbuildMinerExtractor] Starting on 1 targets in 1 threads
+[2020-01-16 20:23:09] [status ] [KconfigReaderExtractor] Starting on 1 targets in 1 threads
+[2020-01-16 20:23:09] [info   ] [IndividualCodeMetricsRunner] Analysis component IndividualCodeMetricsRunner starting
+[2020-01-16 20:23:38] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 KconfigReaderExtractor processed 0 of 1 (0%) items
+[2020-01-16 20:24:08] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 KconfigReaderExtractor processed 0 of 1 (0%) items
+[2020-01-16 20:24:38] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 KconfigReaderExtractor processed 0 of 1 (0%) items
+[2020-01-16 20:25:08] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 KconfigReaderExtractor processed 0 of 1 (0%) items
+[2020-01-16 20:25:38] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 KconfigReaderExtractor processed 0 of 1 (0%) items
+[2020-01-16 20:26:08] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 KconfigReaderExtractor processed 0 of 1 (0%) items
+[2020-01-16 20:26:38] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 KconfigReaderExtractor processed 0 of 1 (0%) items
+[2020-01-16 20:27:08] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 KconfigReaderExtractor processed 0 of 1 (0%) items
+[2020-01-16 20:27:38] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 KconfigReaderExtractor processed 0 of 1 (0%) items
+[2020-01-16 20:28:08] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 KconfigReaderExtractor processed 0 of 1 (0%) items
+[2020-01-16 20:28:38] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 KconfigReaderExtractor processed 0 of 1 (0%) items
+[2020-01-16 20:29:08] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 KconfigReaderExtractor processed 0 of 1 (0%) items
+[2020-01-16 20:29:38] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 KconfigReaderExtractor processed 0 of 1 (0%) items
+[2020-01-16 20:30:08] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 KconfigReaderExtractor processed 0 of 1 (0%) items
+[2020-01-16 20:30:38] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 KconfigReaderExtractor processed 0 of 1 (0%) items
+[2020-01-16 20:31:08] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 KconfigReaderExtractor processed 0 of 1 (0%) items
+[2020-01-16 20:31:09] [error  ] [ExtractorDataDuplicator] Got VM-Extractor exception:
+                                                          net.ssehub.kernel_haven.util.ExtractorException: Timeout reached: Waited longer than 480000 ms on extractor result
+                                                              at net.ssehub.kernel_haven.provider.AbstractProvider.getResult(AbstractProvider.java:233)
+                                                              at net.ssehub.kernel_haven.analysis.PipelineAnalysis$ExtractorDataDuplicator.run(PipelineAnalysis.java:339)
+                                                              at java.lang.Thread.run(Thread.java:748)
+[2020-01-16 20:31:38] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 KconfigReaderExtractor processed 0 of 1 (0%) items
+[2020-01-16 20:32:08] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 KconfigReaderExtractor processed 0 of 1 (0%) items
+[2020-01-16 20:32:38] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 KconfigReaderExtractor processed 0 of 1 (0%) items
+[2020-01-16 20:33:08] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 KconfigReaderExtractor processed 0 of 1 (0%) items
+[2020-01-16 20:33:38] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 KconfigReaderExtractor processed 0 of 1 (0%) items
+[2020-01-16 20:34:08] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 KconfigReaderExtractor processed 0 of 1 (0%) items
+[2020-01-16 20:34:10] [error  ] [ExtractorDataDuplicator] Got BM-Extractor exception:
+                                                          net.ssehub.kernel_haven.util.ExtractorException: Did not get a variability model
+                                                              at net.ssehub.kernel_haven.kbuildminer.KbuildMinerExtractor.runOnFile(KbuildMinerExtractor.java:112)
+                                                              at net.ssehub.kernel_haven.kbuildminer.KbuildMinerExtractor.runOnFile(KbuildMinerExtractor.java:44)
+                                                              at net.ssehub.kernel_haven.provider.AbstractExtractor$WorkerThread.run(AbstractExtractor.java:142)
+[2020-01-16 20:34:10] [info   ] [ProgressLogger] KbuildMinerExtractor processed 1 of 1 (100%) items and finished in 11:01.161
+                                                 KconfigReaderExtractor processed 0 of 1 (0%) items
+[2020-01-16 20:34:10] [info   ] [FunctionMapCreator] Analysis component FunctionMapCreator starting
+[2020-01-16 20:34:10] [info   ] [FeatureSizeEstimator] Analysis component FeatureSizeEstimator starting
+[2020-01-16 20:34:10] [info   ] [VariabilityCounter] Analysis component VariabilityCounter starting
+[2020-01-16 20:34:10] [error  ] [FeatureSizeEstimator] Did not get a variability model
+                                                       Can't create any results
+[2020-01-16 20:34:10] [info   ] [FeatureSizeEstimator] Analysis component FeatureSizeEstimator done
+                                                       Execution took 00:00.001
+[2020-01-16 20:34:10] [error  ] [VariabilityCounter] Did not get a variability model
+                                                     Can't create any results
+[2020-01-16 20:34:10] [info   ] [VariabilityCounter] Analysis component VariabilityCounter done
+                                                     Execution took 00:00.015
+[2020-01-16 20:34:10] [info   ] [OrderedCodeFunctionFilter] Analysis component OrderedCodeFunctionFilter starting
+[2020-01-16 20:34:10] [info   ] [CodeFunctionFilter] Analysis component CodeFunctionFilter starting
+[2020-01-16 20:34:40] [info   ] [ProgressLogger] KconfigReaderExtractor processed 0 of 1 (0%) items
+                                                 CodeFunctionFilter processed 0 items
+[2020-01-16 20:35:10] [info   ] [ProgressLogger] KconfigReaderExtractor processed 0 of 1 (0%) items
+                                                 CodeFunctionFilter processed 0 items
+[2020-01-16 20:35:40] [info   ] [ProgressLogger] KconfigReaderExtractor processed 0 of 1 (0%) items
+                                                 CodeFunctionFilter processed 0 items
+[2020-01-16 20:36:10] [info   ] [ProgressLogger] KconfigReaderExtractor processed 0 of 1 (0%) items
+                                                 CodeFunctionFilter processed 0 items
+[2020-01-16 20:36:40] [info   ] [ProgressLogger] KconfigReaderExtractor processed 0 of 1 (0%) items
+                                                 CodeFunctionFilter processed 0 items
+[2020-01-16 20:37:10] [info   ] [ProgressLogger] KconfigReaderExtractor processed 0 of 1 (0%) items
+                                                 CodeFunctionFilter processed 0 items
+[2020-01-16 20:37:40] [info   ] [ProgressLogger] KconfigReaderExtractor processed 0 of 1 (0%) items
+                                                 CodeFunctionFilter processed 0 items
+[2020-01-16 20:38:10] [info   ] [ProgressLogger] KconfigReaderExtractor processed 0 of 1 (0%) items
+                                                 CodeFunctionFilter processed 0 items
+[2020-01-16 20:38:40] [info   ] [ProgressLogger] KconfigReaderExtractor processed 0 of 1 (0%) items
+                                                 CodeFunctionFilter processed 0 items
+[2020-01-16 20:39:10] [info   ] [ProgressLogger] KconfigReaderExtractor processed 0 of 1 (0%) items
+                                                 CodeFunctionFilter processed 0 items
+[2020-01-16 20:39:40] [info   ] [ProgressLogger] KconfigReaderExtractor processed 0 of 1 (0%) items
+                                                 CodeFunctionFilter processed 0 items
+[2020-01-16 20:40:10] [info   ] [ProgressLogger] KconfigReaderExtractor processed 0 of 1 (0%) items
+                                                 CodeFunctionFilter processed 0 items
+[2020-01-16 20:40:40] [info   ] [ProgressLogger] KconfigReaderExtractor processed 0 of 1 (0%) items
+                                                 CodeFunctionFilter processed 0 items
+[2020-01-16 20:41:10] [info   ] [ProgressLogger] KconfigReaderExtractor processed 0 of 1 (0%) items
+                                                 CodeFunctionFilter processed 0 items
+[2020-01-16 20:41:40] [info   ] [ProgressLogger] KconfigReaderExtractor processed 0 of 1 (0%) items
+                                                 CodeFunctionFilter processed 0 items
+[2020-01-16 20:42:10] [info   ] [ProgressLogger] KconfigReaderExtractor processed 0 of 1 (0%) items
+                                                 CodeFunctionFilter processed 0 items
+[2020-01-16 20:42:40] [info   ] [ProgressLogger] KconfigReaderExtractor processed 0 of 1 (0%) items
+                                                 CodeFunctionFilter processed 0 items
+[2020-01-16 20:43:10] [info   ] [ProgressLogger] KconfigReaderExtractor processed 0 of 1 (0%) items
+                                                 CodeFunctionFilter processed 0 items
+[2020-01-16 20:43:40] [info   ] [ProgressLogger] KconfigReaderExtractor processed 0 of 1 (0%) items
+                                                 CodeFunctionFilter processed 0 items
+[2020-01-16 20:44:10] [info   ] [ProgressLogger] KconfigReaderExtractor processed 0 of 1 (0%) items
+                                                 CodeFunctionFilter processed 0 items
+[2020-01-16 20:44:40] [info   ] [ProgressLogger] KconfigReaderExtractor processed 0 of 1 (0%) items
+                                                 CodeFunctionFilter processed 0 items

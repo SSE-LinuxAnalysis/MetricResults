@@ -1,0 +1,866 @@
+[2020-01-17 04:27:49] [info   ] [Setup] Start executing KernelHaven with configuration file /tmp/SingleMetricAnalysis7344463865982036232.properties
+[2020-01-17 04:27:49] [info   ] [Setup] System Info:
+                                        	KernelHaven Version: Built at 2019-11-28 14:29:10
+                                        	OS Name: Linux
+                                        	OS Version: 4.4.0-170-generic
+                                        	OS Arch: amd64
+                                        	Java Home: /usr/lib/jvm/java-8-oracle/jre
+                                        	Java Vendor: Oracle Corporation
+                                        	Java Version: 1.8.0_201
+                                        	Java VM Name: Java HotSpot(TM) 64-Bit Server VM
+                                        	Java VM Version: 25.201-b09
+                                        	Java VM Vendor: Oracle Corporation
+                                        	Working Directory: /mnt/Linux-Analyses/MailCrawler/instance1/kh
+                                        	Temporary Directory: /mnt/Linux-Analyses/MailCrawler/instance1/kh/tmp
+                                        	File Encoding: UTF-8
+                                        	Java Class Path: KernelHaven.jar
+                                        	Maximum Memory: 38.33 GiB
+                                        	Available Processors: 40
+[2020-01-17 04:27:49] [info   ] [Setup] Start setting up pipeline...
+[2020-01-17 04:27:49] [info   ] [Setup] Loading jars from directory /mnt/Linux-Analyses/MailCrawler/instance1/kh/plugins
+[2020-01-17 04:27:49] [info   ] [Setup] IncrementalAnalysesInfrastructure.jar version: Built at 2019-12-12 13:33:10
+[2020-01-17 04:27:49] [info   ] [Setup] UndertakerExtractor.jar version: Built at 2019-11-28 14:31:37
+[2020-01-17 04:27:49] [info   ] [Setup] CnfUtils.jar version: Built at 2019-11-28 14:35:46
+[2020-01-17 04:27:49] [info   ] [Setup] KconfigReaderExtractor.jar version: Built at 2019-11-28 14:33:44
+[2020-01-17 04:27:49] [info   ] [Setup] CppUtils.jar version: Built at 2019-11-28 14:35:21
+[2020-01-17 04:27:49] [info   ] [Setup] ProblemSolutionSpaceDivergenceCorrectorAnalysis.jar version: Built at 2019-11-28 16:37:10
+[2020-01-17 04:27:49] [info   ] [Setup] TypeChefExtractor.jar version: Built at 2019-11-28 14:31:53
+[2020-01-17 04:27:49] [info   ] [Setup] ProblemSolutionSpaceMapperAnalysis.jar version: Built at 2019-11-28 16:11:10
+[2020-01-17 04:27:49] [info   ] [Setup] DBUtils.jar version: Built at 2019-11-28 14:35:09
+[2020-01-17 04:27:49] [info   ] [Setup] IOUtils.jar version: Built at 2019-11-28 14:34:16
+[2020-01-17 04:27:49] [info   ] [Setup] FeatureEffectAnalysis.jar version: Built at 2019-11-28 14:34:47
+[2020-01-17 04:27:49] [info   ] [Setup] SrcMLExtractor.jar version: Built at 2019-11-28 14:32:21
+[2020-01-17 04:27:49] [info   ] [Setup] BusybootPreparation.jar version: Built at 2019-11-28 14:36:12
+[2020-01-17 04:27:49] [info   ] [Setup] ProblemSolutionSpaceDivergenceDetectorAnalysis.jar version: Built at 2019-11-28 16:32:10
+[2020-01-17 04:27:49] [info   ] [Setup] MetricHaven.jar version: Built at 2020-01-15 10:20:10
+[2020-01-17 04:27:49] [info   ] [Setup] CodeBlockExtractor.jar version: Built at 2019-11-28 14:35:37
+[2020-01-17 04:27:49] [info   ] [Setup] UnDeadAnalyzer.jar version: Built at 2019-11-28 15:01:11
+[2020-01-17 04:27:49] [info   ] [Setup] EntityLocatorAnalysis.jar version: Built at 2019-11-28 14:34:59
+[2020-01-17 04:27:49] [info   ] [Setup] KbuildMinerExtractor.jar version: Built at 2019-11-28 14:33:56
+[2020-01-17 04:27:49] [info   ] [Setup] Successfully loaded 19 jars
+[2020-01-17 04:27:49] [info   ] [Setup] Loading all classes specified in loadClasses.txt ...
+[2020-01-17 04:27:50] [info   ] [Setup] Loaded 4 classes specified in loadClasses.txt files
+[2020-01-17 04:27:50] [info   ] [Setup] Instantiating extractors...
+[2020-01-17 04:27:50] [info   ] [Setup] Successfully instantiated variability extractor net.ssehub.kernel_haven.kconfigreader.KconfigReaderExtractor
+[2020-01-17 04:27:50] [info   ] [Setup] Successfully instantiated build extractor net.ssehub.kernel_haven.kbuildminer.KbuildMinerExtractor
+[2020-01-17 04:27:50] [info   ] [Setup] Successfully instantiated code extractor net.ssehub.kernel_haven.srcml.SrcMLExtractor
+[2020-01-17 04:27:50] [info   ] [Setup] Creating providers...
+[2020-01-17 04:27:50] [info   ] [Setup] Created variability provider
+[2020-01-17 04:27:50] [info   ] [Setup] Created build provider
+[2020-01-17 04:27:50] [info   ] [Setup] Created code provider
+[2020-01-17 04:27:50] [info   ] [Setup] Instantiating analysis...
+[2020-01-17 04:27:50] [info   ] [Setup] Successfully instantiated analysis net.ssehub.kernel_haven.metric_haven.metric_components.MetricsRunner
+[2020-01-17 04:27:50] [info   ] [Setup] Starting analysis...
+[2020-01-17 04:27:50] [info   ] [AnalysisPipelineController] MetricHaven executes atomic set and ignores further metric-specific configuration settings.
+[2020-01-17 04:27:50] [status ] [KbuildMinerExtractor] Starting on 1 targets in 1 threads
+[2020-01-17 04:27:50] [status ] [KconfigReaderExtractor] Starting on 1 targets in 1 threads
+[2020-01-17 04:27:50] [info   ] [IndividualCodeMetricsRunner] Analysis component IndividualCodeMetricsRunner starting
+[2020-01-17 04:27:50] [status ] [SrcMLExtractor] Starting on 38867 targets in 6 threads
+[2020-01-17 04:28:19] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 KconfigReaderExtractor processed 0 of 1 (0%) items
+                                                 SrcMLExtractor processed 4401 of 38867 (11%) items
+[2020-01-17 04:28:49] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 KconfigReaderExtractor processed 0 of 1 (0%) items
+                                                 SrcMLExtractor processed 10338 of 38867 (26%) items
+[2020-01-17 04:29:17] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 KconfigReaderExtractor processed 1 of 1 (100%) items and finished in 01:27.127
+                                                 SrcMLExtractor processed 13302 of 38867 (34%) items
+[2020-01-17 04:29:47] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 SrcMLExtractor processed 16723 of 38867 (43%) items
+[2020-01-17 04:30:17] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 SrcMLExtractor processed 19230 of 38867 (49%) items
+[2020-01-17 04:30:47] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 SrcMLExtractor processed 20995 of 38867 (54%) items
+[2020-01-17 04:31:14] [warning] [KbuildMinerExtractor-1] Presence condition for file drivers/net/ethernet/cavium/liquidio/cn23xx_pf_device.c in line 7944 is invalid
+[2020-01-17 04:31:14] [warning] [KbuildMinerExtractor-1] Presence condition for file drivers/net/ethernet/cavium/liquidio/cn23xx_vf_device.c in line 7945 is invalid
+[2020-01-17 04:31:14] [warning] [KbuildMinerExtractor-1] Presence condition for file drivers/net/ethernet/cavium/liquidio/cn66xx_device.c in line 7946 is invalid
+[2020-01-17 04:31:14] [warning] [KbuildMinerExtractor-1] Presence condition for file drivers/net/ethernet/cavium/liquidio/cn68xx_device.c in line 7947 is invalid
+[2020-01-17 04:31:14] [warning] [KbuildMinerExtractor-1] Presence condition for file drivers/net/ethernet/cavium/liquidio/lio_core.c in line 7948 is invalid
+[2020-01-17 04:31:14] [warning] [KbuildMinerExtractor-1] Presence condition for file drivers/net/ethernet/cavium/liquidio/lio_ethtool.c in line 7949 is invalid
+[2020-01-17 04:31:14] [warning] [KbuildMinerExtractor-1] Presence condition for file drivers/net/ethernet/cavium/liquidio/octeon_device.c in line 7953 is invalid
+[2020-01-17 04:31:14] [warning] [KbuildMinerExtractor-1] Presence condition for file drivers/net/ethernet/cavium/liquidio/octeon_droq.c in line 7954 is invalid
+[2020-01-17 04:31:14] [warning] [KbuildMinerExtractor-1] Presence condition for file drivers/net/ethernet/cavium/liquidio/octeon_mailbox.c in line 7955 is invalid
+[2020-01-17 04:31:14] [warning] [KbuildMinerExtractor-1] Presence condition for file drivers/net/ethernet/cavium/liquidio/octeon_mem_ops.c in line 7956 is invalid
+[2020-01-17 04:31:14] [warning] [KbuildMinerExtractor-1] Presence condition for file drivers/net/ethernet/cavium/liquidio/octeon_nic.c in line 7957 is invalid
+[2020-01-17 04:31:14] [warning] [KbuildMinerExtractor-1] Presence condition for file drivers/net/ethernet/cavium/liquidio/request_manager.c in line 7958 is invalid
+[2020-01-17 04:31:14] [warning] [KbuildMinerExtractor-1] Presence condition for file drivers/net/ethernet/cavium/liquidio/response_manager.c in line 7959 is invalid
+[2020-01-17 04:31:14] [warning] [KbuildMinerExtractor-1] Presence condition for file drivers/pci/dwc/pci-dra7xx.c in line 9723 is invalid
+[2020-01-17 04:31:15] [warning] [KbuildMinerExtractor-1] Presence condition for file drivers/usb/dwc2/gadget.c in line 12721 is invalid
+[2020-01-17 04:31:15] [warning] [KbuildMinerExtractor-1] Presence condition for file drivers/usb/dwc2/hcd.c in line 12722 is invalid
+[2020-01-17 04:31:15] [warning] [KbuildMinerExtractor-1] Presence condition for file drivers/usb/dwc2/hcd_ddma.c in line 12723 is invalid
+[2020-01-17 04:31:15] [warning] [KbuildMinerExtractor-1] Presence condition for file drivers/usb/dwc2/hcd_intr.c in line 12724 is invalid
+[2020-01-17 04:31:15] [warning] [KbuildMinerExtractor-1] Presence condition for file drivers/usb/dwc2/hcd_queue.c in line 12725 is invalid
+[2020-01-17 04:31:15] [warning] [KbuildMinerExtractor-1] Presence condition for file drivers/usb/dwc3/ep0.c in line 12738 is invalid
+[2020-01-17 04:31:15] [warning] [KbuildMinerExtractor-1] Presence condition for file drivers/usb/dwc3/gadget.c in line 12739 is invalid
+[2020-01-17 04:31:15] [warning] [KbuildMinerExtractor-1] Presence condition for file drivers/usb/dwc3/host.c in line 12740 is invalid
+[2020-01-17 04:31:15] [warning] [KbuildMinerExtractor-1] Presence condition for file drivers/usb/mtu3/mtu3_core.c in line 12948 is invalid
+[2020-01-17 04:31:15] [warning] [KbuildMinerExtractor-1] Presence condition for file drivers/usb/mtu3/mtu3_gadget.c in line 12950 is invalid
+[2020-01-17 04:31:15] [warning] [KbuildMinerExtractor-1] Presence condition for file drivers/usb/mtu3/mtu3_gadget_ep0.c in line 12951 is invalid
+[2020-01-17 04:31:15] [warning] [KbuildMinerExtractor-1] Presence condition for file drivers/usb/mtu3/mtu3_host.c in line 12952 is invalid
+[2020-01-17 04:31:15] [warning] [KbuildMinerExtractor-1] Presence condition for file drivers/usb/mtu3/mtu3_qmu.c in line 12954 is invalid
+[2020-01-17 04:31:15] [info   ] [ProgressLogger] KbuildMinerExtractor processed 1 of 1 (100%) items and finished in 03:24.998
+                                                 SrcMLExtractor processed 23383 of 38867 (60%) items
+[2020-01-17 04:31:15] [info   ] [VariabilityCounter] Analysis component VariabilityCounter starting
+[2020-01-17 04:31:15] [info   ] [FeatureSizeEstimator] Analysis component FeatureSizeEstimator starting
+[2020-01-17 04:31:15] [info   ] [FunctionMapCreator] Analysis component FunctionMapCreator starting
+[2020-01-17 04:31:15] [info   ] [OrderedCodeFunctionFilter] Analysis component OrderedCodeFunctionFilter starting
+[2020-01-17 04:31:15] [info   ] [CodeFunctionFilter] Analysis component CodeFunctionFilter starting
+[2020-01-17 04:31:37] [warning] [SrcMLExtractor-1] srcML was killed due to the kill-timeout being reached
+[2020-01-17 04:31:45] [info   ] [ProgressLogger] SrcMLExtractor processed 25544 of 38867 (65%) items
+                                                 CodeFunctionFilter processed 23873 items
+                                                 VariabilityCounter processed 24778 items
+                                                 FeatureSizeEstimator processed 23873 items
+[2020-01-17 04:32:15] [info   ] [ProgressLogger] SrcMLExtractor processed 27924 of 38867 (71%) items
+                                                 CodeFunctionFilter processed 23969 items
+                                                 VariabilityCounter processed 27783 items
+                                                 FeatureSizeEstimator processed 23969 items
+[2020-01-17 04:32:45] [info   ] [ProgressLogger] SrcMLExtractor processed 30706 of 38867 (79%) items
+                                                 CodeFunctionFilter processed 24164 items
+                                                 VariabilityCounter processed 30557 items
+                                                 FeatureSizeEstimator processed 24164 items
+[2020-01-17 04:33:15] [info   ] [ProgressLogger] SrcMLExtractor processed 32721 of 38867 (84%) items
+                                                 CodeFunctionFilter processed 24164 items
+                                                 VariabilityCounter processed 32562 items
+                                                 FeatureSizeEstimator processed 24164 items
+[2020-01-17 04:33:45] [info   ] [ProgressLogger] SrcMLExtractor processed 35131 of 38867 (90%) items
+                                                 CodeFunctionFilter processed 24164 items
+                                                 VariabilityCounter processed 34960 items
+                                                 FeatureSizeEstimator processed 24164 items
+[2020-01-17 04:34:15] [info   ] [ProgressLogger] SrcMLExtractor processed 38103 of 38867 (98%) items
+                                                 CodeFunctionFilter processed 24781 items
+                                                 VariabilityCounter processed 37910 items
+                                                 FeatureSizeEstimator processed 24164 items
+[2020-01-17 04:34:22] [info   ] [ProgressLogger] SrcMLExtractor processed 38867 of 38867 (100%) items and finished in 06:32.134
+                                                 CodeFunctionFilter processed 24781 items
+                                                 VariabilityCounter processed 38670 items
+                                                 FeatureSizeEstimator processed 24164 items
+[2020-01-17 04:34:23] [warning] [ExtractorDataDuplicator] CM-Extractor: Got 38670 elements and 197 exceptions
+[2020-01-17 04:34:23] [info   ] [VariabilityCounter] Analysis component VariabilityCounter done
+                                                     Execution took 03:07.975
+[2020-01-17 04:34:23] [info   ] [ProgressLogger] CodeFunctionFilter processed 24781 items
+                                                 VariabilityCounter processed 38670 items and finished in 03:07.952
+                                                 FeatureSizeEstimator processed 24164 items
+[2020-01-17 04:34:53] [info   ] [ProgressLogger] CodeFunctionFilter processed 24781 items
+                                                 FeatureSizeEstimator processed 24164 items
+[2020-01-17 04:35:12] [info   ] [CodeFunctionFilter] Discarded 3664 functions that contained an ErrorElement
+[2020-01-17 04:35:12] [info   ] [CodeFunctionFilter] Analysis component CodeFunctionFilter done
+                                                     Execution took 03:57.682
+[2020-01-17 04:35:12] [info   ] [ProgressLogger] CodeFunctionFilter processed 38670 items and finished in 03:57.682
+                                                 FeatureSizeEstimator processed 24781 items
+[2020-01-17 04:35:13] [info   ] [ProgressLogger] FeatureSizeEstimator processed 24781 items
+                                                 OrderedCodeFunctionFilter processed 2780966 items and finished in 00:01.015
+[2020-01-17 04:35:13] [info   ] [OrderedCodeFunctionFilter] Analysis component OrderedCodeFunctionFilter done
+                                                            Execution took 03:58.699
+[2020-01-17 04:35:23] [info   ] [FunctionMapCreator] Analysis component FunctionMapCreator done
+                                                     Execution took 04:08.177
+[2020-01-17 04:35:23] [info   ] [ProgressLogger] FeatureSizeEstimator processed 24781 items
+                                                 FunctionMapCreator processed 462280 of 462280 (100%) items and finished in 00:08.967
+[2020-01-17 04:35:53] [info   ] [ProgressLogger] FeatureSizeEstimator processed 24781 items
+[2020-01-17 04:36:23] [info   ] [ProgressLogger] FeatureSizeEstimator processed 24781 items
+[2020-01-17 04:36:29] [info   ] [ProgressLogger] FeatureSizeEstimator processed 38670 items and finished in 05:14.752
+[2020-01-17 04:36:29] [info   ] [FeatureSizeEstimator] Analysis component FeatureSizeEstimator done
+                                                       Execution took 05:14.779
+[2020-01-17 04:36:30] [info   ] [IndividualCodeMetricsRunner] 692 new Metrics created:
+ - INTERNAL Vars per Function
+ - INTERNAL Vars per Function x SD_VP
+ - INTERNAL Vars per Function x SD_FILE
+ - INTERNAL Vars per Function x OUTGOING_CONNECTIONS
+ - INTERNAL Vars per Function x INCOMIG_CONNECTIONS
+ - INTERNAL Vars per Function x ALL_CTCR
+ - INTERNAL Vars per Function x Feature distance
+ - INTERNAL Vars per Function x Hierarchy Types(1-0-0)
+ - INTERNAL Vars per Function x Hierarchy Types(0-1-0)
+ - INTERNAL Vars per Function x Hierarchy Types(0-0-1)
+ - INTERNAL Vars per Function x Hierarchy Levels
+ - INTERNAL Vars per Function x Feature Type(bool=1)
+ - INTERNAL Vars per Function x Feature Type(tristate=1)
+ - INTERNAL Vars per Function x Feature Type(string=1)
+ - INTERNAL Vars per Function x Feature Type(integer=1, int=1)
+ - INTERNAL Vars per Function x Feature Type(hex=1)
+ - INTERNAL Vars per Function x NUMBER_OF_CHILDREN
+ - INTERNAL Vars per Function x COC
+ - INTERNAL Vars per Function x POSITIVE_SIZES
+ - INTERNAL Vars per Function x TOTAL_SIZES
+ - EXTERNAL Vars per Function
+ - EXTERNAL Vars per Function x SD_VP
+ - EXTERNAL Vars per Function x SD_FILE
+ - EXTERNAL Vars per Function x OUTGOING_CONNECTIONS
+ - EXTERNAL Vars per Function x INCOMIG_CONNECTIONS
+ - EXTERNAL Vars per Function x ALL_CTCR
+ - EXTERNAL Vars per Function x Feature distance
+ - EXTERNAL Vars per Function x Hierarchy Types(1-0-0)
+ - EXTERNAL Vars per Function x Hierarchy Types(0-1-0)
+ - EXTERNAL Vars per Function x Hierarchy Types(0-0-1)
+ - EXTERNAL Vars per Function x Hierarchy Levels
+ - EXTERNAL Vars per Function x Feature Type(bool=1)
+ - EXTERNAL Vars per Function x Feature Type(tristate=1)
+ - EXTERNAL Vars per Function x Feature Type(string=1)
+ - EXTERNAL Vars per Function x Feature Type(integer=1, int=1)
+ - EXTERNAL Vars per Function x Feature Type(hex=1)
+ - EXTERNAL Vars per Function x NUMBER_OF_CHILDREN
+ - EXTERNAL Vars per Function x COC
+ - EXTERNAL Vars per Function x POSITIVE_SIZES
+ - EXTERNAL Vars per Function x TOTAL_SIZES
+ - ALL Vars per Function
+ - ALL Vars per Function x SD_VP
+ - ALL Vars per Function x SD_FILE
+ - ALL Vars per Function x OUTGOING_CONNECTIONS
+ - ALL Vars per Function x INCOMIG_CONNECTIONS
+ - ALL Vars per Function x ALL_CTCR
+ - ALL Vars per Function x Feature distance
+ - ALL Vars per Function x Hierarchy Types(1-0-0)
+ - ALL Vars per Function x Hierarchy Types(0-1-0)
+ - ALL Vars per Function x Hierarchy Types(0-0-1)
+ - ALL Vars per Function x Hierarchy Levels
+ - ALL Vars per Function x Feature Type(bool=1)
+ - ALL Vars per Function x Feature Type(tristate=1)
+ - ALL Vars per Function x Feature Type(string=1)
+ - ALL Vars per Function x Feature Type(integer=1, int=1)
+ - ALL Vars per Function x Feature Type(hex=1)
+ - ALL Vars per Function x NUMBER_OF_CHILDREN
+ - ALL Vars per Function x COC
+ - ALL Vars per Function x POSITIVE_SIZES
+ - ALL Vars per Function x TOTAL_SIZES
+ - EXTERNAL_WITH_BUILD_VARS Vars per Function
+ - EXTERNAL_WITH_BUILD_VARS Vars per Function x SD_VP
+ - EXTERNAL_WITH_BUILD_VARS Vars per Function x SD_FILE
+ - EXTERNAL_WITH_BUILD_VARS Vars per Function x OUTGOING_CONNECTIONS
+ - EXTERNAL_WITH_BUILD_VARS Vars per Function x INCOMIG_CONNECTIONS
+ - EXTERNAL_WITH_BUILD_VARS Vars per Function x ALL_CTCR
+ - EXTERNAL_WITH_BUILD_VARS Vars per Function x Feature distance
+ - EXTERNAL_WITH_BUILD_VARS Vars per Function x Hierarchy Types(1-0-0)
+ - EXTERNAL_WITH_BUILD_VARS Vars per Function x Hierarchy Types(0-1-0)
+ - EXTERNAL_WITH_BUILD_VARS Vars per Function x Hierarchy Types(0-0-1)
+ - EXTERNAL_WITH_BUILD_VARS Vars per Function x Hierarchy Levels
+ - EXTERNAL_WITH_BUILD_VARS Vars per Function x Feature Type(bool=1)
+ - EXTERNAL_WITH_BUILD_VARS Vars per Function x Feature Type(tristate=1)
+ - EXTERNAL_WITH_BUILD_VARS Vars per Function x Feature Type(string=1)
+ - EXTERNAL_WITH_BUILD_VARS Vars per Function x Feature Type(integer=1, int=1)
+ - EXTERNAL_WITH_BUILD_VARS Vars per Function x Feature Type(hex=1)
+ - EXTERNAL_WITH_BUILD_VARS Vars per Function x NUMBER_OF_CHILDREN
+ - EXTERNAL_WITH_BUILD_VARS Vars per Function x COC
+ - EXTERNAL_WITH_BUILD_VARS Vars per Function x POSITIVE_SIZES
+ - EXTERNAL_WITH_BUILD_VARS Vars per Function x TOTAL_SIZES
+ - ALL_WITH_BUILD_VARS Vars per Function
+ - ALL_WITH_BUILD_VARS Vars per Function x SD_VP
+ - ALL_WITH_BUILD_VARS Vars per Function x SD_FILE
+ - ALL_WITH_BUILD_VARS Vars per Function x OUTGOING_CONNECTIONS
+ - ALL_WITH_BUILD_VARS Vars per Function x INCOMIG_CONNECTIONS
+ - ALL_WITH_BUILD_VARS Vars per Function x ALL_CTCR
+ - ALL_WITH_BUILD_VARS Vars per Function x Feature distance
+ - ALL_WITH_BUILD_VARS Vars per Function x Hierarchy Types(1-0-0)
+ - ALL_WITH_BUILD_VARS Vars per Function x Hierarchy Types(0-1-0)
+ - ALL_WITH_BUILD_VARS Vars per Function x Hierarchy Types(0-0-1)
+ - ALL_WITH_BUILD_VARS Vars per Function x Hierarchy Levels
+ - ALL_WITH_BUILD_VARS Vars per Function x Feature Type(bool=1)
+ - ALL_WITH_BUILD_VARS Vars per Function x Feature Type(tristate=1)
+ - ALL_WITH_BUILD_VARS Vars per Function x Feature Type(string=1)
+ - ALL_WITH_BUILD_VARS Vars per Function x Feature Type(integer=1, int=1)
+ - ALL_WITH_BUILD_VARS Vars per Function x Feature Type(hex=1)
+ - ALL_WITH_BUILD_VARS Vars per Function x NUMBER_OF_CHILDREN
+ - ALL_WITH_BUILD_VARS Vars per Function x COC
+ - ALL_WITH_BUILD_VARS Vars per Function x POSITIVE_SIZES
+ - ALL_WITH_BUILD_VARS Vars per Function x TOTAL_SIZES
+ - CC on VPs
+ - CC on VPs x SD_VP
+ - CC on VPs x SD_FILE
+ - CC on VPs x OUTGOING_CONNECTIONS
+ - CC on VPs x INCOMIG_CONNECTIONS
+ - CC on VPs x ALL_CTCR
+ - CC on VPs x Feature distance
+ - CC on VPs x Hierarchy Types(1-0-0)
+ - CC on VPs x Hierarchy Types(0-1-0)
+ - CC on VPs x Hierarchy Types(0-0-1)
+ - CC on VPs x Hierarchy Levels
+ - CC on VPs x Feature Type(bool=1)
+ - CC on VPs x Feature Type(tristate=1)
+ - CC on VPs x Feature Type(string=1)
+ - CC on VPs x Feature Type(integer=1, int=1)
+ - CC on VPs x Feature Type(hex=1)
+ - CC on VPs x NUMBER_OF_CHILDREN
+ - CC on VPs x COC
+ - CC on VPs x POSITIVE_SIZES
+ - CC on VPs x TOTAL_SIZES
+ - McCabe + CC on VPs
+ - McCabe + CC on VPs x SD_VP
+ - McCabe + CC on VPs x SD_FILE
+ - McCabe + CC on VPs x OUTGOING_CONNECTIONS
+ - McCabe + CC on VPs x INCOMIG_CONNECTIONS
+ - McCabe + CC on VPs x ALL_CTCR
+ - McCabe + CC on VPs x Feature distance
+ - McCabe + CC on VPs x Hierarchy Types(1-0-0)
+ - McCabe + CC on VPs x Hierarchy Types(0-1-0)
+ - McCabe + CC on VPs x Hierarchy Types(0-0-1)
+ - McCabe + CC on VPs x Hierarchy Levels
+ - McCabe + CC on VPs x Feature Type(bool=1)
+ - McCabe + CC on VPs x Feature Type(tristate=1)
+ - McCabe + CC on VPs x Feature Type(string=1)
+ - McCabe + CC on VPs x Feature Type(integer=1, int=1)
+ - McCabe + CC on VPs x Feature Type(hex=1)
+ - McCabe + CC on VPs x NUMBER_OF_CHILDREN
+ - McCabe + CC on VPs x COC
+ - McCabe + CC on VPs x POSITIVE_SIZES
+ - McCabe + CC on VPs x TOTAL_SIZES
+ - VP ND_Max
+ - VP ND_Max x SD_VP
+ - VP ND_Max x SD_FILE
+ - VP ND_Max x OUTGOING_CONNECTIONS
+ - VP ND_Max x INCOMIG_CONNECTIONS
+ - VP ND_Max x ALL_CTCR
+ - VP ND_Max x Feature distance
+ - VP ND_Max x Hierarchy Types(1-0-0)
+ - VP ND_Max x Hierarchy Types(0-1-0)
+ - VP ND_Max x Hierarchy Types(0-0-1)
+ - VP ND_Max x Hierarchy Levels
+ - VP ND_Max x Feature Type(bool=1)
+ - VP ND_Max x Feature Type(tristate=1)
+ - VP ND_Max x Feature Type(string=1)
+ - VP ND_Max x Feature Type(integer=1, int=1)
+ - VP ND_Max x Feature Type(hex=1)
+ - VP ND_Max x NUMBER_OF_CHILDREN
+ - VP ND_Max x COC
+ - VP ND_Max x POSITIVE_SIZES
+ - VP ND_Max x TOTAL_SIZES
+ - VP ND_Avg
+ - VP ND_Avg x SD_VP
+ - VP ND_Avg x SD_FILE
+ - VP ND_Avg x OUTGOING_CONNECTIONS
+ - VP ND_Avg x INCOMIG_CONNECTIONS
+ - VP ND_Avg x ALL_CTCR
+ - VP ND_Avg x Feature distance
+ - VP ND_Avg x Hierarchy Types(1-0-0)
+ - VP ND_Avg x Hierarchy Types(0-1-0)
+ - VP ND_Avg x Hierarchy Types(0-0-1)
+ - VP ND_Avg x Hierarchy Levels
+ - VP ND_Avg x Feature Type(bool=1)
+ - VP ND_Avg x Feature Type(tristate=1)
+ - VP ND_Avg x Feature Type(string=1)
+ - VP ND_Avg x Feature Type(integer=1, int=1)
+ - VP ND_Avg x Feature Type(hex=1)
+ - VP ND_Avg x NUMBER_OF_CHILDREN
+ - VP ND_Avg x COC
+ - VP ND_Avg x POSITIVE_SIZES
+ - VP ND_Avg x TOTAL_SIZES
+ - Combined ND_Max
+ - Combined ND_Max x SD_VP
+ - Combined ND_Max x SD_FILE
+ - Combined ND_Max x OUTGOING_CONNECTIONS
+ - Combined ND_Max x INCOMIG_CONNECTIONS
+ - Combined ND_Max x ALL_CTCR
+ - Combined ND_Max x Feature distance
+ - Combined ND_Max x Hierarchy Types(1-0-0)
+ - Combined ND_Max x Hierarchy Types(0-1-0)
+ - Combined ND_Max x Hierarchy Types(0-0-1)
+ - Combined ND_Max x Hierarchy Levels
+ - Combined ND_Max x Feature Type(bool=1)
+ - Combined ND_Max x Feature Type(tristate=1)
+ - Combined ND_Max x Feature Type(string=1)
+ - Combined ND_Max x Feature Type(integer=1, int=1)
+ - Combined ND_Max x Feature Type(hex=1)
+ - Combined ND_Max x NUMBER_OF_CHILDREN
+ - Combined ND_Max x COC
+ - Combined ND_Max x POSITIVE_SIZES
+ - Combined ND_Max x TOTAL_SIZES
+ - Combined ND_Avg
+ - Combined ND_Avg x SD_VP
+ - Combined ND_Avg x SD_FILE
+ - Combined ND_Avg x OUTGOING_CONNECTIONS
+ - Combined ND_Avg x INCOMIG_CONNECTIONS
+ - Combined ND_Avg x ALL_CTCR
+ - Combined ND_Avg x Feature distance
+ - Combined ND_Avg x Hierarchy Types(1-0-0)
+ - Combined ND_Avg x Hierarchy Types(0-1-0)
+ - Combined ND_Avg x Hierarchy Types(0-0-1)
+ - Combined ND_Avg x Hierarchy Levels
+ - Combined ND_Avg x Feature Type(bool=1)
+ - Combined ND_Avg x Feature Type(tristate=1)
+ - Combined ND_Avg x Feature Type(string=1)
+ - Combined ND_Avg x Feature Type(integer=1, int=1)
+ - Combined ND_Avg x Feature Type(hex=1)
+ - Combined ND_Avg x NUMBER_OF_CHILDREN
+ - Combined ND_Avg x COC
+ - Combined ND_Avg x POSITIVE_SIZES
+ - Combined ND_Avg x TOTAL_SIZES
+ - EV DC Fan-In(global)
+ - EV DC Fan-In(global) x SD_VP
+ - EV DC Fan-In(global) x SD_FILE
+ - EV DC Fan-In(global) x OUTGOING_CONNECTIONS
+ - EV DC Fan-In(global) x INCOMIG_CONNECTIONS
+ - EV DC Fan-In(global) x ALL_CTCR
+ - EV DC Fan-In(global) x Feature distance
+ - EV DC Fan-In(global) x Hierarchy Types(1-0-0)
+ - EV DC Fan-In(global) x Hierarchy Types(0-1-0)
+ - EV DC Fan-In(global) x Hierarchy Types(0-0-1)
+ - EV DC Fan-In(global) x Hierarchy Levels
+ - EV DC Fan-In(global) x Feature Type(bool=1)
+ - EV DC Fan-In(global) x Feature Type(tristate=1)
+ - EV DC Fan-In(global) x Feature Type(string=1)
+ - EV DC Fan-In(global) x Feature Type(integer=1, int=1)
+ - EV DC Fan-In(global) x Feature Type(hex=1)
+ - EV DC Fan-In(global) x NUMBER_OF_CHILDREN
+ - EV DC Fan-In(global) x COC
+ - EV DC Fan-In(global) x POSITIVE_SIZES
+ - EV DC Fan-In(global) x TOTAL_SIZES
+ - EV DC Fan-In(local)
+ - EV DC Fan-In(local) x SD_VP
+ - EV DC Fan-In(local) x SD_FILE
+ - EV DC Fan-In(local) x OUTGOING_CONNECTIONS
+ - EV DC Fan-In(local) x INCOMIG_CONNECTIONS
+ - EV DC Fan-In(local) x ALL_CTCR
+ - EV DC Fan-In(local) x Feature distance
+ - EV DC Fan-In(local) x Hierarchy Types(1-0-0)
+ - EV DC Fan-In(local) x Hierarchy Types(0-1-0)
+ - EV DC Fan-In(local) x Hierarchy Types(0-0-1)
+ - EV DC Fan-In(local) x Hierarchy Levels
+ - EV DC Fan-In(local) x Feature Type(bool=1)
+ - EV DC Fan-In(local) x Feature Type(tristate=1)
+ - EV DC Fan-In(local) x Feature Type(string=1)
+ - EV DC Fan-In(local) x Feature Type(integer=1, int=1)
+ - EV DC Fan-In(local) x Feature Type(hex=1)
+ - EV DC Fan-In(local) x NUMBER_OF_CHILDREN
+ - EV DC Fan-In(local) x COC
+ - EV DC Fan-In(local) x POSITIVE_SIZES
+ - EV DC Fan-In(local) x TOTAL_SIZES
+ - EV DC Fan-Out(global)
+ - EV DC Fan-Out(global) x SD_VP
+ - EV DC Fan-Out(global) x SD_FILE
+ - EV DC Fan-Out(global) x OUTGOING_CONNECTIONS
+ - EV DC Fan-Out(global) x INCOMIG_CONNECTIONS
+ - EV DC Fan-Out(global) x ALL_CTCR
+ - EV DC Fan-Out(global) x Feature distance
+ - EV DC Fan-Out(global) x Hierarchy Types(1-0-0)
+ - EV DC Fan-Out(global) x Hierarchy Types(0-1-0)
+ - EV DC Fan-Out(global) x Hierarchy Types(0-0-1)
+ - EV DC Fan-Out(global) x Hierarchy Levels
+ - EV DC Fan-Out(global) x Feature Type(bool=1)
+ - EV DC Fan-Out(global) x Feature Type(tristate=1)
+ - EV DC Fan-Out(global) x Feature Type(string=1)
+ - EV DC Fan-Out(global) x Feature Type(integer=1, int=1)
+ - EV DC Fan-Out(global) x Feature Type(hex=1)
+ - EV DC Fan-Out(global) x NUMBER_OF_CHILDREN
+ - EV DC Fan-Out(global) x COC
+ - EV DC Fan-Out(global) x POSITIVE_SIZES
+ - EV DC Fan-Out(global) x TOTAL_SIZES
+ - EV DC Fan-Out(local)
+ - EV DC Fan-Out(local) x SD_VP
+ - EV DC Fan-Out(local) x SD_FILE
+ - EV DC Fan-Out(local) x OUTGOING_CONNECTIONS
+ - EV DC Fan-Out(local) x INCOMIG_CONNECTIONS
+ - EV DC Fan-Out(local) x ALL_CTCR
+ - EV DC Fan-Out(local) x Feature distance
+ - EV DC Fan-Out(local) x Hierarchy Types(1-0-0)
+ - EV DC Fan-Out(local) x Hierarchy Types(0-1-0)
+ - EV DC Fan-Out(local) x Hierarchy Types(0-0-1)
+ - EV DC Fan-Out(local) x Hierarchy Levels
+ - EV DC Fan-Out(local) x Feature Type(bool=1)
+ - EV DC Fan-Out(local) x Feature Type(tristate=1)
+ - EV DC Fan-Out(local) x Feature Type(string=1)
+ - EV DC Fan-Out(local) x Feature Type(integer=1, int=1)
+ - EV DC Fan-Out(local) x Feature Type(hex=1)
+ - EV DC Fan-Out(local) x NUMBER_OF_CHILDREN
+ - EV DC Fan-Out(local) x COC
+ - EV DC Fan-Out(local) x POSITIVE_SIZES
+ - EV DC Fan-Out(local) x TOTAL_SIZES
+ - EV DC Fan-Out(global x No Stubs)
+ - EV DC Fan-Out(global x No Stubs) x SD_VP
+ - EV DC Fan-Out(global x No Stubs) x SD_FILE
+ - EV DC Fan-Out(global x No Stubs) x OUTGOING_CONNECTIONS
+ - EV DC Fan-Out(global x No Stubs) x INCOMIG_CONNECTIONS
+ - EV DC Fan-Out(global x No Stubs) x ALL_CTCR
+ - EV DC Fan-Out(global x No Stubs) x Feature distance
+ - EV DC Fan-Out(global x No Stubs) x Hierarchy Types(1-0-0)
+ - EV DC Fan-Out(global x No Stubs) x Hierarchy Types(0-1-0)
+ - EV DC Fan-Out(global x No Stubs) x Hierarchy Types(0-0-1)
+ - EV DC Fan-Out(global x No Stubs) x Hierarchy Levels
+ - EV DC Fan-Out(global x No Stubs) x Feature Type(bool=1)
+ - EV DC Fan-Out(global x No Stubs) x Feature Type(tristate=1)
+ - EV DC Fan-Out(global x No Stubs) x Feature Type(string=1)
+ - EV DC Fan-Out(global x No Stubs) x Feature Type(integer=1, int=1)
+ - EV DC Fan-Out(global x No Stubs) x Feature Type(hex=1)
+ - EV DC Fan-Out(global x No Stubs) x NUMBER_OF_CHILDREN
+ - EV DC Fan-Out(global x No Stubs) x COC
+ - EV DC Fan-Out(global x No Stubs) x POSITIVE_SIZES
+ - EV DC Fan-Out(global x No Stubs) x TOTAL_SIZES
+ - EV DC Fan-Out(local x No Stubs)
+ - EV DC Fan-Out(local x No Stubs) x SD_VP
+ - EV DC Fan-Out(local x No Stubs) x SD_FILE
+ - EV DC Fan-Out(local x No Stubs) x OUTGOING_CONNECTIONS
+ - EV DC Fan-Out(local x No Stubs) x INCOMIG_CONNECTIONS
+ - EV DC Fan-Out(local x No Stubs) x ALL_CTCR
+ - EV DC Fan-Out(local x No Stubs) x Feature distance
+ - EV DC Fan-Out(local x No Stubs) x Hierarchy Types(1-0-0)
+ - EV DC Fan-Out(local x No Stubs) x Hierarchy Types(0-1-0)
+ - EV DC Fan-Out(local x No Stubs) x Hierarchy Types(0-0-1)
+ - EV DC Fan-Out(local x No Stubs) x Hierarchy Levels
+ - EV DC Fan-Out(local x No Stubs) x Feature Type(bool=1)
+ - EV DC Fan-Out(local x No Stubs) x Feature Type(tristate=1)
+ - EV DC Fan-Out(local x No Stubs) x Feature Type(string=1)
+ - EV DC Fan-Out(local x No Stubs) x Feature Type(integer=1, int=1)
+ - EV DC Fan-Out(local x No Stubs) x Feature Type(hex=1)
+ - EV DC Fan-Out(local x No Stubs) x NUMBER_OF_CHILDREN
+ - EV DC Fan-Out(local x No Stubs) x COC
+ - EV DC Fan-Out(local x No Stubs) x POSITIVE_SIZES
+ - EV DC Fan-Out(local x No Stubs) x TOTAL_SIZES
+ - EV DC Fan-Out(global x No ext. VPs)
+ - EV DC Fan-Out(global x No ext. VPs) x SD_VP
+ - EV DC Fan-Out(global x No ext. VPs) x SD_FILE
+ - EV DC Fan-Out(global x No ext. VPs) x OUTGOING_CONNECTIONS
+ - EV DC Fan-Out(global x No ext. VPs) x INCOMIG_CONNECTIONS
+ - EV DC Fan-Out(global x No ext. VPs) x ALL_CTCR
+ - EV DC Fan-Out(global x No ext. VPs) x Feature distance
+ - EV DC Fan-Out(global x No ext. VPs) x Hierarchy Types(1-0-0)
+ - EV DC Fan-Out(global x No ext. VPs) x Hierarchy Types(0-1-0)
+ - EV DC Fan-Out(global x No ext. VPs) x Hierarchy Types(0-0-1)
+ - EV DC Fan-Out(global x No ext. VPs) x Hierarchy Levels
+ - EV DC Fan-Out(global x No ext. VPs) x Feature Type(bool=1)
+ - EV DC Fan-Out(global x No ext. VPs) x Feature Type(tristate=1)
+ - EV DC Fan-Out(global x No ext. VPs) x Feature Type(string=1)
+ - EV DC Fan-Out(global x No ext. VPs) x Feature Type(integer=1, int=1)
+ - EV DC Fan-Out(global x No ext. VPs) x Feature Type(hex=1)
+ - EV DC Fan-Out(global x No ext. VPs) x NUMBER_OF_CHILDREN
+ - EV DC Fan-Out(global x No ext. VPs) x COC
+ - EV DC Fan-Out(global x No ext. VPs) x POSITIVE_SIZES
+ - EV DC Fan-Out(global x No ext. VPs) x TOTAL_SIZES
+ - EV DC Fan-Out(local x No ext. VPs)
+ - EV DC Fan-Out(local x No ext. VPs) x SD_VP
+ - EV DC Fan-Out(local x No ext. VPs) x SD_FILE
+ - EV DC Fan-Out(local x No ext. VPs) x OUTGOING_CONNECTIONS
+ - EV DC Fan-Out(local x No ext. VPs) x INCOMIG_CONNECTIONS
+ - EV DC Fan-Out(local x No ext. VPs) x ALL_CTCR
+ - EV DC Fan-Out(local x No ext. VPs) x Feature distance
+ - EV DC Fan-Out(local x No ext. VPs) x Hierarchy Types(1-0-0)
+ - EV DC Fan-Out(local x No ext. VPs) x Hierarchy Types(0-1-0)
+ - EV DC Fan-Out(local x No ext. VPs) x Hierarchy Types(0-0-1)
+ - EV DC Fan-Out(local x No ext. VPs) x Hierarchy Levels
+ - EV DC Fan-Out(local x No ext. VPs) x Feature Type(bool=1)
+ - EV DC Fan-Out(local x No ext. VPs) x Feature Type(tristate=1)
+ - EV DC Fan-Out(local x No ext. VPs) x Feature Type(string=1)
+ - EV DC Fan-Out(local x No ext. VPs) x Feature Type(integer=1, int=1)
+ - EV DC Fan-Out(local x No ext. VPs) x Feature Type(hex=1)
+ - EV DC Fan-Out(local x No ext. VPs) x NUMBER_OF_CHILDREN
+ - EV DC Fan-Out(local x No ext. VPs) x COC
+ - EV DC Fan-Out(local x No ext. VPs) x POSITIVE_SIZES
+ - EV DC Fan-Out(local x No ext. VPs) x TOTAL_SIZES
+ - EV DC Fan-Out(global x No Stubs x No ext. VPs)
+ - EV DC Fan-Out(global x No Stubs x No ext. VPs) x SD_VP
+ - EV DC Fan-Out(global x No Stubs x No ext. VPs) x SD_FILE
+ - EV DC Fan-Out(global x No Stubs x No ext. VPs) x OUTGOING_CONNECTIONS
+ - EV DC Fan-Out(global x No Stubs x No ext. VPs) x INCOMIG_CONNECTIONS
+ - EV DC Fan-Out(global x No Stubs x No ext. VPs) x ALL_CTCR
+ - EV DC Fan-Out(global x No Stubs x No ext. VPs) x Feature distance
+ - EV DC Fan-Out(global x No Stubs x No ext. VPs) x Hierarchy Types(1-0-0)
+ - EV DC Fan-Out(global x No Stubs x No ext. VPs) x Hierarchy Types(0-1-0)
+ - EV DC Fan-Out(global x No Stubs x No ext. VPs) x Hierarchy Types(0-0-1)
+ - EV DC Fan-Out(global x No Stubs x No ext. VPs) x Hierarchy Levels
+ - EV DC Fan-Out(global x No Stubs x No ext. VPs) x Feature Type(bool=1)
+ - EV DC Fan-Out(global x No Stubs x No ext. VPs) x Feature Type(tristate=1)
+ - EV DC Fan-Out(global x No Stubs x No ext. VPs) x Feature Type(string=1)
+ - EV DC Fan-Out(global x No Stubs x No ext. VPs) x Feature Type(integer=1, int=1)
+ - EV DC Fan-Out(global x No Stubs x No ext. VPs) x Feature Type(hex=1)
+ - EV DC Fan-Out(global x No Stubs x No ext. VPs) x NUMBER_OF_CHILDREN
+ - EV DC Fan-Out(global x No Stubs x No ext. VPs) x COC
+ - EV DC Fan-Out(global x No Stubs x No ext. VPs) x POSITIVE_SIZES
+ - EV DC Fan-Out(global x No Stubs x No ext. VPs) x TOTAL_SIZES
+ - EV DC Fan-Out(local x No Stubs x No ext. VPs)
+ - EV DC Fan-Out(local x No Stubs x No ext. VPs) x SD_VP
+ - EV DC Fan-Out(local x No Stubs x No ext. VPs) x SD_FILE
+ - EV DC Fan-Out(local x No Stubs x No ext. VPs) x OUTGOING_CONNECTIONS
+ - EV DC Fan-Out(local x No Stubs x No ext. VPs) x INCOMIG_CONNECTIONS
+ - EV DC Fan-Out(local x No Stubs x No ext. VPs) x ALL_CTCR
+ - EV DC Fan-Out(local x No Stubs x No ext. VPs) x Feature distance
+ - EV DC Fan-Out(local x No Stubs x No ext. VPs) x Hierarchy Types(1-0-0)
+ - EV DC Fan-Out(local x No Stubs x No ext. VPs) x Hierarchy Types(0-1-0)
+ - EV DC Fan-Out(local x No Stubs x No ext. VPs) x Hierarchy Types(0-0-1)
+ - EV DC Fan-Out(local x No Stubs x No ext. VPs) x Hierarchy Levels
+ - EV DC Fan-Out(local x No Stubs x No ext. VPs) x Feature Type(bool=1)
+ - EV DC Fan-Out(local x No Stubs x No ext. VPs) x Feature Type(tristate=1)
+ - EV DC Fan-Out(local x No Stubs x No ext. VPs) x Feature Type(string=1)
+ - EV DC Fan-Out(local x No Stubs x No ext. VPs) x Feature Type(integer=1, int=1)
+ - EV DC Fan-Out(local x No Stubs x No ext. VPs) x Feature Type(hex=1)
+ - EV DC Fan-Out(local x No Stubs x No ext. VPs) x NUMBER_OF_CHILDREN
+ - EV DC Fan-Out(local x No Stubs x No ext. VPs) x COC
+ - EV DC Fan-Out(local x No Stubs x No ext. VPs) x POSITIVE_SIZES
+ - EV DC Fan-Out(local x No Stubs x No ext. VPs) x TOTAL_SIZES
+ - DC Fan-In(global)
+ - DC Fan-In(global) x SD_VP
+ - DC Fan-In(global) x SD_FILE
+ - DC Fan-In(global) x OUTGOING_CONNECTIONS
+ - DC Fan-In(global) x INCOMIG_CONNECTIONS
+ - DC Fan-In(global) x ALL_CTCR
+ - DC Fan-In(global) x Feature distance
+ - DC Fan-In(global) x Hierarchy Types(1-0-0)
+ - DC Fan-In(global) x Hierarchy Types(0-1-0)
+ - DC Fan-In(global) x Hierarchy Types(0-0-1)
+ - DC Fan-In(global) x Hierarchy Levels
+ - DC Fan-In(global) x Feature Type(bool=1)
+ - DC Fan-In(global) x Feature Type(tristate=1)
+ - DC Fan-In(global) x Feature Type(string=1)
+ - DC Fan-In(global) x Feature Type(integer=1, int=1)
+ - DC Fan-In(global) x Feature Type(hex=1)
+ - DC Fan-In(global) x NUMBER_OF_CHILDREN
+ - DC Fan-In(global) x COC
+ - DC Fan-In(global) x POSITIVE_SIZES
+ - DC Fan-In(global) x TOTAL_SIZES
+ - DC Fan-In(local)
+ - DC Fan-In(local) x SD_VP
+ - DC Fan-In(local) x SD_FILE
+ - DC Fan-In(local) x OUTGOING_CONNECTIONS
+ - DC Fan-In(local) x INCOMIG_CONNECTIONS
+ - DC Fan-In(local) x ALL_CTCR
+ - DC Fan-In(local) x Feature distance
+ - DC Fan-In(local) x Hierarchy Types(1-0-0)
+ - DC Fan-In(local) x Hierarchy Types(0-1-0)
+ - DC Fan-In(local) x Hierarchy Types(0-0-1)
+ - DC Fan-In(local) x Hierarchy Levels
+ - DC Fan-In(local) x Feature Type(bool=1)
+ - DC Fan-In(local) x Feature Type(tristate=1)
+ - DC Fan-In(local) x Feature Type(string=1)
+ - DC Fan-In(local) x Feature Type(integer=1, int=1)
+ - DC Fan-In(local) x Feature Type(hex=1)
+ - DC Fan-In(local) x NUMBER_OF_CHILDREN
+ - DC Fan-In(local) x COC
+ - DC Fan-In(local) x POSITIVE_SIZES
+ - DC Fan-In(local) x TOTAL_SIZES
+ - DC Fan-Out(global)
+ - DC Fan-Out(global) x SD_VP
+ - DC Fan-Out(global) x SD_FILE
+ - DC Fan-Out(global) x OUTGOING_CONNECTIONS
+ - DC Fan-Out(global) x INCOMIG_CONNECTIONS
+ - DC Fan-Out(global) x ALL_CTCR
+ - DC Fan-Out(global) x Feature distance
+ - DC Fan-Out(global) x Hierarchy Types(1-0-0)
+ - DC Fan-Out(global) x Hierarchy Types(0-1-0)
+ - DC Fan-Out(global) x Hierarchy Types(0-0-1)
+ - DC Fan-Out(global) x Hierarchy Levels
+ - DC Fan-Out(global) x Feature Type(bool=1)
+ - DC Fan-Out(global) x Feature Type(tristate=1)
+ - DC Fan-Out(global) x Feature Type(string=1)
+ - DC Fan-Out(global) x Feature Type(integer=1, int=1)
+ - DC Fan-Out(global) x Feature Type(hex=1)
+ - DC Fan-Out(global) x NUMBER_OF_CHILDREN
+ - DC Fan-Out(global) x COC
+ - DC Fan-Out(global) x POSITIVE_SIZES
+ - DC Fan-Out(global) x TOTAL_SIZES
+ - DC Fan-Out(local)
+ - DC Fan-Out(local) x SD_VP
+ - DC Fan-Out(local) x SD_FILE
+ - DC Fan-Out(local) x OUTGOING_CONNECTIONS
+ - DC Fan-Out(local) x INCOMIG_CONNECTIONS
+ - DC Fan-Out(local) x ALL_CTCR
+ - DC Fan-Out(local) x Feature distance
+ - DC Fan-Out(local) x Hierarchy Types(1-0-0)
+ - DC Fan-Out(local) x Hierarchy Types(0-1-0)
+ - DC Fan-Out(local) x Hierarchy Types(0-0-1)
+ - DC Fan-Out(local) x Hierarchy Levels
+ - DC Fan-Out(local) x Feature Type(bool=1)
+ - DC Fan-Out(local) x Feature Type(tristate=1)
+ - DC Fan-Out(local) x Feature Type(string=1)
+ - DC Fan-Out(local) x Feature Type(integer=1, int=1)
+ - DC Fan-Out(local) x Feature Type(hex=1)
+ - DC Fan-Out(local) x NUMBER_OF_CHILDREN
+ - DC Fan-Out(local) x COC
+ - DC Fan-Out(local) x POSITIVE_SIZES
+ - DC Fan-Out(local) x TOTAL_SIZES
+ - DC Fan-Out(global x No Stubs)
+ - DC Fan-Out(global x No Stubs) x SD_VP
+ - DC Fan-Out(global x No Stubs) x SD_FILE
+ - DC Fan-Out(global x No Stubs) x OUTGOING_CONNECTIONS
+ - DC Fan-Out(global x No Stubs) x INCOMIG_CONNECTIONS
+ - DC Fan-Out(global x No Stubs) x ALL_CTCR
+ - DC Fan-Out(global x No Stubs) x Feature distance
+ - DC Fan-Out(global x No Stubs) x Hierarchy Types(1-0-0)
+ - DC Fan-Out(global x No Stubs) x Hierarchy Types(0-1-0)
+ - DC Fan-Out(global x No Stubs) x Hierarchy Types(0-0-1)
+ - DC Fan-Out(global x No Stubs) x Hierarchy Levels
+ - DC Fan-Out(global x No Stubs) x Feature Type(bool=1)
+ - DC Fan-Out(global x No Stubs) x Feature Type(tristate=1)
+ - DC Fan-Out(global x No Stubs) x Feature Type(string=1)
+ - DC Fan-Out(global x No Stubs) x Feature Type(integer=1, int=1)
+ - DC Fan-Out(global x No Stubs) x Feature Type(hex=1)
+ - DC Fan-Out(global x No Stubs) x NUMBER_OF_CHILDREN
+ - DC Fan-Out(global x No Stubs) x COC
+ - DC Fan-Out(global x No Stubs) x POSITIVE_SIZES
+ - DC Fan-Out(global x No Stubs) x TOTAL_SIZES
+ - DC Fan-Out(local x No Stubs)
+ - DC Fan-Out(local x No Stubs) x SD_VP
+ - DC Fan-Out(local x No Stubs) x SD_FILE
+ - DC Fan-Out(local x No Stubs) x OUTGOING_CONNECTIONS
+ - DC Fan-Out(local x No Stubs) x INCOMIG_CONNECTIONS
+ - DC Fan-Out(local x No Stubs) x ALL_CTCR
+ - DC Fan-Out(local x No Stubs) x Feature distance
+ - DC Fan-Out(local x No Stubs) x Hierarchy Types(1-0-0)
+ - DC Fan-Out(local x No Stubs) x Hierarchy Types(0-1-0)
+ - DC Fan-Out(local x No Stubs) x Hierarchy Types(0-0-1)
+ - DC Fan-Out(local x No Stubs) x Hierarchy Levels
+ - DC Fan-Out(local x No Stubs) x Feature Type(bool=1)
+ - DC Fan-Out(local x No Stubs) x Feature Type(tristate=1)
+ - DC Fan-Out(local x No Stubs) x Feature Type(string=1)
+ - DC Fan-Out(local x No Stubs) x Feature Type(integer=1, int=1)
+ - DC Fan-Out(local x No Stubs) x Feature Type(hex=1)
+ - DC Fan-Out(local x No Stubs) x NUMBER_OF_CHILDREN
+ - DC Fan-Out(local x No Stubs) x COC
+ - DC Fan-Out(local x No Stubs) x POSITIVE_SIZES
+ - DC Fan-Out(local x No Stubs) x TOTAL_SIZES
+ - DC Fan-Out(global x No ext. VPs)
+ - DC Fan-Out(global x No ext. VPs) x SD_VP
+ - DC Fan-Out(global x No ext. VPs) x SD_FILE
+ - DC Fan-Out(global x No ext. VPs) x OUTGOING_CONNECTIONS
+ - DC Fan-Out(global x No ext. VPs) x INCOMIG_CONNECTIONS
+ - DC Fan-Out(global x No ext. VPs) x ALL_CTCR
+ - DC Fan-Out(global x No ext. VPs) x Feature distance
+ - DC Fan-Out(global x No ext. VPs) x Hierarchy Types(1-0-0)
+ - DC Fan-Out(global x No ext. VPs) x Hierarchy Types(0-1-0)
+ - DC Fan-Out(global x No ext. VPs) x Hierarchy Types(0-0-1)
+ - DC Fan-Out(global x No ext. VPs) x Hierarchy Levels
+ - DC Fan-Out(global x No ext. VPs) x Feature Type(bool=1)
+ - DC Fan-Out(global x No ext. VPs) x Feature Type(tristate=1)
+ - DC Fan-Out(global x No ext. VPs) x Feature Type(string=1)
+ - DC Fan-Out(global x No ext. VPs) x Feature Type(integer=1, int=1)
+ - DC Fan-Out(global x No ext. VPs) x Feature Type(hex=1)
+ - DC Fan-Out(global x No ext. VPs) x NUMBER_OF_CHILDREN
+ - DC Fan-Out(global x No ext. VPs) x COC
+ - DC Fan-Out(global x No ext. VPs) x POSITIVE_SIZES
+ - DC Fan-Out(global x No ext. VPs) x TOTAL_SIZES
+ - DC Fan-Out(local x No ext. VPs)
+ - DC Fan-Out(local x No ext. VPs) x SD_VP
+ - DC Fan-Out(local x No ext. VPs) x SD_FILE
+ - DC Fan-Out(local x No ext. VPs) x OUTGOING_CONNECTIONS
+ - DC Fan-Out(local x No ext. VPs) x INCOMIG_CONNECTIONS
+ - DC Fan-Out(local x No ext. VPs) x ALL_CTCR
+ - DC Fan-Out(local x No ext. VPs) x Feature distance
+ - DC Fan-Out(local x No ext. VPs) x Hierarchy Types(1-0-0)
+ - DC Fan-Out(local x No ext. VPs) x Hierarchy Types(0-1-0)
+ - DC Fan-Out(local x No ext. VPs) x Hierarchy Types(0-0-1)
+ - DC Fan-Out(local x No ext. VPs) x Hierarchy Levels
+ - DC Fan-Out(local x No ext. VPs) x Feature Type(bool=1)
+ - DC Fan-Out(local x No ext. VPs) x Feature Type(tristate=1)
+ - DC Fan-Out(local x No ext. VPs) x Feature Type(string=1)
+ - DC Fan-Out(local x No ext. VPs) x Feature Type(integer=1, int=1)
+ - DC Fan-Out(local x No ext. VPs) x Feature Type(hex=1)
+ - DC Fan-Out(local x No ext. VPs) x NUMBER_OF_CHILDREN
+ - DC Fan-Out(local x No ext. VPs) x COC
+ - DC Fan-Out(local x No ext. VPs) x POSITIVE_SIZES
+ - DC Fan-Out(local x No ext. VPs) x TOTAL_SIZES
+ - DC Fan-Out(global x No Stubs x No ext. VPs)
+ - DC Fan-Out(global x No Stubs x No ext. VPs) x SD_VP
+ - DC Fan-Out(global x No Stubs x No ext. VPs) x SD_FILE
+ - DC Fan-Out(global x No Stubs x No ext. VPs) x OUTGOING_CONNECTIONS
+ - DC Fan-Out(global x No Stubs x No ext. VPs) x INCOMIG_CONNECTIONS
+ - DC Fan-Out(global x No Stubs x No ext. VPs) x ALL_CTCR
+ - DC Fan-Out(global x No Stubs x No ext. VPs) x Feature distance
+ - DC Fan-Out(global x No Stubs x No ext. VPs) x Hierarchy Types(1-0-0)
+ - DC Fan-Out(global x No Stubs x No ext. VPs) x Hierarchy Types(0-1-0)
+ - DC Fan-Out(global x No Stubs x No ext. VPs) x Hierarchy Types(0-0-1)
+ - DC Fan-Out(global x No Stubs x No ext. VPs) x Hierarchy Levels
+ - DC Fan-Out(global x No Stubs x No ext. VPs) x Feature Type(bool=1)
+ - DC Fan-Out(global x No Stubs x No ext. VPs) x Feature Type(tristate=1)
+ - DC Fan-Out(global x No Stubs x No ext. VPs) x Feature Type(string=1)
+ - DC Fan-Out(global x No Stubs x No ext. VPs) x Feature Type(integer=1, int=1)
+ - DC Fan-Out(global x No Stubs x No ext. VPs) x Feature Type(hex=1)
+ - DC Fan-Out(global x No Stubs x No ext. VPs) x NUMBER_OF_CHILDREN
+ - DC Fan-Out(global x No Stubs x No ext. VPs) x COC
+ - DC Fan-Out(global x No Stubs x No ext. VPs) x POSITIVE_SIZES
+ - DC Fan-Out(global x No Stubs x No ext. VPs) x TOTAL_SIZES
+ - DC Fan-Out(local x No Stubs x No ext. VPs)
+ - DC Fan-Out(local x No Stubs x No ext. VPs) x SD_VP
+ - DC Fan-Out(local x No Stubs x No ext. VPs) x SD_FILE
+ - DC Fan-Out(local x No Stubs x No ext. VPs) x OUTGOING_CONNECTIONS
+ - DC Fan-Out(local x No Stubs x No ext. VPs) x INCOMIG_CONNECTIONS
+ - DC Fan-Out(local x No Stubs x No ext. VPs) x ALL_CTCR
+ - DC Fan-Out(local x No Stubs x No ext. VPs) x Feature distance
+ - DC Fan-Out(local x No Stubs x No ext. VPs) x Hierarchy Types(1-0-0)
+ - DC Fan-Out(local x No Stubs x No ext. VPs) x Hierarchy Types(0-1-0)
+ - DC Fan-Out(local x No Stubs x No ext. VPs) x Hierarchy Types(0-0-1)
+ - DC Fan-Out(local x No Stubs x No ext. VPs) x Hierarchy Levels
+ - DC Fan-Out(local x No Stubs x No ext. VPs) x Feature Type(bool=1)
+ - DC Fan-Out(local x No Stubs x No ext. VPs) x Feature Type(tristate=1)
+ - DC Fan-Out(local x No Stubs x No ext. VPs) x Feature Type(string=1)
+ - DC Fan-Out(local x No Stubs x No ext. VPs) x Feature Type(integer=1, int=1)
+ - DC Fan-Out(local x No Stubs x No ext. VPs) x Feature Type(hex=1)
+ - DC Fan-Out(local x No Stubs x No ext. VPs) x NUMBER_OF_CHILDREN
+ - DC Fan-Out(local x No Stubs x No ext. VPs) x COC
+ - DC Fan-Out(local x No Stubs x No ext. VPs) x POSITIVE_SIZES
+ - DC Fan-Out(local x No Stubs x No ext. VPs) x TOTAL_SIZES
+ - Full-TD
+ - Full-TD x SD_VP
+ - Full-TD x SD_FILE
+ - Full-TD x OUTGOING_CONNECTIONS
+ - Full-TD x INCOMIG_CONNECTIONS
+ - Full-TD x ALL_CTCR
+ - Full-TD x Feature distance
+ - Full-TD x Hierarchy Types(1-0-0)
+ - Full-TD x Hierarchy Types(0-1-0)
+ - Full-TD x Hierarchy Types(0-0-1)
+ - Full-TD x Hierarchy Levels
+ - Full-TD x Feature Type(bool=1)
+ - Full-TD x Feature Type(tristate=1)
+ - Full-TD x Feature Type(string=1)
+ - Full-TD x Feature Type(integer=1, int=1)
+ - Full-TD x Feature Type(hex=1)
+ - Full-TD x NUMBER_OF_CHILDREN
+ - Full-TD x COC
+ - Full-TD x POSITIVE_SIZES
+ - Full-TD x TOTAL_SIZES
+ - Visible-TD
+ - Visible-TD x SD_VP
+ - Visible-TD x SD_FILE
+ - Visible-TD x OUTGOING_CONNECTIONS
+ - Visible-TD x INCOMIG_CONNECTIONS
+ - Visible-TD x ALL_CTCR
+ - Visible-TD x Feature distance
+ - Visible-TD x Hierarchy Types(1-0-0)
+ - Visible-TD x Hierarchy Types(0-1-0)
+ - Visible-TD x Hierarchy Types(0-0-1)
+ - Visible-TD x Hierarchy Levels
+ - Visible-TD x Feature Type(bool=1)
+ - Visible-TD x Feature Type(tristate=1)
+ - Visible-TD x Feature Type(string=1)
+ - Visible-TD x Feature Type(integer=1, int=1)
+ - Visible-TD x Feature Type(hex=1)
+ - Visible-TD x NUMBER_OF_CHILDREN
+ - Visible-TD x COC
+ - Visible-TD x POSITIVE_SIZES
+ - Visible-TD x TOTAL_SIZES
+ - No. int. blocks x BLOCK_AS_ONE
+ - No. int. blocks x SEPARATE_PARTIAL_BLOCKS
+ - McCabe
+ - LoC
+ - LoF
+ - LoC Comment Ratio
+ - LoF Comment Ratio
+ - PLoF
+ - SCoC
+ - SCoF
+ - SCoC Comment Ratio
+ - SCoF Comment Ratio
+ - PSCoF
+ - Classic ND_Max
+ - Classic ND_Avg
+ - EV Classical Fan-In(global)
+ - EV Classical Fan-In(local)
+ - EV Classical Fan-Out(global)
+ - EV Classical Fan-Out(local)
+ - EV VP Fan-In(global)
+ - EV VP Fan-In(local)
+ - EV VP Fan-Out(global)
+ - EV VP Fan-Out(local)
+ - Classical Fan-In(global)
+ - Classical Fan-In(local)
+ - Classical Fan-Out(global)
+ - Classical Fan-Out(local)
+ - VP Fan-In(global)
+ - VP Fan-In(local)
+ - VP Fan-Out(global)
+ - VP Fan-Out(local)
+ - Undisciplined CPP
+[2020-01-17 04:40:35] [info   ] [CodeFunctionByLineFilter] Analysis component CodeFunctionByLineFilter starting
+[2020-01-17 04:40:35] [info   ] [ProgressLogger] IndividualCodeMetricsRunner processed 1 items
+                                                 CodeFunctionByLineFilter processed 462280 items and finished in 00:00.199
+[2020-01-17 04:40:35] [info   ] [CodeFunctionByLineFilter] Analysis component CodeFunctionByLineFilter done
+                                                           Execution took 00:00.199
+[2020-01-17 04:40:35] [info   ] [ProgressLogger] IndividualCodeMetricsRunner processed 1 items and finished in 00:00.207
+[2020-01-17 04:40:35] [info   ] [IndividualCodeMetricsRunner] Analysis component IndividualCodeMetricsRunner done
+                                                              Execution took 12:45.419
+[2020-01-17 04:40:35] [info   ] [Setup] Analysis has finished
+[2020-01-17 04:40:35] [info   ] [Setup] Not archiving pipeline (not enabled by user)
+[2020-01-17 04:40:35] [status ] [Setup] Pipeline done; exiting...

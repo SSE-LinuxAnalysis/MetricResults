@@ -1,0 +1,130 @@
+[2020-01-18 01:53:15] [info   ] [Setup] Start executing KernelHaven with configuration file /tmp/SingleMetricAnalysis3736312944431756400.properties
+[2020-01-18 01:53:15] [info   ] [Setup] System Info:
+                                        	KernelHaven Version: Built at 2019-11-28 14:29:10
+                                        	OS Name: Linux
+                                        	OS Version: 4.4.0-169-generic
+                                        	OS Arch: amd64
+                                        	Java Home: /usr/lib/jvm/java-8-oracle/jre
+                                        	Java Vendor: Oracle Corporation
+                                        	Java Version: 1.8.0_201
+                                        	Java VM Name: Java HotSpot(TM) 64-Bit Server VM
+                                        	Java VM Version: 25.201-b09
+                                        	Java VM Vendor: Oracle Corporation
+                                        	Working Directory: /mnt/Linux-Analyses/MailCrawler/instance2/kh
+                                        	Temporary Directory: /mnt/Linux-Analyses/MailCrawler/instance2/kh/tmp
+                                        	File Encoding: UTF-8
+                                        	Java Class Path: KernelHaven.jar
+                                        	Maximum Memory: 38.33 GiB
+                                        	Available Processors: 48
+[2020-01-18 01:53:15] [info   ] [Setup] Start setting up pipeline...
+[2020-01-18 01:53:15] [info   ] [Setup] Loading jars from directory /mnt/Linux-Analyses/MailCrawler/instance2/kh/plugins
+[2020-01-18 01:53:15] [info   ] [Setup] IncrementalAnalysesInfrastructure.jar version: Built at 2019-12-12 13:33:10
+[2020-01-18 01:53:15] [info   ] [Setup] UndertakerExtractor.jar version: Built at 2019-11-28 14:31:37
+[2020-01-18 01:53:15] [info   ] [Setup] CnfUtils.jar version: Built at 2019-11-28 14:35:46
+[2020-01-18 01:53:15] [info   ] [Setup] KconfigReaderExtractor.jar version: Built at 2019-11-28 14:33:44
+[2020-01-18 01:53:15] [info   ] [Setup] CppUtils.jar version: Built at 2019-11-28 14:35:21
+[2020-01-18 01:53:15] [info   ] [Setup] ProblemSolutionSpaceDivergenceCorrectorAnalysis.jar version: Built at 2019-11-28 16:37:10
+[2020-01-18 01:53:15] [info   ] [Setup] TypeChefExtractor.jar version: Built at 2019-11-28 14:31:53
+[2020-01-18 01:53:15] [info   ] [Setup] ProblemSolutionSpaceMapperAnalysis.jar version: Built at 2019-11-28 16:11:10
+[2020-01-18 01:53:15] [info   ] [Setup] DBUtils.jar version: Built at 2019-11-28 14:35:09
+[2020-01-18 01:53:15] [info   ] [Setup] IOUtils.jar version: Built at 2019-11-28 14:34:16
+[2020-01-18 01:53:15] [info   ] [Setup] FeatureEffectAnalysis.jar version: Built at 2019-11-28 14:34:47
+[2020-01-18 01:53:15] [info   ] [Setup] SrcMLExtractor.jar version: Built at 2019-11-28 14:32:21
+[2020-01-18 01:53:15] [info   ] [Setup] BusybootPreparation.jar version: Built at 2019-11-28 14:36:12
+[2020-01-18 01:53:15] [info   ] [Setup] ProblemSolutionSpaceDivergenceDetectorAnalysis.jar version: Built at 2019-11-28 16:32:10
+[2020-01-18 01:53:15] [info   ] [Setup] MetricHaven.jar version: Built at 2020-01-15 10:20:10
+[2020-01-18 01:53:15] [info   ] [Setup] CodeBlockExtractor.jar version: Built at 2019-11-28 14:35:37
+[2020-01-18 01:53:15] [info   ] [Setup] UnDeadAnalyzer.jar version: Built at 2019-11-28 15:01:11
+[2020-01-18 01:53:15] [info   ] [Setup] EntityLocatorAnalysis.jar version: Built at 2019-11-28 14:34:59
+[2020-01-18 01:53:15] [info   ] [Setup] KbuildMinerExtractor.jar version: Built at 2019-11-28 14:33:56
+[2020-01-18 01:53:15] [info   ] [Setup] Successfully loaded 19 jars
+[2020-01-18 01:53:15] [info   ] [Setup] Loading all classes specified in loadClasses.txt ...
+[2020-01-18 01:53:16] [info   ] [Setup] Loaded 4 classes specified in loadClasses.txt files
+[2020-01-18 01:53:16] [info   ] [Setup] Instantiating extractors...
+[2020-01-18 01:53:16] [info   ] [Setup] Successfully instantiated variability extractor net.ssehub.kernel_haven.kconfigreader.KconfigReaderExtractor
+[2020-01-18 01:53:16] [info   ] [Setup] Successfully instantiated build extractor net.ssehub.kernel_haven.kbuildminer.KbuildMinerExtractor
+[2020-01-18 01:53:16] [info   ] [Setup] Successfully instantiated code extractor net.ssehub.kernel_haven.srcml.SrcMLExtractor
+[2020-01-18 01:53:16] [info   ] [Setup] Creating providers...
+[2020-01-18 01:53:16] [info   ] [Setup] Created variability provider
+[2020-01-18 01:53:16] [info   ] [Setup] Created build provider
+[2020-01-18 01:53:16] [info   ] [Setup] Created code provider
+[2020-01-18 01:53:16] [info   ] [Setup] Instantiating analysis...
+[2020-01-18 01:53:16] [info   ] [Setup] Successfully instantiated analysis net.ssehub.kernel_haven.metric_haven.metric_components.MetricsRunner
+[2020-01-18 01:53:16] [info   ] [Setup] Starting analysis...
+[2020-01-18 01:53:16] [info   ] [AnalysisPipelineController] MetricHaven executes atomic set and ignores further metric-specific configuration settings.
+[2020-01-18 01:53:16] [status ] [KconfigReaderExtractor] Starting on 1 targets in 1 threads
+[2020-01-18 01:53:16] [status ] [KbuildMinerExtractor] Starting on 1 targets in 1 threads
+[2020-01-18 01:53:16] [info   ] [IndividualCodeMetricsRunner] Analysis component IndividualCodeMetricsRunner starting
+[2020-01-18 01:53:16] [status ] [SrcMLExtractor] Starting on 31385 targets in 6 threads
+[2020-01-18 01:53:23] [error  ] [ExtractorDataDuplicator] Got VM-Extractor exception:
+                                                          net.ssehub.kernel_haven.util.ExtractorException: 'make allyesconfig prepare' failed to execute
+                                                              at net.ssehub.kernel_haven.kconfigreader.KconfigReaderExtractor.runOnFile(KconfigReaderExtractor.java:181)
+                                                              at net.ssehub.kernel_haven.kconfigreader.KconfigReaderExtractor.runOnFile(KconfigReaderExtractor.java:58)
+                                                              at net.ssehub.kernel_haven.provider.AbstractExtractor$WorkerThread.run(AbstractExtractor.java:142)
+[2020-01-18 01:53:23] [info   ] [ProgressLogger] KconfigReaderExtractor processed 1 of 1 (100%) items and finished in 00:07.298
+                                                 KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 SrcMLExtractor processed 1035 of 31385 (3%) items
+[2020-01-18 01:53:53] [info   ] [ProgressLogger] KbuildMinerExtractor processed 0 of 1 (0%) items
+                                                 SrcMLExtractor processed 6956 of 31385 (22%) items
+[2020-01-18 01:54:08] [error  ] [ExtractorDataDuplicator] Got BM-Extractor exception:
+                                                          net.ssehub.kernel_haven.util.ExtractorException: Did not get a variability model
+                                                              at net.ssehub.kernel_haven.kbuildminer.KbuildMinerExtractor.runOnFile(KbuildMinerExtractor.java:112)
+                                                              at net.ssehub.kernel_haven.kbuildminer.KbuildMinerExtractor.runOnFile(KbuildMinerExtractor.java:44)
+                                                              at net.ssehub.kernel_haven.provider.AbstractExtractor$WorkerThread.run(AbstractExtractor.java:142)
+[2020-01-18 01:54:08] [info   ] [ProgressLogger] KbuildMinerExtractor processed 1 of 1 (100%) items and finished in 00:52.552
+                                                 SrcMLExtractor processed 10097 of 31385 (32%) items
+[2020-01-18 01:54:08] [info   ] [FeatureSizeEstimator] Analysis component FeatureSizeEstimator starting
+[2020-01-18 01:54:08] [info   ] [VariabilityCounter] Analysis component VariabilityCounter starting
+[2020-01-18 01:54:08] [info   ] [FunctionMapCreator] Analysis component FunctionMapCreator starting
+[2020-01-18 01:54:08] [error  ] [VariabilityCounter] Did not get a variability model
+                                                     Can't create any results
+[2020-01-18 01:54:08] [error  ] [FeatureSizeEstimator] Did not get a variability model
+                                                       Can't create any results
+[2020-01-18 01:54:08] [info   ] [VariabilityCounter] Analysis component VariabilityCounter done
+                                                     Execution took 00:00.001
+[2020-01-18 01:54:08] [info   ] [FeatureSizeEstimator] Analysis component FeatureSizeEstimator done
+                                                       Execution took 00:00.001
+[2020-01-18 01:54:08] [info   ] [OrderedCodeFunctionFilter] Analysis component OrderedCodeFunctionFilter starting
+[2020-01-18 01:54:08] [info   ] [CodeFunctionFilter] Analysis component CodeFunctionFilter starting
+[2020-01-18 01:54:38] [info   ] [ProgressLogger] SrcMLExtractor processed 14263 of 31385 (45%) items
+                                                 CodeFunctionFilter processed 14180 items
+[2020-01-18 01:55:08] [info   ] [ProgressLogger] SrcMLExtractor processed 17337 of 31385 (55%) items
+                                                 CodeFunctionFilter processed 17242 items
+[2020-01-18 01:55:38] [info   ] [ProgressLogger] SrcMLExtractor processed 19911 of 31385 (63%) items
+                                                 CodeFunctionFilter processed 19808 items
+[2020-01-18 01:56:08] [info   ] [ProgressLogger] SrcMLExtractor processed 23086 of 31385 (73%) items
+                                                 CodeFunctionFilter processed 22965 items
+[2020-01-18 01:56:38] [info   ] [ProgressLogger] SrcMLExtractor processed 25787 of 31385 (82%) items
+                                                 CodeFunctionFilter processed 25653 items
+[2020-01-18 01:57:08] [info   ] [ProgressLogger] SrcMLExtractor processed 28584 of 31385 (91%) items
+                                                 CodeFunctionFilter processed 28441 items
+[2020-01-18 01:57:33] [info   ] [ProgressLogger] SrcMLExtractor processed 31385 of 31385 (100%) items and finished in 04:16.633
+                                                 CodeFunctionFilter processed 31222 items
+[2020-01-18 01:57:33] [warning] [ExtractorDataDuplicator] CM-Extractor: Got 31223 elements and 162 exceptions
+[2020-01-18 01:57:33] [info   ] [CodeFunctionFilter] Discarded 3581 functions that contained an ErrorElement
+[2020-01-18 01:57:33] [info   ] [CodeFunctionFilter] Analysis component CodeFunctionFilter done
+                                                     Execution took 03:24.557
+[2020-01-18 01:57:33] [info   ] [ProgressLogger] CodeFunctionFilter processed 31223 items and finished in 03:24.556
+[2020-01-18 01:57:34] [info   ] [OrderedCodeFunctionFilter] Analysis component OrderedCodeFunctionFilter done
+                                                            Execution took 03:25.406
+[2020-01-18 01:57:34] [info   ] [ProgressLogger] OrderedCodeFunctionFilter processed 2105991 items and finished in 00:00.836
+[2020-01-18 01:57:40] [info   ] [FunctionMapCreator] Analysis component FunctionMapCreator done
+                                                     Execution took 03:31.836
+[2020-01-18 01:57:40] [info   ] [ProgressLogger] FunctionMapCreator processed 353660 of 353660 (100%) items and finished in 00:06.016
+[2020-01-18 01:57:40] [error  ] [IndividualCodeMetricsRunner] Could not create metric instances:
+                                                              net.ssehub.kernel_haven.SetUpException: ScatteringWeight requires a ScatteringDegreeContainer
+                                                                  at net.ssehub.kernel_haven.metric_haven.metric_components.weights.ScatteringWeight.<init>(ScatteringWeight.java:46)
+                                                                  at net.ssehub.kernel_haven.metric_haven.metric_components.weights.CachedWeightFactory.createSdWeight(CachedWeightFactory.java:62)
+                                                                  at net.ssehub.kernel_haven.metric_haven.metric_components.weights.CachedWeightFactory.createVariabilityWeight(CachedWeightFactory.java:347)
+                                                                  at net.ssehub.kernel_haven.metric_haven.metric_components.weights.CachedWeightFactory.createVariabilityWeight(CachedWeightFactory.java:434)
+                                                                  at net.ssehub.kernel_haven.metric_haven.code_metrics.MetricFactory.createAllVariations(MetricFactory.java:683)
+                                                                  at net.ssehub.kernel_haven.metric_haven.metric_components.IndividualCodeMetricsRunner.createAllAtomicVariations(IndividualCodeMetricsRunner.java:342)
+                                                                  at net.ssehub.kernel_haven.metric_haven.metric_components.IndividualCodeMetricsRunner.instantiateMetrics(IndividualCodeMetricsRunner.java:587)
+                                                                  at net.ssehub.kernel_haven.metric_haven.metric_components.CodeMetricsRunner.execute(CodeMetricsRunner.java:353)
+                                                                  at net.ssehub.kernel_haven.analysis.AnalysisComponent.lambda$start$0(AnalysisComponent.java:229)
+                                                                  at java.lang.Thread.run(Thread.java:748)
+[2020-01-18 01:57:40] [info   ] [IndividualCodeMetricsRunner] Analysis component IndividualCodeMetricsRunner done
+                                                              Execution took 04:24.393
+[2020-01-18 01:57:40] [info   ] [Setup] Analysis has finished
+[2020-01-18 01:57:40] [info   ] [Setup] Not archiving pipeline (not enabled by user)
+[2020-01-18 01:57:40] [status ] [Setup] Pipeline done; exiting...

@@ -1,0 +1,2431 @@
+[2020-01-20 07:19:17] [warning] [main] Could not parse: >> (.text+0x346b10): undefined reference to `spi_register_driver'
+[2020-01-20 07:19:17] [warning] [main] Could not determine type for: alloc with no test, possible model on line 367
+                                       Using UNKNOWN
+[2020-01-20 07:19:18] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [time:wip 4/4] kernel/time/timekeeping.c:901:12: has problem in:
+BASE: https://git.linaro.org/people/john.stultz/linux.git
+BRANCH: wip
+HEAD: aba938b7cba1d7bae98a117d1c39536e1e888f39
+Commit: aba938b7cba1d7bae98a117d1c39536e1e888f39
+ - Defect[0]: kernel/time/timekeeping.c:901:0 ERROR = error: incompatible type for argument 1 of '__leap_adj_ktime'
+
+[2020-01-20 07:19:18] [info   ] [main] Restoring commit...
+[2020-01-20 07:19:18] [debug  ] [main] [git, remote]
+[2020-01-20 07:19:18] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 07:19:18] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 07:19:18] [debug  ] [main] [git, cat-file, -e, aba938b7cba1d7bae98a117d1c39536e1e888f39^{commit}]
+[2020-01-20 07:19:18] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:19:18] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name aba938b7cba1d7bae98a117d1c39536e1e888f39^{commit}
+[2020-01-20 07:19:18] [debug  ] [main] [git, fetch, git_linaro_org_people_john_stultz_linux, aba938b7cba1d7bae98a117d1c39536e1e888f39]
+[2020-01-20 07:19:35] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:19:35] [debug  ] [main] Stderr:
+                                       error: Server does not allow request for unadvertised object aba938b7cba1d7bae98a117d1c39536e1e888f39
+[2020-01-20 07:19:35] [warning] [main] Remote does not support fetching commits; falling back to fetching full remote
+[2020-01-20 07:19:35] [debug  ] [main] [git, fetch, git_linaro_org_people_john_stultz_linux]
+[2020-01-20 07:19:57] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:19:57] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 07:19:57] [debug  ] [main] [git, checkout, --force, aba938b7cba1d7bae98a117d1c39536e1e888f39]
+[2020-01-20 07:19:57] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:19:57] [debug  ] [main] Stderr:
+                                       fatal: reference is not a tree: aba938b7cba1d7bae98a117d1c39536e1e888f39
+[2020-01-20 07:19:57] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: reference is not a tree: aba938b7cba1d7bae98a117d1c39536e1e888f39
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.checkout(GitRepository.java:148)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:96)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 07:19:57] [info   ] [main] Got NO result for 2015-05-28 1314.16 aba938b7
+[2020-01-20 07:19:57] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [linux-devel:devel-bee-catchup-201505281238 67/72] has problem in:
+BASE: git://internal_merge_and_test_tree
+BRANCH: devel-bee-catchup-201505281238
+HEAD: 14a3fcf543b96f3415a166d4dcd460e46c87bc74
+Commit: 21f60ff885004d07e0823acc80f1d7a4d52dad12
+ - Defect[0]: drivers/net/ethernet/mellanox/mlx5/core/main.c:474:0 ERROR = error: implicit declaration of function 'cpumask_set_cpu_local_first' [-Werror=implicit-function-declaration]
+
+[2020-01-20 07:19:57] [info   ] [main] Restoring commit...
+[2020-01-20 07:19:57] [debug  ] [main] [git, remote]
+[2020-01-20 07:19:57] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 07:19:57] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 07:19:57] [debug  ] [main] [git, cat-file, -e, 21f60ff885004d07e0823acc80f1d7a4d52dad12^{commit}]
+[2020-01-20 07:19:57] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:19:57] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name 21f60ff885004d07e0823acc80f1d7a4d52dad12^{commit}
+[2020-01-20 07:19:57] [debug  ] [main] [git, fetch, internal_merge_and_test_tree, 21f60ff885004d07e0823acc80f1d7a4d52dad12]
+[2020-01-20 07:19:57] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:19:57] [debug  ] [main] Stderr:
+                                       fatal: no path specified; see 'git help pull' for valid url syntax
+[2020-01-20 07:19:57] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: no path specified; see 'git help pull' for valid url syntax
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.fetch(GitRepository.java:131)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:88)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 07:19:57] [info   ] [main] Got NO result for 2015-05-28 1415.44 21f60ff8
+[2020-01-20 07:19:57] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [net-next:master 791/798] has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/davem/net-next.git
+BRANCH: master
+HEAD: ed2dfd900992aa7b6b3d0abd8ec9a7e9d2c7f827
+Commit: 4863dea3fab01734768c9f7fc2c1590a8f1f6266
+ - Defect[0]: drivers/net/ethernet/cavium/thunder/thunder_bgx.c:86:0 ERROR = error: implicit declaration of function 'readq_relaxed' [-Werror=implicit-function-declaration]
+ - Defect[1]: drivers/net/ethernet/cavium/thunder/thunder_bgx.c:93:0 ERROR = error: implicit declaration of function 'writeq_relaxed' [-Werror=implicit-function-declaration]
+ - Defect[2]: drivers/net/ethernet/cavium/thunder/nic_main.c:78:0 ERROR = error: implicit declaration of function 'writeq_relaxed' [-Werror=implicit-function-declaration]
+ - Defect[3]: drivers/net/ethernet/cavium/thunder/nic_main.c:83:0 ERROR = error: implicit declaration of function 'readq_relaxed' [-Werror=implicit-function-declaration]
+ - Defect[4]: drivers/net/ethernet/cavium/thunder/nicvf_main.c:88:0 ERROR = error: implicit declaration of function 'writeq_relaxed' [-Werror=implicit-function-declaration]
+ - Defect[5]: drivers/net/ethernet/cavium/thunder/nicvf_main.c:93:0 ERROR = error: implicit declaration of function 'readq_relaxed' [-Werror=implicit-function-declaration]
+ - Defect[6]: drivers/net/ethernet/cavium/thunder/nicvf_main.c:414:0 WARNING = warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ - Defect[7]: drivers/net/ethernet/cavium/thunder/nicvf_queues.c:115:0 WARNING = warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+ - Defect[8]: drivers/net/ethernet/cavium/thunder/nicvf_queues.c:118:0 WARNING = warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ - Defect[9]: drivers/net/ethernet/cavium/thunder/nicvf_queues.c:122:0 WARNING = warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ - Defect[10]: drivers/net/ethernet/cavium/thunder/nicvf_queues.c:129:0 WARNING = warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ - Defect[11]: drivers/net/ethernet/cavium/thunder/nicvf_queues.c:140:0 WARNING = warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+ - Defect[12]: drivers/net/ethernet/cavium/thunder/nicvf_queues.c:27:0 WARNING = warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ - Defect[13]: drivers/net/ethernet/cavium/thunder/nicvf_queues.c:142:0 NOTE = note: in expansion of macro 'GET_RBUF_INFO'
+ - Defect[14]: drivers/net/ethernet/cavium/thunder/nicvf_queues.c:154:0 WARNING = warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ - Defect[15]: drivers/net/ethernet/cavium/thunder/nicvf_queues.c:214:0 WARNING = warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+ - Defect[16]: drivers/net/ethernet/cavium/thunder/nicvf_queues.c:27:0 WARNING = warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ - Defect[17]: drivers/net/ethernet/cavium/thunder/nicvf_queues.c:214:0 NOTE = note: in expansion of macro 'GET_RBUF_INFO'
+ - Defect[18]: drivers/net/ethernet/cavium/thunder/nicvf_queues.c:222:0 WARNING = warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+ - Defect[19]: drivers/net/ethernet/cavium/thunder/nicvf_queues.c:27:0 WARNING = warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ - Defect[20]: drivers/net/ethernet/cavium/thunder/nicvf_queues.c:222:0 NOTE = note: in expansion of macro 'GET_RBUF_INFO'
+ - Defect[21]: drivers/net/ethernet/cavium/thunder/nicvf_queues.c:864:0 WARNING = warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ - Defect[22]: drivers/net/ethernet/cavium/thunder/nicvf_queues.c:947:0 WARNING = warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+ - Defect[23]: drivers/net/ethernet/cavium/thunder/nicvf_queues.c:1056:0 WARNING = warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+
+[2020-01-20 07:19:57] [info   ] [main] Restoring commit...
+[2020-01-20 07:19:57] [debug  ] [main] [git, remote]
+[2020-01-20 07:19:57] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 07:19:57] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 07:19:57] [debug  ] [main] [git, cat-file, -e, 4863dea3fab01734768c9f7fc2c1590a8f1f6266^{commit}]
+[2020-01-20 07:19:57] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:19:57] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 07:19:57] [debug  ] [main] Didn't need to fetch because commit 4863dea3fab01734768c9f7fc2c1590a8f1f6266 already existed
+[2020-01-20 07:19:57] [debug  ] [main] [git, checkout, --force, 4863dea3fab01734768c9f7fc2c1590a8f1f6266]
+[2020-01-20 07:20:46] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:20:46] [debug  ] [main] Stderr:
+                                       Previous HEAD position was 455c4de6fda76 x86, pkeys: arch-specific protection bits
+HEAD is now at 4863dea3fab01 net: Adding support for Cavium ThunderX network controller
+[2020-01-20 07:20:46] [info   ] [main] Source tree checked out at gitTest
+[2020-01-20 07:20:46] [info   ] [main] Checking if we need to run metrics...
+[2020-01-20 07:20:46] [info   ] [main] Starting to run metrics
+[2020-01-20 07:20:46] [warning] [main] certs/ doesn't exist (yet) in Linux source tree; omitting from code.extractor.files
+[2020-01-20 07:29:25] [info   ] [main] Got result for 2015-05-28 1731.21 4863dea3
+[2020-01-20 07:29:25] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [hch-scsi:bio-error 1/1] has problem in:
+BASE: git://git.infradead.org/users/hch/scsi.git
+BRANCH: bio-error
+HEAD: cf484ea11500110e488924a4d008c726b71e46fb
+Commit: cf484ea11500110e488924a4d008c726b71e46fb
+ - Defect[0]: fs/btrfs/check-integrity.c:2009:0 WARNING = warning: assignment from incompatible pointer type
+ - Defect[1]: fs/btrfs/check-integrity.c:2153:0 WARNING = warning: assignment from incompatible pointer type
+ - Defect[2]: fs/btrfs/check-integrity.c:2255:0 ERROR = error: too many arguments to function 'bp->bi_end_io'
+ - Defect[3]: fs/btrfs/check-integrity.c:3054:0 WARNING = warning: assignment from incompatible pointer type
+
+[2020-01-20 07:29:25] [info   ] [main] Restoring commit...
+[2020-01-20 07:29:25] [debug  ] [main] [git, remote]
+[2020-01-20 07:29:25] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 07:29:25] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 07:29:25] [debug  ] [main] [git, cat-file, -e, cf484ea11500110e488924a4d008c726b71e46fb^{commit}]
+[2020-01-20 07:29:25] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:29:25] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name cf484ea11500110e488924a4d008c726b71e46fb^{commit}
+[2020-01-20 07:29:25] [debug  ] [main] [git, fetch, git_infradead_org_users_hch_scsi, cf484ea11500110e488924a4d008c726b71e46fb]
+[2020-01-20 07:30:04] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:30:04] [debug  ] [main] Stderr:
+                                       error: Server does not allow request for unadvertised object cf484ea11500110e488924a4d008c726b71e46fb
+[2020-01-20 07:30:04] [warning] [main] Remote does not support fetching commits; falling back to fetching full remote
+[2020-01-20 07:30:04] [debug  ] [main] [git, fetch, git_infradead_org_users_hch_scsi]
+[2020-01-20 07:30:23] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:30:23] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 07:30:23] [debug  ] [main] [git, checkout, --force, cf484ea11500110e488924a4d008c726b71e46fb]
+[2020-01-20 07:30:23] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:30:23] [debug  ] [main] Stderr:
+                                       fatal: reference is not a tree: cf484ea11500110e488924a4d008c726b71e46fb
+[2020-01-20 07:30:23] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: reference is not a tree: cf484ea11500110e488924a4d008c726b71e46fb
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.checkout(GitRepository.java:148)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:96)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 07:30:23] [info   ] [main] Got NO result for 2015-05-28 1829.42 cf484ea1
+[2020-01-20 07:30:23] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [hch-scsi:bio-error 1/1] has problem in:
+BASE: git://git.infradead.org/users/hch/scsi.git
+BRANCH: bio-error
+HEAD: cf484ea11500110e488924a4d008c726b71e46fb
+Commit: cf484ea11500110e488924a4d008c726b71e46fb
+ - Defect[0]: drivers/md/dm-cache-target.c:867:0 WARNING = warning: passing argument 3 of 'dm_hook_bio' from incompatible pointer type
+ - Defect[1]: drivers/md/dm-cache-target.c:1090:0 WARNING = warning: passing argument 3 of 'dm_hook_bio' from incompatible pointer type
+
+[2020-01-20 07:30:23] [info   ] [main] Restoring commit...
+[2020-01-20 07:30:23] [debug  ] [main] [git, remote]
+[2020-01-20 07:30:23] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 07:30:23] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 07:30:23] [debug  ] [main] [git, cat-file, -e, cf484ea11500110e488924a4d008c726b71e46fb^{commit}]
+[2020-01-20 07:30:23] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:30:23] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name cf484ea11500110e488924a4d008c726b71e46fb^{commit}
+[2020-01-20 07:30:23] [debug  ] [main] [git, fetch, git_infradead_org_users_hch_scsi, cf484ea11500110e488924a4d008c726b71e46fb]
+[2020-01-20 07:30:59] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:30:59] [debug  ] [main] Stderr:
+                                       error: Server does not allow request for unadvertised object cf484ea11500110e488924a4d008c726b71e46fb
+[2020-01-20 07:30:59] [warning] [main] Remote does not support fetching commits; falling back to fetching full remote
+[2020-01-20 07:30:59] [debug  ] [main] [git, fetch, git_infradead_org_users_hch_scsi]
+[2020-01-20 07:31:15] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:31:15] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 07:31:15] [debug  ] [main] [git, checkout, --force, cf484ea11500110e488924a4d008c726b71e46fb]
+[2020-01-20 07:31:15] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:31:15] [debug  ] [main] Stderr:
+                                       fatal: reference is not a tree: cf484ea11500110e488924a4d008c726b71e46fb
+[2020-01-20 07:31:15] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: reference is not a tree: cf484ea11500110e488924a4d008c726b71e46fb
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.checkout(GitRepository.java:148)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:96)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 07:31:15] [info   ] [main] Got NO result for 2015-05-28 1833.09 cf484ea1
+[2020-01-20 07:31:15] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [hch-scsi:bio-error 1/1] has problem in:
+BASE: git://git.infradead.org/users/hch/scsi.git
+BRANCH: bio-error
+HEAD: cf484ea11500110e488924a4d008c726b71e46fb
+Commit: cf484ea11500110e488924a4d008c726b71e46fb
+ - Defect[0]: drivers/staging/lustre/lustre/llite/../include/linux/lustre_compat25.h:89:0 ERROR = error: too many arguments to function 'bio_endio'
+ - Defect[1]: drivers/staging/lustre/lustre/llite/lloop.c:379:0 NOTE = note: in expansion of macro 'cfs_bio_endio'
+ - Defect[2]: drivers/block/umem.c:459:0 ERROR = error: 'struct bio' has no member named 'bi_flags_error'
+ - Defect[3]: drivers/block/rsxx/dev.c:141:0 ERROR = error: 'bio' undeclared (first use in this function)
+ - Defect[4]: drivers/block/rsxx/dev.c:143:0 ERROR = error: implicit declaration of function 'bio_end_io' [-Werror=implicit-function-declaration]
+ - Defect[5]: drivers/md/dm-log-writes.c:206:0 WARNING = warning: assignment from incompatible pointer type
+ - Defect[6]: drivers/md/dm-log-writes.c:270:0 WARNING = warning: assignment from incompatible pointer type
+ - Defect[7]: drivers/md/dm-log-writes.c:291:0 WARNING = warning: assignment from incompatible pointer type
+ - Defect[8]: drivers/md/bcache/super.c:284:0 WARNING = warning: assignment from incompatible pointer type
+ - Defect[9]: drivers/md/bcache/super.c:330:0 WARNING = warning: assignment from incompatible pointer type
+ - Defect[10]: drivers/md/bcache/super.c:377:0 WARNING = warning: assignment from incompatible pointer type
+ - Defect[11]: drivers/md/bcache/super.c:536:0 WARNING = warning: assignment from incompatible pointer type
+ - Defect[12]: drivers/md/bcache/writeback.c:189:0 WARNING = warning: assignment from incompatible pointer type
+ - Defect[13]: drivers/md/bcache/writeback.c:260:0 WARNING = warning: assignment from incompatible pointer type
+ - Defect[14]: drivers/md/bcache/journal.c:60:0 WARNING = warning: assignment from incompatible pointer type
+ - Defect[15]: drivers/md/bcache/journal.c:459:0 WARNING = warning: assignment from incompatible pointer type
+ - Defect[16]: drivers/md/bcache/journal.c:630:0 WARNING = warning: assignment from incompatible pointer type
+ - Defect[17]: drivers/md/bcache/movinggc.c:167:0 WARNING = warning: assignment from incompatible pointer type
+
+[2020-01-20 07:31:15] [info   ] [main] Restoring commit...
+[2020-01-20 07:31:15] [debug  ] [main] [git, remote]
+[2020-01-20 07:31:15] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 07:31:15] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 07:31:15] [debug  ] [main] [git, cat-file, -e, cf484ea11500110e488924a4d008c726b71e46fb^{commit}]
+[2020-01-20 07:31:15] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:31:15] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name cf484ea11500110e488924a4d008c726b71e46fb^{commit}
+[2020-01-20 07:31:15] [debug  ] [main] [git, fetch, git_infradead_org_users_hch_scsi, cf484ea11500110e488924a4d008c726b71e46fb]
+[2020-01-20 07:31:49] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:31:49] [debug  ] [main] Stderr:
+                                       error: Server does not allow request for unadvertised object cf484ea11500110e488924a4d008c726b71e46fb
+[2020-01-20 07:31:49] [warning] [main] Remote does not support fetching commits; falling back to fetching full remote
+[2020-01-20 07:31:49] [debug  ] [main] [git, fetch, git_infradead_org_users_hch_scsi]
+[2020-01-20 07:32:05] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:32:05] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 07:32:05] [debug  ] [main] [git, checkout, --force, cf484ea11500110e488924a4d008c726b71e46fb]
+[2020-01-20 07:32:05] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:32:05] [debug  ] [main] Stderr:
+                                       fatal: reference is not a tree: cf484ea11500110e488924a4d008c726b71e46fb
+[2020-01-20 07:32:05] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: reference is not a tree: cf484ea11500110e488924a4d008c726b71e46fb
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.checkout(GitRepository.java:148)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:96)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 07:32:05] [info   ] [main] Got NO result for 2015-05-28 1909.49 cf484ea1
+[2020-01-20 07:32:05] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [hch-scsi:bio-error 1/1] drivers/md/faulty.c:221:30: has problem in:
+BASE: git://git.infradead.org/users/hch/scsi.git
+BRANCH: bio-error
+HEAD: cf484ea11500110e488924a4d008c726b71e46fb
+Commit: cf484ea11500110e488924a4d008c726b71e46fb
+ - Defect[0]: drivers/block/xen-blkback/blkback.c:1349:0 WARNING = warning: assignment from incompatible pointer type
+ - Defect[1]: drivers/block/xen-blkback/blkback.c:1367:0 WARNING = warning: assignment from incompatible pointer type
+ - Defect[2]: drivers/block/floppy.c:3817:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+ - Defect[3]: fs/btrfs/check-integrity.c:2009:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+ - Defect[4]: fs/btrfs/check-integrity.c:2153:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+ - Defect[5]: fs/btrfs/check-integrity.c:2255:0 SPARSE = sparse: too many arguments for function bi_end_io
+ - Defect[6]: drivers/block/xen-blkback/blkback.c:1349:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+ - Defect[7]: drivers/block/xen-blkback/blkback.c:1367:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+ - Defect[8]: drivers/staging/lustre/lustre/llite/lloop.c:379:0 SPARSE = sparse: too many arguments for function bio_endio
+ - Defect[9]: drivers/md/faulty.c:221:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+ - Defect[10]: drivers/md/dm-verity.c:577:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+ - Defect[11]: drivers/md/dm-cache-target.c:867:0 SPARSE = sparse: incorrect type in argument 3 (different argument counts)
+ - Defect[12]: drivers/md/dm-cache-target.c:1090:0 SPARSE = sparse: incorrect type in argument 3 (different argument counts)
+ - Defect[13]: drivers/md/dm-log-writes.c:206:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+ - Defect[14]: drivers/md/dm-log-writes.c:270:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+ - Defect[15]: drivers/md/dm-log-writes.c:291:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+ - Defect[16]: drivers/md/bcache/btree.c:300:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+ - Defect[17]: drivers/md/bcache/btree.c:398:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+ - Defect[18]: drivers/md/bcache/journal.c:60:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+ - Defect[19]: drivers/md/bcache/journal.c:459:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+ - Defect[20]: drivers/md/bcache/journal.c:630:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+ - Defect[21]: drivers/md/bcache/movinggc.c:167:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+ - Defect[22]: drivers/md/bcache/request.c:233:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+ - Defect[23]: drivers/md/bcache/request.c:549:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+ - Defect[24]: drivers/md/bcache/request.c:608:0 SPARSE = sparse: incorrect type in assignment (different base types)
+ - Defect[25]: drivers/md/bcache/request.c:620:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+ - Defect[26]: drivers/md/bcache/request.c:824:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+ - Defect[27]: drivers/md/bcache/request.c:843:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+ - Defect[28]: drivers/md/bcache/request.c:922:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+ - Defect[29]: drivers/md/bcache/super.c:284:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+ - Defect[30]: drivers/md/bcache/super.c:330:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+ - Defect[31]: drivers/md/bcache/super.c:377:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+ - Defect[32]: drivers/md/bcache/super.c:536:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+ - Defect[33]: drivers/md/bcache/writeback.c:189:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+ - Defect[34]: drivers/md/bcache/writeback.c:260:0 SPARSE = sparse: incorrect type in assignment (different argument counts)
+
+[2020-01-20 07:32:05] [info   ] [main] Restoring commit...
+[2020-01-20 07:32:05] [debug  ] [main] [git, remote]
+[2020-01-20 07:32:05] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 07:32:05] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 07:32:05] [debug  ] [main] [git, cat-file, -e, cf484ea11500110e488924a4d008c726b71e46fb^{commit}]
+[2020-01-20 07:32:05] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:32:05] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name cf484ea11500110e488924a4d008c726b71e46fb^{commit}
+[2020-01-20 07:32:05] [debug  ] [main] [git, fetch, git_infradead_org_users_hch_scsi, cf484ea11500110e488924a4d008c726b71e46fb]
+[2020-01-20 07:32:42] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:32:42] [debug  ] [main] Stderr:
+                                       error: Server does not allow request for unadvertised object cf484ea11500110e488924a4d008c726b71e46fb
+[2020-01-20 07:32:42] [warning] [main] Remote does not support fetching commits; falling back to fetching full remote
+[2020-01-20 07:32:42] [debug  ] [main] [git, fetch, git_infradead_org_users_hch_scsi]
+[2020-01-20 07:32:58] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:32:58] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 07:32:58] [debug  ] [main] [git, checkout, --force, cf484ea11500110e488924a4d008c726b71e46fb]
+[2020-01-20 07:32:59] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:32:59] [debug  ] [main] Stderr:
+                                       fatal: reference is not a tree: cf484ea11500110e488924a4d008c726b71e46fb
+[2020-01-20 07:32:59] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: reference is not a tree: cf484ea11500110e488924a4d008c726b71e46fb
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.checkout(GitRepository.java:148)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:96)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 07:32:59] [info   ] [main] Got NO result for 2015-05-28 2001.10 cf484ea1
+[2020-01-20 07:32:59] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [jkirsher-next-queue:dev-queue 791/859] has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/jkirsher/next-queue.git
+BRANCH: dev-queue
+HEAD: 017aed890b3853dfc9f3a9c7029dee8648269c65
+Commit: 4863dea3fab01734768c9f7fc2c1590a8f1f6266
+ - Defect[0]: drivers/net/ethernet/cavium/thunder/thunder_bgx.c:897:0 SPARSE = sparse: constant 0x300000000000 is so big it is long
+ - Defect[1]: drivers/net/ethernet/cavium/thunder/thunder_bgx.c:55:0 SPARSE = sparse: symbol 'bgx_vnic' was not declared. Should it be static?
+ - Defect[2]: drivers/net/ethernet/cavium/thunder/thunder_bgx.c:256:0 SPARSE = sparse: symbol 'bgx_lmac_handler' was not declared. Should it be static?
+ - Defect[3]: drivers/net/ethernet/cavium/thunder/thunder_bgx.c:658:0 SPARSE = sparse: symbol 'bgx_lmac_disable' was not declared. Should it be static?
+ - Defect[4]: drivers/net/ethernet/cavium/thunder/nic_main.c:854:0 SPARSE = sparse: constant 0x300000000000 is so big it is long
+ - Defect[5]: drivers/net/ethernet/cavium/thunder/nic_main.c:563:0 SPARSE = sparse: restricted __be64 degrades to integer
+ - Defect[6]: drivers/net/ethernet/cavium/thunder/nicvf_main.c:329:0 SPARSE = sparse: constant 0xFEED0BADFEED0BAD is so big it is unsigned long
+ - Defect[7]: drivers/net/ethernet/cavium/thunder/nicvf_main.c:330:0 SPARSE = sparse: constant 0xFEED0BADFEED0BAD is so big it is unsigned long
+ - Defect[8]: drivers/net/ethernet/cavium/thunder/nicvf_main.c:331:0 SPARSE = sparse: constant 0xFEED0BADFEED0BAD is so big it is unsigned long
+ - Defect[9]: drivers/net/ethernet/cavium/thunder/nicvf_main.c:332:0 SPARSE = sparse: constant 0xFEED0BADFEED0BAD is so big it is unsigned long
+ - Defect[10]: drivers/net/ethernet/cavium/thunder/nicvf_main.c:333:0 SPARSE = sparse: constant 0xFEED0BADFEED0BAD is so big it is unsigned long
+ - Defect[11]: drivers/net/ethernet/cavium/thunder/nicvf_main.c:153:0 SPARSE = sparse: cast to restricted __le64
+ - Defect[12]: drivers/net/ethernet/cavium/thunder/nicvf_main.c:267:0 SPARSE = sparse: symbol 'nicvf_get_rss_size' was not declared. Should it be static?
+ - Defect[13]: drivers/net/ethernet/cavium/thunder/nicvf_main.c:385:0 SPARSE = sparse: cast to restricted __le64
+ - Defect[14]: drivers/net/ethernet/cavium/thunder/nicvf_main.c:575:0 SPARSE = sparse: symbol 'nicvf_handle_qs_err' was not declared. Should it be static?
+ - Defect[15]: drivers/net/ethernet/cavium/thunder/nicvf_main.c:1141:0 SPARSE = sparse: symbol 'nicvf_get_stats64' was not declared. Should it be static?
+ - Defect[16]: drivers/net/ethernet/cavium/thunder/nicvf_queues.c:231:0 SPARSE = sparse: symbol 'nicvf_refill_rbdr' was not declared. Should it be static?
+
+[2020-01-20 07:32:59] [info   ] [main] Restoring commit...
+[2020-01-20 07:32:59] [debug  ] [main] [git, remote]
+[2020-01-20 07:32:59] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 07:32:59] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 07:32:59] [debug  ] [main] [git, cat-file, -e, 4863dea3fab01734768c9f7fc2c1590a8f1f6266^{commit}]
+[2020-01-20 07:32:59] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:32:59] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 07:32:59] [debug  ] [main] Didn't need to fetch because commit 4863dea3fab01734768c9f7fc2c1590a8f1f6266 already existed
+[2020-01-20 07:32:59] [debug  ] [main] [git, checkout, --force, 4863dea3fab01734768c9f7fc2c1590a8f1f6266]
+[2020-01-20 07:32:59] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:32:59] [debug  ] [main] Stderr:
+                                       HEAD is now at 4863dea3fab01 net: Adding support for Cavium ThunderX network controller
+[2020-01-20 07:32:59] [info   ] [main] Source tree checked out at gitTest
+[2020-01-20 07:32:59] [info   ] [main] Checking if we need to run metrics...
+[2020-01-20 07:33:00] [info   ] [main] Starting to run metrics
+[2020-01-20 07:33:00] [warning] [main] certs/ doesn't exist (yet) in Linux source tree; omitting from code.extractor.files
+[2020-01-20 07:41:38] [info   ] [main] Got result for 2015-05-28 2041.03 4863dea3
+[2020-01-20 07:41:38] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [next:master 6158/7358] has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git
+BRANCH: master
+HEAD: 5d925a7641c8066290ee58eaf4f651a1ea7d9c82
+Commit: c5c77ba18ea66aa05441c71e38473efb787705a4
+ - Defect[0]: include/linux/compiler.h:148:0 WARNING = warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'uint8_t *' [-Wformat=]
+ - Defect[1]: drivers/staging/wilc1000/linux_wlan_common.h:58:0 NOTE = note: in expansion of macro 'if'
+ - Defect[2]: drivers/staging/wilc1000/wilc_wlan.c:2305:0 NOTE = note: in expansion of macro 'PRINT_D'
+ - Defect[3]: drivers/staging/wilc1000/linux_wlan_common.h:79:0 NOTE = note: in expansion of macro 'if'
+ - Defect[4]: drivers/staging/wilc1000/wilc_spi.c:1197:0 NOTE = note: in expansion of macro 'PRINT_ER'
+ - Defect[5]: drivers/staging/wilc1000/linux_wlan_common.h:79:0 NOTE = note: in expansion of macro 'if'
+ - Defect[6]: drivers/staging/wilc1000/wilc_spi.c:1200:0 NOTE = note: in expansion of macro 'PRINT_ER'
+ - Defect[7]: drivers/staging/wilc1000/linux_wlan_spi.c:105:0 NOTE = note: in expansion of macro 'if'
+ - Defect[8]: drivers/staging/wilc1000/linux_wlan_spi.c:105:0 NOTE = note: in expansion of macro 'if'
+ - Defect[9]: drivers/staging/wilc1000/linux_wlan_spi.c:105:0 NOTE = note: in expansion of macro 'if'
+
+[2020-01-20 07:41:38] [info   ] [main] Restoring commit...
+[2020-01-20 07:41:38] [debug  ] [main] [git, remote]
+[2020-01-20 07:41:38] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 07:41:38] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 07:41:38] [debug  ] [main] [git, cat-file, -e, c5c77ba18ea66aa05441c71e38473efb787705a4^{commit}]
+[2020-01-20 07:41:38] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:41:38] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 07:41:38] [debug  ] [main] Didn't need to fetch because commit c5c77ba18ea66aa05441c71e38473efb787705a4 already existed
+[2020-01-20 07:41:38] [debug  ] [main] [git, checkout, --force, c5c77ba18ea66aa05441c71e38473efb787705a4]
+[2020-01-20 07:42:25] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:42:25] [debug  ] [main] Stderr:
+                                       Previous HEAD position was 4863dea3fab01 net: Adding support for Cavium ThunderX network controller
+HEAD is now at c5c77ba18ea66 staging: wilc1000: Add SDIO/SPI 802.11 driver
+[2020-01-20 07:42:25] [info   ] [main] Source tree checked out at gitTest
+[2020-01-20 07:42:25] [info   ] [main] Checking if we need to run metrics...
+[2020-01-20 07:42:26] [info   ] [main] Starting to run metrics
+[2020-01-20 07:42:26] [warning] [main] certs/ doesn't exist (yet) in Linux source tree; omitting from code.extractor.files
+[2020-01-20 07:51:07] [info   ] [main] Got result for 2015-05-28 2140.06 c5c77ba1
+[2020-01-20 07:51:07] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [asoc:topic/intel 22/22] has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+BRANCH: topic/intel
+HEAD: 506c148ee5e1bfb836116353305927ca4c21a23e
+Commit: 506c148ee5e1bfb836116353305927ca4c21a23e
+ - Defect[0]: sound/soc/intel/haswell/sst-haswell-pcm.c:1107:0 ERROR = error: implicit declaration of function 'hsw_pcm_free_modules' [-Werror=implicit-function-declaration]
+
+[2020-01-20 07:51:07] [info   ] [main] Restoring commit...
+[2020-01-20 07:51:07] [debug  ] [main] [git, remote]
+[2020-01-20 07:51:07] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 07:51:07] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 07:51:07] [debug  ] [main] [git, cat-file, -e, 506c148ee5e1bfb836116353305927ca4c21a23e^{commit}]
+[2020-01-20 07:51:07] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:51:07] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 07:51:07] [debug  ] [main] Didn't need to fetch because commit 506c148ee5e1bfb836116353305927ca4c21a23e already existed
+[2020-01-20 07:51:07] [debug  ] [main] [git, checkout, --force, 506c148ee5e1bfb836116353305927ca4c21a23e]
+[2020-01-20 07:51:54] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 07:51:54] [debug  ] [main] Stderr:
+                                       Previous HEAD position was c5c77ba18ea66 staging: wilc1000: Add SDIO/SPI 802.11 driver
+HEAD is now at 506c148ee5e1b ASoC: Intel: remove unused function hsw_pcm_free_modules()
+[2020-01-20 07:51:54] [info   ] [main] Source tree checked out at gitTest
+[2020-01-20 07:51:54] [info   ] [main] Checking if we need to run metrics...
+[2020-01-20 07:51:54] [info   ] [main] Starting to run metrics
+[2020-01-20 07:51:54] [warning] [main] certs/ doesn't exist (yet) in Linux source tree; omitting from code.extractor.files
+[2020-01-20 08:00:22] [info   ] [main] Got result for 2015-05-28 2322.56 506c148e
+[2020-01-20 08:00:22] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [asoc:fix/intel 1/1] has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+BRANCH: fix/intel
+HEAD: 8c0297a0cfb588ed0f4d9eb851a806fbc22adc9f
+Commit: 8c0297a0cfb588ed0f4d9eb851a806fbc22adc9f
+ - Defect[0]: sound/soc/intel/haswell/sst-haswell-pcm.c:923:0 WARNING = warning: 'hsw_pcm_free_modules' defined but not used [-Wunused-function]
+
+[2020-01-20 08:00:22] [info   ] [main] Restoring commit...
+[2020-01-20 08:00:22] [debug  ] [main] [git, remote]
+[2020-01-20 08:00:22] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 08:00:22] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:00:22] [debug  ] [main] [git, cat-file, -e, 8c0297a0cfb588ed0f4d9eb851a806fbc22adc9f^{commit}]
+[2020-01-20 08:00:22] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:00:22] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name 8c0297a0cfb588ed0f4d9eb851a806fbc22adc9f^{commit}
+[2020-01-20 08:00:22] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_broonie_sound, 8c0297a0cfb588ed0f4d9eb851a806fbc22adc9f]
+[2020-01-20 08:00:31] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:00:31] [debug  ] [main] Stderr:
+                                       error: Server does not allow request for unadvertised object 8c0297a0cfb588ed0f4d9eb851a806fbc22adc9f
+[2020-01-20 08:00:31] [warning] [main] Remote does not support fetching commits; falling back to fetching full remote
+[2020-01-20 08:00:31] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_broonie_sound]
+[2020-01-20 08:00:47] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:00:47] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:00:47] [debug  ] [main] [git, checkout, --force, 8c0297a0cfb588ed0f4d9eb851a806fbc22adc9f]
+[2020-01-20 08:00:47] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:00:47] [debug  ] [main] Stderr:
+                                       fatal: reference is not a tree: 8c0297a0cfb588ed0f4d9eb851a806fbc22adc9f
+[2020-01-20 08:00:47] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: reference is not a tree: 8c0297a0cfb588ed0f4d9eb851a806fbc22adc9f
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.checkout(GitRepository.java:148)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:96)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 08:00:47] [info   ] [main] Got NO result for 2015-05-28 2339.41 8c0297a0
+[2020-01-20 08:00:47] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [robh:testing 6/9] include/linux/of_device.h:70:20: has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+BRANCH: testing
+HEAD: 40aec23b5f7306c3de8ed8ad944e4f68af88e635
+Commit: f6c065c519bbff3066dd5bbaf4b381030492ca94
+ - Defect[0]: include/linux/of_device.h:70:0 WARNING = warning: 'of_device_get_match_data' defined but not used [-Wunused-function]
+
+[2020-01-20 08:00:47] [info   ] [main] Restoring commit...
+[2020-01-20 08:00:47] [debug  ] [main] [git, remote]
+[2020-01-20 08:00:47] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 08:00:47] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:00:47] [debug  ] [main] [git, cat-file, -e, f6c065c519bbff3066dd5bbaf4b381030492ca94^{commit}]
+[2020-01-20 08:00:47] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:00:47] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name f6c065c519bbff3066dd5bbaf4b381030492ca94^{commit}
+[2020-01-20 08:00:47] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_robh_linux, f6c065c519bbff3066dd5bbaf4b381030492ca94]
+[2020-01-20 08:00:56] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:00:56] [debug  ] [main] Stderr:
+                                       error: Server does not allow request for unadvertised object f6c065c519bbff3066dd5bbaf4b381030492ca94
+[2020-01-20 08:00:56] [warning] [main] Remote does not support fetching commits; falling back to fetching full remote
+[2020-01-20 08:00:56] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_robh_linux]
+[2020-01-20 08:01:11] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:01:11] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:01:11] [debug  ] [main] [git, checkout, --force, f6c065c519bbff3066dd5bbaf4b381030492ca94]
+[2020-01-20 08:01:12] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:01:12] [debug  ] [main] Stderr:
+                                       fatal: reference is not a tree: f6c065c519bbff3066dd5bbaf4b381030492ca94
+[2020-01-20 08:01:12] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: reference is not a tree: f6c065c519bbff3066dd5bbaf4b381030492ca94
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.checkout(GitRepository.java:148)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:96)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 08:01:12] [info   ] [main] Got NO result for 2015-05-29 0015.50 f6c065c5
+[2020-01-20 08:01:12] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [robh:testing 6/9] include/linux/of_device.h:70:20: has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+BRANCH: testing
+HEAD: 40aec23b5f7306c3de8ed8ad944e4f68af88e635
+Commit: f6c065c519bbff3066dd5bbaf4b381030492ca94
+ - Defect[0]: include/linux/of_device.h:70:0 ERROR = error: 'of_device_get_match_data' defined but not used [-Werror=unused-function]
+
+[2020-01-20 08:01:12] [info   ] [main] Restoring commit...
+[2020-01-20 08:01:12] [debug  ] [main] [git, remote]
+[2020-01-20 08:01:12] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 08:01:12] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:01:12] [debug  ] [main] [git, cat-file, -e, f6c065c519bbff3066dd5bbaf4b381030492ca94^{commit}]
+[2020-01-20 08:01:12] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:01:12] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name f6c065c519bbff3066dd5bbaf4b381030492ca94^{commit}
+[2020-01-20 08:01:12] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_robh_linux, f6c065c519bbff3066dd5bbaf4b381030492ca94]
+[2020-01-20 08:01:22] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:01:22] [debug  ] [main] Stderr:
+                                       error: Server does not allow request for unadvertised object f6c065c519bbff3066dd5bbaf4b381030492ca94
+[2020-01-20 08:01:22] [warning] [main] Remote does not support fetching commits; falling back to fetching full remote
+[2020-01-20 08:01:22] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_robh_linux]
+[2020-01-20 08:01:39] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:01:39] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:01:39] [debug  ] [main] [git, checkout, --force, f6c065c519bbff3066dd5bbaf4b381030492ca94]
+[2020-01-20 08:01:39] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:01:39] [debug  ] [main] Stderr:
+                                       fatal: reference is not a tree: f6c065c519bbff3066dd5bbaf4b381030492ca94
+[2020-01-20 08:01:39] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: reference is not a tree: f6c065c519bbff3066dd5bbaf4b381030492ca94
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.checkout(GitRepository.java:148)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:96)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 08:01:39] [info   ] [main] Got NO result for 2015-05-29 0032.53 f6c065c5
+[2020-01-20 08:01:39] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [dm:dm-4.1-for-ejt 33/33] has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm.git
+BRANCH: dm-4.1-for-ejt
+HEAD: b8112c1e5d7658f3f6a300f6efeb5fae6ec135eb
+Commit: b8112c1e5d7658f3f6a300f6efeb5fae6ec135eb
+ - Defect[0]: drivers/md/dm-thin.c:1543:0 ERROR = error: 'BIO_CHAIN' undeclared (first use in this function)
+ - Defect[1]: drivers/md/dm-thin.c:1545:0 ERROR = error: 'struct bio' has no member named '__bi_remaining'
+
+[2020-01-20 08:01:39] [info   ] [main] Restoring commit...
+[2020-01-20 08:01:39] [debug  ] [main] [git, remote]
+[2020-01-20 08:01:39] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 08:01:39] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:01:39] [debug  ] [main] [git, cat-file, -e, b8112c1e5d7658f3f6a300f6efeb5fae6ec135eb^{commit}]
+[2020-01-20 08:01:39] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:01:39] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:01:39] [debug  ] [main] Didn't need to fetch because commit b8112c1e5d7658f3f6a300f6efeb5fae6ec135eb already existed
+[2020-01-20 08:01:39] [debug  ] [main] [git, checkout, --force, b8112c1e5d7658f3f6a300f6efeb5fae6ec135eb]
+[2020-01-20 08:02:24] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:02:24] [debug  ] [main] Stderr:
+                                       Previous HEAD position was 506c148ee5e1b ASoC: Intel: remove unused function hsw_pcm_free_modules()
+HEAD is now at b8112c1e5d765 dm thin: range discard support
+[2020-01-20 08:02:24] [info   ] [main] Source tree checked out at gitTest
+[2020-01-20 08:02:24] [info   ] [main] Checking if we need to run metrics...
+[2020-01-20 08:02:24] [info   ] [main] Starting to run metrics
+[2020-01-20 08:02:24] [warning] [main] certs/ doesn't exist (yet) in Linux source tree; omitting from code.extractor.files
+[2020-01-20 08:10:31] [info   ] [main] Got result for 2015-05-29 0046.02 b8112c1e
+[2020-01-20 08:10:31] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [robh:testing 9/9] arch/mips/kernel/prom.c:53:2: has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+BRANCH: testing
+HEAD: 40aec23b5f7306c3de8ed8ad944e4f68af88e635
+Commit: 40aec23b5f7306c3de8ed8ad944e4f68af88e635
+ - Defect[0]: arch/mips/kernel/prom.c:53:0 ERROR = error: implicit declaration of function 'early_init_dt_scan' [-Werror=implicit-function-declaration]
+ - Defect[1]: drivers/gpu/drm/bridge/ps8622.c:368:0 ERROR = error: implicit declaration of function 'gpiod_set_value' [-Werror=implicit-function-declaration]
+ - Defect[2]: drivers/gpu/drm/bridge/ps8622.c:584:0 ERROR = error: implicit declaration of function 'devm_gpiod_get' [-Werror=implicit-function-declaration]
+ - Defect[3]: drivers/gpu/drm/bridge/ps8622.c:584:0 WARNING = warning: assignment makes pointer from integer without a cast
+ - Defect[4]: drivers/gpu/drm/bridge/ps8622.c:590:0 ERROR = error: implicit declaration of function 'gpiod_direction_output' [-Werror=implicit-function-declaration]
+ - Defect[5]: drivers/gpu/drm/bridge/ps8622.c:596:0 WARNING = warning: assignment makes pointer from integer without a cast
+
+[2020-01-20 08:10:31] [info   ] [main] Restoring commit...
+[2020-01-20 08:10:31] [debug  ] [main] [git, remote]
+[2020-01-20 08:10:31] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 08:10:31] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:10:31] [debug  ] [main] [git, cat-file, -e, 40aec23b5f7306c3de8ed8ad944e4f68af88e635^{commit}]
+[2020-01-20 08:10:31] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:10:31] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name 40aec23b5f7306c3de8ed8ad944e4f68af88e635^{commit}
+[2020-01-20 08:10:31] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_robh_linux, 40aec23b5f7306c3de8ed8ad944e4f68af88e635]
+[2020-01-20 08:10:40] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:10:40] [debug  ] [main] Stderr:
+                                       error: Server does not allow request for unadvertised object 40aec23b5f7306c3de8ed8ad944e4f68af88e635
+[2020-01-20 08:10:40] [warning] [main] Remote does not support fetching commits; falling back to fetching full remote
+[2020-01-20 08:10:40] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_robh_linux]
+[2020-01-20 08:10:56] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:10:56] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:10:56] [debug  ] [main] [git, checkout, --force, 40aec23b5f7306c3de8ed8ad944e4f68af88e635]
+[2020-01-20 08:10:56] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:10:56] [debug  ] [main] Stderr:
+                                       fatal: reference is not a tree: 40aec23b5f7306c3de8ed8ad944e4f68af88e635
+[2020-01-20 08:10:56] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: reference is not a tree: 40aec23b5f7306c3de8ed8ad944e4f68af88e635
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.checkout(GitRepository.java:148)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:96)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 08:10:56] [info   ] [main] Got NO result for 2015-05-29 0150.14 40aec23b
+[2020-01-20 08:10:56] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [robh:testing 9/9] has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+BRANCH: testing
+HEAD: 40aec23b5f7306c3de8ed8ad944e4f68af88e635
+Commit: 40aec23b5f7306c3de8ed8ad944e4f68af88e635
+ - Defect[0]: drivers/input/keyboard/cros_ec_keyb.c:183:0 WARNING = warning: 'cros_ec_keyb_irq' uses dynamic stack allocation
+
+[2020-01-20 08:10:56] [info   ] [main] Restoring commit...
+[2020-01-20 08:10:56] [debug  ] [main] [git, remote]
+[2020-01-20 08:10:56] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 08:10:56] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:10:56] [debug  ] [main] [git, cat-file, -e, 40aec23b5f7306c3de8ed8ad944e4f68af88e635^{commit}]
+[2020-01-20 08:10:56] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:10:56] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name 40aec23b5f7306c3de8ed8ad944e4f68af88e635^{commit}
+[2020-01-20 08:10:56] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_robh_linux, 40aec23b5f7306c3de8ed8ad944e4f68af88e635]
+[2020-01-20 08:11:05] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:11:05] [debug  ] [main] Stderr:
+                                       error: Server does not allow request for unadvertised object 40aec23b5f7306c3de8ed8ad944e4f68af88e635
+[2020-01-20 08:11:05] [warning] [main] Remote does not support fetching commits; falling back to fetching full remote
+[2020-01-20 08:11:05] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_robh_linux]
+[2020-01-20 08:11:20] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:11:20] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:11:20] [debug  ] [main] [git, checkout, --force, 40aec23b5f7306c3de8ed8ad944e4f68af88e635]
+[2020-01-20 08:11:20] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:11:20] [debug  ] [main] Stderr:
+                                       fatal: reference is not a tree: 40aec23b5f7306c3de8ed8ad944e4f68af88e635
+[2020-01-20 08:11:20] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: reference is not a tree: 40aec23b5f7306c3de8ed8ad944e4f68af88e635
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.checkout(GitRepository.java:148)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:96)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 08:11:20] [info   ] [main] Got NO result for 2015-05-29 0245.46 40aec23b
+[2020-01-20 08:11:20] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [linux-devel:devel-bee-catchup-201505290009 49/51] has problem in:
+BASE: git://internal_merge_and_test_tree
+BRANCH: devel-bee-catchup-201505290009
+HEAD: eb3ba5d5a3cfb1098aeea8ae53bc4038346a239b
+Commit: ef3430c32277402d19fc98db71c121cdaf4418ff
+ - Defect[0]: drivers/net/ethernet/amd/xgbe/xgbe-mdio.c:189:0 WARNING = warning: 'status' may be used uninitialized in this function [-Wuninitialized]
+
+[2020-01-20 08:11:20] [info   ] [main] Restoring commit...
+[2020-01-20 08:11:20] [debug  ] [main] [git, remote]
+[2020-01-20 08:11:20] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 08:11:20] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:11:20] [debug  ] [main] [git, cat-file, -e, ef3430c32277402d19fc98db71c121cdaf4418ff^{commit}]
+[2020-01-20 08:11:20] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:11:20] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name ef3430c32277402d19fc98db71c121cdaf4418ff^{commit}
+[2020-01-20 08:11:20] [debug  ] [main] [git, fetch, internal_merge_and_test_tree, ef3430c32277402d19fc98db71c121cdaf4418ff]
+[2020-01-20 08:11:20] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:11:20] [debug  ] [main] Stderr:
+                                       fatal: no path specified; see 'git help pull' for valid url syntax
+[2020-01-20 08:11:20] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: no path specified; see 'git help pull' for valid url syntax
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.fetch(GitRepository.java:131)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:88)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 08:11:20] [info   ] [main] Got NO result for 2015-05-29 0313.26 ef3430c3
+[2020-01-20 08:11:20] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [l2-mtd:master 47/50] has problem in:
+BASE: git://git.infradead.org/users/dedekind/l2-mtd.git
+BRANCH: master
+HEAD: e5babdf928e5d0c432a8d4b99f20421ce14d1ab6
+Commit: 4612c715a6ea6b3af2aee0163c0721375b2548d7
+ - Defect[0]: drivers/mtd/chips/cfi_cmdset_0020.c:141:0 SPARSE = sparse: cast to restricted __le32
+ - Defect[1]: drivers/mtd/chips/cfi_cmdset_0020.c:141:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[2]: drivers/mtd/chips/cfi_cmdset_0020.c:141:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[3]: drivers/mtd/chips/cfi_cmdset_0020.c:141:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[4]: drivers/mtd/chips/cfi_cmdset_0020.c:141:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[5]: drivers/mtd/chips/cfi_cmdset_0020.c:141:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[6]: drivers/mtd/chips/cfi_cmdset_0020.c:141:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[7]: drivers/mtd/chips/cfi_cmdset_0020.c:142:0 SPARSE = sparse: cast to restricted __le32
+ - Defect[8]: drivers/mtd/chips/cfi_cmdset_0020.c:142:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[9]: drivers/mtd/chips/cfi_cmdset_0020.c:142:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[10]: drivers/mtd/chips/cfi_cmdset_0020.c:142:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[11]: drivers/mtd/chips/cfi_cmdset_0020.c:142:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[12]: drivers/mtd/chips/cfi_cmdset_0020.c:142:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[13]: drivers/mtd/chips/cfi_cmdset_0020.c:142:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[14]: drivers/mtd/chips/cfi_util.c:97:0 SPARSE = sparse: restricted __be16 degrades to integer
+ - Defect[15]: drivers/mtd/chips/cfi_util.c:97:0 SPARSE = sparse: restricted __le16 degrades to integer
+ - Defect[16]: drivers/mtd/chips/cfi_util.c:100:0 SPARSE = sparse: restricted __be32 degrades to integer
+ - Defect[17]: drivers/mtd/chips/cfi_util.c:100:0 SPARSE = sparse: restricted __le32 degrades to integer
+ - Defect[18]: drivers/mtd/chips/cfi_util.c:179:0 SPARSE = sparse: cast to restricted __le16
+ - Defect[19]: drivers/mtd/chips/cfi_util.c:179:0 SPARSE = sparse: cast to restricted __be16
+ - Defect[20]: drivers/mtd/chips/cfi_util.c:179:0 SPARSE = sparse: cast to restricted __be16
+ - Defect[21]: drivers/mtd/chips/cfi_util.c:179:0 SPARSE = sparse: cast to restricted __be16
+ - Defect[22]: drivers/mtd/chips/cfi_util.c:179:0 SPARSE = sparse: cast to restricted __be16
+ - Defect[23]: drivers/mtd/chips/cfi_util.c:182:0 SPARSE = sparse: cast to restricted __le32
+ - Defect[24]: drivers/mtd/chips/cfi_util.c:182:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[25]: drivers/mtd/chips/cfi_util.c:182:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[26]: drivers/mtd/chips/cfi_util.c:182:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[27]: drivers/mtd/chips/cfi_util.c:182:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[28]: drivers/mtd/chips/cfi_util.c:182:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[29]: drivers/mtd/chips/cfi_util.c:182:0 SPARSE = sparse: cast to restricted __be32
+
+[2020-01-20 08:11:20] [info   ] [main] Restoring commit...
+[2020-01-20 08:11:20] [debug  ] [main] [git, remote]
+[2020-01-20 08:11:20] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 08:11:20] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:11:20] [debug  ] [main] [git, cat-file, -e, 4612c715a6ea6b3af2aee0163c0721375b2548d7^{commit}]
+[2020-01-20 08:11:20] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:11:20] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:11:20] [debug  ] [main] Didn't need to fetch because commit 4612c715a6ea6b3af2aee0163c0721375b2548d7 already existed
+[2020-01-20 08:11:20] [debug  ] [main] [git, checkout, --force, 4612c715a6ea6b3af2aee0163c0721375b2548d7]
+[2020-01-20 08:11:27] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:11:27] [debug  ] [main] Stderr:
+                                       Previous HEAD position was b8112c1e5d765 dm thin: range discard support
+HEAD is now at 4612c715a6ea6 mtd: cfi: deinline large functions
+[2020-01-20 08:11:27] [info   ] [main] Source tree checked out at gitTest
+[2020-01-20 08:11:27] [info   ] [main] Checking if we need to run metrics...
+[2020-01-20 08:11:27] [info   ] [main] Starting to run metrics
+[2020-01-20 08:11:27] [warning] [main] certs/ doesn't exist (yet) in Linux source tree; omitting from code.extractor.files
+[2020-01-20 08:20:01] [info   ] [main] Got result for 2015-05-29 0354.28 4612c715
+[2020-01-20 08:20:01] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [dhowells-fs:fwsign-pkcs7 19/20] has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
+BRANCH: fwsign-pkcs7
+HEAD: ba4ed742614fcb80b5a0454728a72adac08fc92c
+Commit: 6cd9b4f007be3adfb2b807c2eb35a7bf2f6c156f
+ - Defect[0]: security/integrity/digsig_asymmetric.c:99:0 ERROR = error: too few arguments to function 'verify_signature'
+
+[2020-01-20 08:20:01] [info   ] [main] Restoring commit...
+[2020-01-20 08:20:01] [debug  ] [main] [git, remote]
+[2020-01-20 08:20:01] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 08:20:01] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:20:01] [debug  ] [main] [git, cat-file, -e, 6cd9b4f007be3adfb2b807c2eb35a7bf2f6c156f^{commit}]
+[2020-01-20 08:20:01] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:20:01] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name 6cd9b4f007be3adfb2b807c2eb35a7bf2f6c156f^{commit}
+[2020-01-20 08:20:01] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_dhowells_linux-fs, 6cd9b4f007be3adfb2b807c2eb35a7bf2f6c156f]
+[2020-01-20 08:20:10] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:20:10] [debug  ] [main] Stderr:
+                                       error: Server does not allow request for unadvertised object 6cd9b4f007be3adfb2b807c2eb35a7bf2f6c156f
+[2020-01-20 08:20:10] [warning] [main] Remote does not support fetching commits; falling back to fetching full remote
+[2020-01-20 08:20:10] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_dhowells_linux-fs]
+[2020-01-20 08:20:24] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:20:24] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:20:24] [debug  ] [main] [git, checkout, --force, 6cd9b4f007be3adfb2b807c2eb35a7bf2f6c156f]
+[2020-01-20 08:20:24] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:20:24] [debug  ] [main] Stderr:
+                                       fatal: reference is not a tree: 6cd9b4f007be3adfb2b807c2eb35a7bf2f6c156f
+[2020-01-20 08:20:24] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: reference is not a tree: 6cd9b4f007be3adfb2b807c2eb35a7bf2f6c156f
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.checkout(GitRepository.java:148)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:96)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 08:20:24] [info   ] [main] Got NO result for 2015-05-29 0701.17 6cd9b4f0
+[2020-01-20 08:20:24] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [robh:testing 10/10] drivers/of/fdt.c:58:36: sparse: has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+BRANCH: testing
+HEAD: 65c2d28c1939ecce8f3a829b4a506e9ddf78015d
+Commit: 65c2d28c1939ecce8f3a829b4a506e9ddf78015d
+ - Defect[0]: drivers/of/fdt.c:58:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[1]: drivers/of/fdt.c:58:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[2]: drivers/of/fdt.c:58:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[3]: drivers/of/fdt.c:58:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[4]: drivers/of/fdt.c:58:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[5]: drivers/of/fdt.c:58:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[6]: drivers/of/fdt.c:63:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[7]: drivers/of/fdt.c:63:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[8]: drivers/of/fdt.c:63:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[9]: drivers/of/fdt.c:63:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[10]: drivers/of/fdt.c:63:0 SPARSE = sparse: cast to restricted __be32
+ - Defect[11]: drivers/of/fdt.c:63:0 SPARSE = sparse: cast to restricted __be32
+
+[2020-01-20 08:20:24] [info   ] [main] Restoring commit...
+[2020-01-20 08:20:24] [debug  ] [main] [git, remote]
+[2020-01-20 08:20:24] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 08:20:24] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:20:24] [debug  ] [main] [git, cat-file, -e, 65c2d28c1939ecce8f3a829b4a506e9ddf78015d^{commit}]
+[2020-01-20 08:20:24] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:20:24] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name 65c2d28c1939ecce8f3a829b4a506e9ddf78015d^{commit}
+[2020-01-20 08:20:24] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_robh_linux, 65c2d28c1939ecce8f3a829b4a506e9ddf78015d]
+[2020-01-20 08:20:32] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:20:32] [debug  ] [main] Stderr:
+                                       error: Server does not allow request for unadvertised object 65c2d28c1939ecce8f3a829b4a506e9ddf78015d
+[2020-01-20 08:20:32] [warning] [main] Remote does not support fetching commits; falling back to fetching full remote
+[2020-01-20 08:20:32] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_robh_linux]
+[2020-01-20 08:20:45] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:20:45] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:20:45] [debug  ] [main] [git, checkout, --force, 65c2d28c1939ecce8f3a829b4a506e9ddf78015d]
+[2020-01-20 08:20:45] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:20:45] [debug  ] [main] Stderr:
+                                       fatal: reference is not a tree: 65c2d28c1939ecce8f3a829b4a506e9ddf78015d
+[2020-01-20 08:20:45] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: reference is not a tree: 65c2d28c1939ecce8f3a829b4a506e9ddf78015d
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.checkout(GitRepository.java:148)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:96)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 08:20:45] [info   ] [main] Got NO result for 2015-05-29 0957.25 65c2d28c
+[2020-01-20 08:20:45] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [linux-devel:devel-bee-catchup-201505290457 61/65] has problem in:
+BASE: git://internal_merge_and_test_tree
+BRANCH: devel-bee-catchup-201505290457
+HEAD: c3a73fb7b8495fd9aafe2456337e45766712435e
+Commit: 2b5d084091c27b8136a6dd7d35f30d44bcf2ce4e
+ - Defect[0]: drivers/leds/leds-aat1290.c:311:0 SPARSE = sparse: symbol 'init_mm_current_scale' was not declared. Should it be static?
+
+[2020-01-20 08:20:45] [info   ] [main] Restoring commit...
+[2020-01-20 08:20:45] [debug  ] [main] [git, remote]
+[2020-01-20 08:20:45] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 08:20:45] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:20:45] [debug  ] [main] [git, cat-file, -e, 2b5d084091c27b8136a6dd7d35f30d44bcf2ce4e^{commit}]
+[2020-01-20 08:20:45] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:20:45] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name 2b5d084091c27b8136a6dd7d35f30d44bcf2ce4e^{commit}
+[2020-01-20 08:20:45] [debug  ] [main] [git, fetch, internal_merge_and_test_tree, 2b5d084091c27b8136a6dd7d35f30d44bcf2ce4e]
+[2020-01-20 08:20:45] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:20:45] [debug  ] [main] Stderr:
+                                       fatal: no path specified; see 'git help pull' for valid url syntax
+[2020-01-20 08:20:45] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: no path specified; see 'git help pull' for valid url syntax
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.fetch(GitRepository.java:131)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:88)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 08:20:45] [info   ] [main] Got NO result for 2015-05-29 1213.34 2b5d0840
+[2020-01-20 08:20:45] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [weiny2:doug-4.2-05-19-opa-mad-v6-test-build 2/17] has problem in:
+BASE: https://github.com/weiny2/linux-kernel.git
+BRANCH: doug-4.2-05-19-opa-mad-v6-test-build
+HEAD: 6ae695ab1f10dbf8ff5cd76b1dc3eafd33a1c62e
+Commit: 306267fb42a42e7c0b7e7316771a428c462d1ccf
+ - Defect[0]: drivers/infiniband/hw/ehca/ehca_sqp.c:233:0 WARNING = warning: passing argument 3 of 'ehca_process_perf' discards 'const' qualifier from pointer target type
+ - Defect[1]: drivers/infiniband/hw/ehca/ehca_sqp.c:233:0 WARNING = warning: passing argument 4 of 'ehca_process_perf' discards 'const' qualifier from pointer target type
+ - Defect[2]: drivers/infiniband/hw/ehca/ehca_sqp.c:233:0 WARNING = warning: passing argument 5 of 'ehca_process_perf' discards 'const' qualifier from pointer target type
+
+[2020-01-20 08:20:45] [info   ] [main] Restoring commit...
+[2020-01-20 08:20:45] [debug  ] [main] [git, remote]
+[2020-01-20 08:20:45] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 08:20:45] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:20:45] [debug  ] [main] [git, cat-file, -e, 306267fb42a42e7c0b7e7316771a428c462d1ccf^{commit}]
+[2020-01-20 08:20:45] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:20:45] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name 306267fb42a42e7c0b7e7316771a428c462d1ccf^{commit}
+[2020-01-20 08:20:45] [debug  ] [main] [git, fetch, github_com_weiny2_linux-kernel, 306267fb42a42e7c0b7e7316771a428c462d1ccf]
+[2020-01-20 08:20:53] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:20:53] [debug  ] [main] Stderr:
+                                       error: Server does not allow request for unadvertised object 306267fb42a42e7c0b7e7316771a428c462d1ccf
+[2020-01-20 08:20:53] [warning] [main] Remote does not support fetching commits; falling back to fetching full remote
+[2020-01-20 08:20:53] [debug  ] [main] [git, fetch, github_com_weiny2_linux-kernel]
+[2020-01-20 08:21:07] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:21:07] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:21:07] [debug  ] [main] [git, checkout, --force, 306267fb42a42e7c0b7e7316771a428c462d1ccf]
+[2020-01-20 08:21:07] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:21:07] [debug  ] [main] Stderr:
+                                       fatal: reference is not a tree: 306267fb42a42e7c0b7e7316771a428c462d1ccf
+[2020-01-20 08:21:07] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: reference is not a tree: 306267fb42a42e7c0b7e7316771a428c462d1ccf
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.checkout(GitRepository.java:148)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:96)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 08:21:07] [info   ] [main] Got NO result for 2015-05-29 1339.46 306267fb
+[2020-01-20 08:21:07] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [hch-scsi:bio-error 1/1] has problem in:
+BASE: git://git.infradead.org/users/hch/scsi.git
+BRANCH: bio-error
+HEAD: 729f587d6988c1f70e470f6cc1c50f47e3ae7059
+Commit: 729f587d6988c1f70e470f6cc1c50f47e3ae7059
+ - Defect[0]: drivers/md/bcache/movinggc.c:70:0 ERROR = error: 'error' undeclared (first use in this function)
+ - Defect[1]: drivers/md/dm-cache-target.c:837:0 ERROR = error: 'err' undeclared (first use in this function)
+ - Defect[2]: fs/btrfs/check-integrity.c:2210:0 ERROR = error: conflicting types for 'btrfsic_bio_end_io'
+ - Defect[3]: fs/btrfs/check-integrity.c:346:0 WARNING = warning: 'btrfsic_bio_end_io' used but never defined
+
+[2020-01-20 08:21:07] [info   ] [main] Restoring commit...
+[2020-01-20 08:21:07] [debug  ] [main] [git, remote]
+[2020-01-20 08:21:07] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 08:21:07] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:21:07] [debug  ] [main] [git, cat-file, -e, 729f587d6988c1f70e470f6cc1c50f47e3ae7059^{commit}]
+[2020-01-20 08:21:07] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:21:07] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name 729f587d6988c1f70e470f6cc1c50f47e3ae7059^{commit}
+[2020-01-20 08:21:07] [debug  ] [main] [git, fetch, git_infradead_org_users_hch_scsi, 729f587d6988c1f70e470f6cc1c50f47e3ae7059]
+[2020-01-20 08:21:40] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:21:40] [debug  ] [main] Stderr:
+                                       error: Server does not allow request for unadvertised object 729f587d6988c1f70e470f6cc1c50f47e3ae7059
+[2020-01-20 08:21:40] [warning] [main] Remote does not support fetching commits; falling back to fetching full remote
+[2020-01-20 08:21:40] [debug  ] [main] [git, fetch, git_infradead_org_users_hch_scsi]
+[2020-01-20 08:21:57] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:21:57] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:21:57] [debug  ] [main] [git, checkout, --force, 729f587d6988c1f70e470f6cc1c50f47e3ae7059]
+[2020-01-20 08:21:57] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:21:57] [debug  ] [main] Stderr:
+                                       fatal: reference is not a tree: 729f587d6988c1f70e470f6cc1c50f47e3ae7059
+[2020-01-20 08:21:57] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: reference is not a tree: 729f587d6988c1f70e470f6cc1c50f47e3ae7059
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.checkout(GitRepository.java:148)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:96)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 08:21:57] [info   ] [main] Got NO result for 2015-05-29 1359.08 729f587d
+[2020-01-20 08:21:57] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [next:master 7037/7358] has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git
+BRANCH: master
+HEAD: 5d925a7641c8066290ee58eaf4f651a1ea7d9c82
+Commit: 4863dea3fab01734768c9f7fc2c1590a8f1f6266
+ - Defect[0]: drivers/net/ethernet/cavium/thunder/nicvf_queues.c:360:0 UNKNOWN = alloc with no test, possible model on line 367
+
+[2020-01-20 08:21:57] [info   ] [main] Restoring commit...
+[2020-01-20 08:21:57] [debug  ] [main] [git, remote]
+[2020-01-20 08:21:57] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 08:21:57] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:21:57] [debug  ] [main] [git, cat-file, -e, 4863dea3fab01734768c9f7fc2c1590a8f1f6266^{commit}]
+[2020-01-20 08:21:57] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:21:57] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:21:57] [debug  ] [main] Didn't need to fetch because commit 4863dea3fab01734768c9f7fc2c1590a8f1f6266 already existed
+[2020-01-20 08:21:57] [debug  ] [main] [git, checkout, --force, 4863dea3fab01734768c9f7fc2c1590a8f1f6266]
+[2020-01-20 08:22:47] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:22:47] [debug  ] [main] Stderr:
+                                       Previous HEAD position was 4612c715a6ea6 mtd: cfi: deinline large functions
+HEAD is now at 4863dea3fab01 net: Adding support for Cavium ThunderX network controller
+[2020-01-20 08:22:47] [info   ] [main] Source tree checked out at gitTest
+[2020-01-20 08:22:47] [info   ] [main] Checking if we need to run metrics...
+[2020-01-20 08:22:47] [info   ] [main] Starting to run metrics
+[2020-01-20 08:22:47] [warning] [main] certs/ doesn't exist (yet) in Linux source tree; omitting from code.extractor.files
+[2020-01-20 08:31:42] [info   ] [main] Got result for 2015-05-29 1415.40 4863dea3
+[2020-01-20 08:31:42] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [fbq:per-ns-rename_lock 1/1] has problem in:
+BASE: https://github.com/fbq/linux.git
+BRANCH: per-ns-rename_lock
+HEAD: 6155a1dcc08052d83f56edfe201e7c0b5b918dd4
+Commit: 6155a1dcc08052d83f56edfe201e7c0b5b918dd4
+ - Defect[0]: drivers/block/paride/bpck.c:32:0 WARNING = warning: "PC" redefined
+ - Defect[1]: include/asm-generic/current.h:6:0 ERROR = error: expected ')' before '->' token
+ - Defect[2]: include/linux/dcache.h:230:0 NOTE = note: in expansion of macro 'current'
+
+[2020-01-20 08:31:42] [info   ] [main] Restoring commit...
+[2020-01-20 08:31:42] [debug  ] [main] [git, remote]
+[2020-01-20 08:31:42] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 08:31:42] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:31:42] [debug  ] [main] [git, cat-file, -e, 6155a1dcc08052d83f56edfe201e7c0b5b918dd4^{commit}]
+[2020-01-20 08:31:42] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:31:42] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:31:42] [debug  ] [main] Didn't need to fetch because commit 6155a1dcc08052d83f56edfe201e7c0b5b918dd4 already existed
+[2020-01-20 08:31:42] [debug  ] [main] [git, checkout, --force, 6155a1dcc08052d83f56edfe201e7c0b5b918dd4]
+[2020-01-20 08:32:32] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:32:32] [debug  ] [main] Stderr:
+                                       Previous HEAD position was 4863dea3fab01 net: Adding support for Cavium ThunderX network controller
+HEAD is now at 6155a1dcc0805 vfs: use per-namespace rename_lock
+[2020-01-20 08:32:32] [info   ] [main] Source tree checked out at gitTest
+[2020-01-20 08:32:32] [info   ] [main] Checking if we need to run metrics...
+[2020-01-20 08:32:32] [info   ] [main] Don't need to run this, because no defect lies within a function
+[2020-01-20 08:32:32] [info   ] [main] Got NO result for 2015-05-29 1934.09 6155a1dc
+[2020-01-20 08:32:32] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [ux500:tb-st-cpufreq 16/17] has problem in:
+BASE: https://git.linaro.org/people/ljones/linux-3.0-ux500.git
+BRANCH: tb-st-cpufreq
+HEAD: 0d8d64a1d4b533b509dba510d5a118faf9f6c06f
+Commit: ce79c66c58dafc5e0526ea17bf352bf289496324
+ - Defect[0]: drivers/base/power/opp.c:245:0 WARNING = warning: format '%d' expects argument of type 'int', but argument 2 has type 'long unsigned int' [-Wformat=]
+ - Defect[1]: drivers/base/power/opp.c:246:0 WARNING = warning: format '%d' expects argument of type 'int', but argument 2 has type 'long unsigned int' [-Wformat=]
+
+[2020-01-20 08:32:32] [info   ] [main] Restoring commit...
+[2020-01-20 08:32:32] [debug  ] [main] [git, remote]
+[2020-01-20 08:32:32] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 08:32:32] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:32:32] [debug  ] [main] [git, cat-file, -e, ce79c66c58dafc5e0526ea17bf352bf289496324^{commit}]
+[2020-01-20 08:32:32] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:32:32] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name ce79c66c58dafc5e0526ea17bf352bf289496324^{commit}
+[2020-01-20 08:32:32] [debug  ] [main] [git, fetch, git_linaro_org_people_ljones_linux-3_0-ux500, ce79c66c58dafc5e0526ea17bf352bf289496324]
+[2020-01-20 08:33:31] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:33:31] [debug  ] [main] Stderr:
+                                       error: Server does not allow request for unadvertised object ce79c66c58dafc5e0526ea17bf352bf289496324
+[2020-01-20 08:33:31] [warning] [main] Remote does not support fetching commits; falling back to fetching full remote
+[2020-01-20 08:33:31] [debug  ] [main] [git, fetch, git_linaro_org_people_ljones_linux-3_0-ux500]
+[2020-01-20 08:33:58] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:33:58] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:33:58] [debug  ] [main] [git, checkout, --force, ce79c66c58dafc5e0526ea17bf352bf289496324]
+[2020-01-20 08:33:58] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:33:58] [debug  ] [main] Stderr:
+                                       fatal: reference is not a tree: ce79c66c58dafc5e0526ea17bf352bf289496324
+[2020-01-20 08:33:58] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: reference is not a tree: ce79c66c58dafc5e0526ea17bf352bf289496324
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.checkout(GitRepository.java:148)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:96)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 08:33:58] [info   ] [main] Got NO result for 2015-05-29 2210.08 ce79c66c
+[2020-01-20 08:33:58] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [jirislaby:devel 6/89] fs/proc/base.c:2250:9: sparse: has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/jirislaby/linux.git
+BRANCH: devel
+HEAD: 3fadc78be5b9d7af61c2d3ede0a897f98138bf8c
+Commit: ddef64c695e0f62211b16cd35b1be55d4cb80cbc
+ - Defect[0]: fs/proc/base.c:2250:0 SPARSE = sparse: incompatible types in comparison expression (different address spaces)
+ - Defect[1]: fs/proc/base.c:2250:0 SPARSE = sparse: incompatible types in comparison expression (different address spaces)
+
+[2020-01-20 08:33:58] [info   ] [main] Restoring commit...
+[2020-01-20 08:33:58] [debug  ] [main] [git, remote]
+[2020-01-20 08:33:58] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 08:33:58] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:33:58] [debug  ] [main] [git, cat-file, -e, ddef64c695e0f62211b16cd35b1be55d4cb80cbc^{commit}]
+[2020-01-20 08:33:58] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:33:58] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name ddef64c695e0f62211b16cd35b1be55d4cb80cbc^{commit}
+[2020-01-20 08:33:58] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_jirislaby_linux, ddef64c695e0f62211b16cd35b1be55d4cb80cbc]
+[2020-01-20 08:34:08] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:34:08] [debug  ] [main] Stderr:
+                                       error: Server does not allow request for unadvertised object ddef64c695e0f62211b16cd35b1be55d4cb80cbc
+[2020-01-20 08:34:08] [warning] [main] Remote does not support fetching commits; falling back to fetching full remote
+[2020-01-20 08:34:08] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_jirislaby_linux]
+[2020-01-20 08:34:23] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:34:23] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:34:23] [debug  ] [main] [git, checkout, --force, ddef64c695e0f62211b16cd35b1be55d4cb80cbc]
+[2020-01-20 08:34:23] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:34:23] [debug  ] [main] Stderr:
+                                       fatal: reference is not a tree: ddef64c695e0f62211b16cd35b1be55d4cb80cbc
+[2020-01-20 08:34:23] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: reference is not a tree: ddef64c695e0f62211b16cd35b1be55d4cb80cbc
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.checkout(GitRepository.java:148)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:96)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 08:34:23] [info   ] [main] Got NO result for 2015-05-29 2347.38 ddef64c6
+[2020-01-20 08:34:23] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [next:master 7235/7555] mm/page_alloc.c:654:121: has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git
+BRANCH: master
+HEAD: 7732a9817fb01002bde7615066e86c156fb5a31b
+Commit: 0491d0d6aac97c5b8df17851db525f3758de26e6
+ - Defect[0]: mm/page_alloc.c:654:0 WARNING = warning: comparison of distinct pointer types lacks a cast
+ - Defect[1]: mm/cma.c:186:0 WARNING = warning: comparison of distinct pointer types lacks a cast
+ - Defect[2]: mm/cma.c:269:0 WARNING = warning: comparison of distinct pointer types lacks a cast
+ - Defect[3]: mm/cma.c:269:0 WARNING = warning: comparison of distinct pointer types lacks a cast
+
+[2020-01-20 08:34:23] [info   ] [main] Restoring commit...
+[2020-01-20 08:34:23] [debug  ] [main] [git, remote]
+[2020-01-20 08:34:23] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 08:34:23] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:34:23] [debug  ] [main] [git, cat-file, -e, 0491d0d6aac97c5b8df17851db525f3758de26e6^{commit}]
+[2020-01-20 08:34:23] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:34:23] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:34:23] [debug  ] [main] Didn't need to fetch because commit 0491d0d6aac97c5b8df17851db525f3758de26e6 already existed
+[2020-01-20 08:34:23] [debug  ] [main] [git, checkout, --force, 0491d0d6aac97c5b8df17851db525f3758de26e6]
+[2020-01-20 08:34:30] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:34:30] [debug  ] [main] Stderr:
+                                       Previous HEAD position was 6155a1dcc0805 vfs: use per-namespace rename_lock
+HEAD is now at 0491d0d6aac97 s390/mm: make hugepages_supported a boot time decision
+[2020-01-20 08:34:30] [info   ] [main] Source tree checked out at gitTest
+[2020-01-20 08:34:30] [info   ] [main] Checking if we need to run metrics...
+[2020-01-20 08:34:31] [info   ] [main] Starting to run metrics
+[2020-01-20 08:34:31] [warning] [main] certs/ doesn't exist (yet) in Linux source tree; omitting from code.extractor.files
+[2020-01-20 08:43:35] [info   ] [main] Got result for 2015-05-30 0148.20 0491d0d6
+[2020-01-20 08:43:35] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [iommu:x86/vt-d 4/10] has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu.git
+BRANCH: x86/vt-d
+HEAD: 6c37b5ba0e4df96647677fac5d87d9fd561c3ef8
+Commit: ebe05c7397dc63d99fb3ec69a37b4440952089bc
+ - Defect[0]: drivers/iommu/intel-iommu.c:4875:0 SPARSE = sparse: incorrect type in argument 2 (different address spaces)
+ - Defect[1]: drivers/iommu/intel-iommu.c:4912:0 SPARSE = sparse: incorrect type in argument 1 (different address spaces)
+
+[2020-01-20 08:43:35] [info   ] [main] Restoring commit...
+[2020-01-20 08:43:35] [debug  ] [main] [git, remote]
+[2020-01-20 08:43:35] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 08:43:35] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:43:35] [debug  ] [main] [git, cat-file, -e, ebe05c7397dc63d99fb3ec69a37b4440952089bc^{commit}]
+[2020-01-20 08:43:35] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:43:35] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:43:35] [debug  ] [main] Didn't need to fetch because commit ebe05c7397dc63d99fb3ec69a37b4440952089bc already existed
+[2020-01-20 08:43:35] [debug  ] [main] [git, checkout, --force, ebe05c7397dc63d99fb3ec69a37b4440952089bc]
+[2020-01-20 08:44:23] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:44:23] [debug  ] [main] Stderr:
+                                       Previous HEAD position was 0491d0d6aac97 s390/mm: make hugepages_supported a boot time decision
+HEAD is now at ebe05c7397dc6 iommu/vt-d: Functions to copy data from old mem
+[2020-01-20 08:44:23] [info   ] [main] Source tree checked out at gitTest
+[2020-01-20 08:44:23] [info   ] [main] Checking if we need to run metrics...
+[2020-01-20 08:44:23] [info   ] [main] Starting to run metrics
+[2020-01-20 08:44:23] [warning] [main] certs/ doesn't exist (yet) in Linux source tree; omitting from code.extractor.files
+[2020-01-20 08:53:30] [info   ] [main] Got result for 2015-05-30 0248.03 ebe05c73
+[2020-01-20 08:53:30] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [iommu:x86/vt-d 5/10] has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu.git
+BRANCH: x86/vt-d
+HEAD: 6c37b5ba0e4df96647677fac5d87d9fd561c3ef8
+Commit: 0094b0dede547c1af03f93092f2ad25566c18f6b
+ - Defect[0]: drivers/iommu/intel-iommu.c:4951:0 SPARSE = sparse: incorrect type in argument 2 (different address spaces)
+ - Defect[1]: drivers/iommu/intel-iommu.c:4985:0 SPARSE = sparse: incorrect type in argument 1 (different address spaces)
+ - Defect[2]: drivers/iommu/intel-iommu.c:4987:0 SPARSE = sparse: incorrect type in argument 2 (different address spaces)
+
+[2020-01-20 08:53:30] [info   ] [main] Restoring commit...
+[2020-01-20 08:53:30] [debug  ] [main] [git, remote]
+[2020-01-20 08:53:30] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 08:53:30] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:53:30] [debug  ] [main] [git, cat-file, -e, 0094b0dede547c1af03f93092f2ad25566c18f6b^{commit}]
+[2020-01-20 08:53:30] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:53:30] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 08:53:30] [debug  ] [main] Didn't need to fetch because commit 0094b0dede547c1af03f93092f2ad25566c18f6b already existed
+[2020-01-20 08:53:30] [debug  ] [main] [git, checkout, --force, 0094b0dede547c1af03f93092f2ad25566c18f6b]
+[2020-01-20 08:53:36] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 08:53:36] [debug  ] [main] Stderr:
+                                       Previous HEAD position was ebe05c7397dc6 iommu/vt-d: Functions to copy data from old mem
+HEAD is now at 0094b0dede547 iommu/vt-d: Add functions to load and save old root entry
+[2020-01-20 08:53:36] [info   ] [main] Source tree checked out at gitTest
+[2020-01-20 08:53:36] [info   ] [main] Checking if we need to run metrics...
+[2020-01-20 08:53:37] [info   ] [main] Starting to run metrics
+[2020-01-20 08:53:37] [warning] [main] certs/ doesn't exist (yet) in Linux source tree; omitting from code.extractor.files
+[2020-01-20 09:02:21] [info   ] [main] Got result for 2015-05-30 0256.26 0094b0de
+[2020-01-20 09:02:21] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [iommu:x86/vt-d 7/10] has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu.git
+BRANCH: x86/vt-d
+HEAD: 6c37b5ba0e4df96647677fac5d87d9fd561c3ef8
+Commit: 60d69731b2742d12178b54844b852de0549bbd87
+ - Defect[0]: drivers/iommu/intel-iommu.c:920:0 SPARSE = sparse: incorrect type in assignment (different address spaces)
+ - Defect[1]: drivers/iommu/intel-iommu.c:933:0 SPARSE = sparse: incorrect type in argument 1 (different address spaces)
+
+[2020-01-20 09:02:21] [info   ] [main] Restoring commit...
+[2020-01-20 09:02:21] [debug  ] [main] [git, remote]
+[2020-01-20 09:02:21] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 09:02:21] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:02:21] [debug  ] [main] [git, cat-file, -e, 60d69731b2742d12178b54844b852de0549bbd87^{commit}]
+[2020-01-20 09:02:21] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:02:21] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:02:21] [debug  ] [main] Didn't need to fetch because commit 60d69731b2742d12178b54844b852de0549bbd87 already existed
+[2020-01-20 09:02:21] [debug  ] [main] [git, checkout, --force, 60d69731b2742d12178b54844b852de0549bbd87]
+[2020-01-20 09:03:02] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:03:02] [debug  ] [main] Stderr:
+                                       Previous HEAD position was 0094b0dede547 iommu/vt-d: Add functions to load and save old root entry
+HEAD is now at 60d69731b2742 iommu/vt-d: enable kdump support in iommu module
+[2020-01-20 09:03:02] [info   ] [main] Source tree checked out at gitTest
+[2020-01-20 09:03:02] [info   ] [main] Checking if we need to run metrics...
+[2020-01-20 09:03:02] [info   ] [main] Starting to run metrics
+[2020-01-20 09:03:02] [warning] [main] certs/ doesn't exist (yet) in Linux source tree; omitting from code.extractor.files
+[2020-01-20 09:12:08] [info   ] [main] Got result for 2015-05-30 0312.42 60d69731
+[2020-01-20 09:12:08] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] arch/frv/include/asm/cache.h:17:26: error: has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+BRANCH: master
+HEAD: aaa20fc23341be3df7b17810e330f12244abcf29
+Commit: e69cc9278831139660cb99bde52908f145338d77
+ - Defect[0]: arch/frv/include/asm/cache.h:17:0 ERROR = error: 'CONFIG_FRV_L1_CACHE_SHIFT' undeclared here (not in a function)
+ - Defect[1]: arch/frv/include/asm/cache.h:18:0 NOTE = note: in expansion of macro 'L1_CACHE_SHIFT'
+ - Defect[2]: arch/frv/include/asm/cache.h:20:0 NOTE = note: in expansion of macro 'L1_CACHE_BYTES'
+
+[2020-01-20 09:12:08] [info   ] [main] Restoring commit...
+[2020-01-20 09:12:08] [debug  ] [main] [git, remote]
+[2020-01-20 09:12:08] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 09:12:08] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:12:08] [debug  ] [main] [git, cat-file, -e, e69cc9278831139660cb99bde52908f145338d77^{commit}]
+[2020-01-20 09:12:08] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:12:08] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:12:08] [debug  ] [main] Didn't need to fetch because commit e69cc9278831139660cb99bde52908f145338d77 already existed
+[2020-01-20 09:12:08] [debug  ] [main] [git, checkout, --force, e69cc9278831139660cb99bde52908f145338d77]
+[2020-01-20 09:12:57] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:12:57] [debug  ] [main] Stderr:
+                                       Previous HEAD position was 60d69731b2742 iommu/vt-d: enable kdump support in iommu module
+HEAD is now at e69cc92788311 FRV: Move to arch/frv/include/asm/
+[2020-01-20 09:12:57] [info   ] [main] Source tree checked out at gitTest
+[2020-01-20 09:12:57] [info   ] [main] Checking if we need to run metrics...
+[2020-01-20 09:12:57] [info   ] [main] Don't need to run this, because no defect lies within a function
+[2020-01-20 09:12:57] [info   ] [main] Got NO result for 2015-05-30 1943.11 e69cc927
+[2020-01-20 09:12:57] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [next:master 643/7555] include/linux/hrtimer.h:194:1: has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git
+BRANCH: master
+HEAD: 7732a9817fb01002bde7615066e86c156fb5a31b
+Commit: 6d9a1411393d51f17bee3fe163430b21b2cb2de9
+ - Defect[0]: include/linux/hrtimer.h:194:0 NOTE = note: in expansion of macro '____cacheline_aligned'
+ - Defect[1]: include/linux/hrtimer.h:194:0 ERROR = error: requested alignment is not an integer constant
+
+[2020-01-20 09:12:57] [info   ] [main] Restoring commit...
+[2020-01-20 09:12:57] [debug  ] [main] [git, remote]
+[2020-01-20 09:12:57] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 09:12:57] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:12:57] [debug  ] [main] [git, cat-file, -e, 6d9a1411393d51f17bee3fe163430b21b2cb2de9^{commit}]
+[2020-01-20 09:12:57] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:12:57] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:12:57] [debug  ] [main] Didn't need to fetch because commit 6d9a1411393d51f17bee3fe163430b21b2cb2de9 already existed
+[2020-01-20 09:12:57] [debug  ] [main] [git, checkout, --force, 6d9a1411393d51f17bee3fe163430b21b2cb2de9]
+[2020-01-20 09:14:14] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:14:14] [debug  ] [main] Stderr:
+                                       Previous HEAD position was e69cc92788311 FRV: Move to arch/frv/include/asm/
+HEAD is now at 6d9a1411393d5 hrtimer: Cache line align the hrtimer cpu base
+[2020-01-20 09:14:14] [info   ] [main] Source tree checked out at gitTest
+[2020-01-20 09:14:14] [info   ] [main] Checking if we need to run metrics...
+[2020-01-20 09:14:14] [info   ] [main] Don't need to run this, because no defect lies within a function
+[2020-01-20 09:14:14] [info   ] [main] Got NO result for 2015-05-30 1955.39 6d9a1411
+[2020-01-20 09:14:14] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] arch/blackfin/mach-common/arch_checks.c:65:3: error: has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+BRANCH: master
+HEAD: aaa20fc23341be3df7b17810e330f12244abcf29
+Commit: 74181295fbc6e65047e85529aa74457d82355ffc
+ - Defect[0]: arch/blackfin/mach-common/arch_checks.c:65:0 ERROR = error: #error You need IFLUSH in L1 inst while Anomaly 05000491 applies
+
+[2020-01-20 09:14:14] [info   ] [main] Restoring commit...
+[2020-01-20 09:14:14] [debug  ] [main] [git, remote]
+[2020-01-20 09:14:14] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 09:14:14] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:14:14] [debug  ] [main] [git, cat-file, -e, 74181295fbc6e65047e85529aa74457d82355ffc^{commit}]
+[2020-01-20 09:14:14] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:14:14] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:14:14] [debug  ] [main] Didn't need to fetch because commit 74181295fbc6e65047e85529aa74457d82355ffc already existed
+[2020-01-20 09:14:14] [debug  ] [main] [git, checkout, --force, 74181295fbc6e65047e85529aa74457d82355ffc]
+[2020-01-20 09:15:10] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:15:10] [debug  ] [main] Stderr:
+                                       Previous HEAD position was 6d9a1411393d5 hrtimer: Cache line align the hrtimer cpu base
+HEAD is now at 74181295fbc6e Blackfin: allow cache funcs to be in L1 for IFLUSH Anomaly 05000491
+[2020-01-20 09:15:10] [info   ] [main] Source tree checked out at gitTest
+[2020-01-20 09:15:10] [info   ] [main] Checking if we need to run metrics...
+[2020-01-20 09:15:10] [info   ] [main] Don't need to run this, because no defect lies within a function
+[2020-01-20 09:15:10] [info   ] [main] Got NO result for 2015-05-30 2002.33 74181295
+[2020-01-20 09:15:10] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [next:master 7235/7555] mm/page_alloc.c:654:15: note: has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git
+BRANCH: master
+HEAD: 7732a9817fb01002bde7615066e86c156fb5a31b
+Commit: 0491d0d6aac97c5b8df17851db525f3758de26e6
+ - Defect[0]: mm/page_alloc.c:654:0 NOTE = note: in expansion of macro 'min'
+
+[2020-01-20 09:15:10] [info   ] [main] Restoring commit...
+[2020-01-20 09:15:10] [debug  ] [main] [git, remote]
+[2020-01-20 09:15:10] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 09:15:10] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:15:10] [debug  ] [main] [git, cat-file, -e, 0491d0d6aac97c5b8df17851db525f3758de26e6^{commit}]
+[2020-01-20 09:15:10] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:15:10] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:15:10] [debug  ] [main] Didn't need to fetch because commit 0491d0d6aac97c5b8df17851db525f3758de26e6 already existed
+[2020-01-20 09:15:10] [debug  ] [main] [git, checkout, --force, 0491d0d6aac97c5b8df17851db525f3758de26e6]
+[2020-01-20 09:16:28] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:16:28] [debug  ] [main] Stderr:
+                                       Previous HEAD position was 74181295fbc6e Blackfin: allow cache funcs to be in L1 for IFLUSH Anomaly 05000491
+HEAD is now at 0491d0d6aac97 s390/mm: make hugepages_supported a boot time decision
+[2020-01-20 09:16:28] [info   ] [main] Source tree checked out at gitTest
+[2020-01-20 09:16:28] [info   ] [main] Checking if we need to run metrics...
+[2020-01-20 09:16:28] [info   ] [main] Starting to run metrics
+[2020-01-20 09:16:28] [warning] [main] certs/ doesn't exist (yet) in Linux source tree; omitting from code.extractor.files
+[2020-01-20 09:25:18] [info   ] [main] Got result for 2015-05-30 2047.59 0491d0d6
+[2020-01-20 09:25:18] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] arch/tile/include/asm/atomic_64.h:86:37: error: has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+BRANCH: master
+HEAD: aaa20fc23341be3df7b17810e330f12244abcf29
+Commit: 18aecc2b645bbb07851b196452a2af314222069b
+ - Defect[0]: arch/tile/include/asm/atomic_64.h:86:0 ERROR = error: unknown type name 'atomic64_t'
+ - Defect[1]: arch/tile/include/asm/atomic_64.h:96:0 ERROR = error: unknown type name 'atomic64_t'
+ - Defect[2]: arch/tile/include/asm/atomic_64.h:105:0 ERROR = error: unknown type name 'atomic64_t'
+ - Defect[3]: arch/tile/include/asm/atomic_64.h:110:0 ERROR = error: unknown type name 'atomic64_t'
+ - Defect[4]: arch/tile/include/asm/atomic_64.h:119:0 ERROR = error: unknown type name 'atomic64_t'
+
+[2020-01-20 09:25:18] [info   ] [main] Restoring commit...
+[2020-01-20 09:25:18] [debug  ] [main] [git, remote]
+[2020-01-20 09:25:18] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 09:25:18] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:25:18] [debug  ] [main] [git, cat-file, -e, 18aecc2b645bbb07851b196452a2af314222069b^{commit}]
+[2020-01-20 09:25:18] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:25:18] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:25:18] [debug  ] [main] Didn't need to fetch because commit 18aecc2b645bbb07851b196452a2af314222069b already existed
+[2020-01-20 09:25:18] [debug  ] [main] [git, checkout, --force, 18aecc2b645bbb07851b196452a2af314222069b]
+[2020-01-20 09:26:10] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:26:10] [debug  ] [main] Stderr:
+                                       Previous HEAD position was 0491d0d6aac97 s390/mm: make hugepages_supported a boot time decision
+HEAD is now at 18aecc2b645bb arch/tile: finish enabling support for TILE-Gx 64-bit chip
+[2020-01-20 09:26:10] [info   ] [main] Source tree checked out at gitTest
+[2020-01-20 09:26:10] [info   ] [main] Checking if we need to run metrics...
+[2020-01-20 09:26:10] [info   ] [main] Starting to run metrics
+[2020-01-20 09:26:10] [warning] [main] certs/ doesn't exist (yet) in Linux source tree; omitting from code.extractor.files
+[2020-01-20 09:32:32] [info   ] [main] Got result for 2015-05-30 2159.56 18aecc2b
+[2020-01-20 09:32:32] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] arch/tile/include/asm/atomic.h:136:50: error: unknown has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+BRANCH: master
+HEAD: aaa20fc23341be3df7b17810e330f12244abcf29
+Commit: adf6d9b30f089c52e674e84ca2960581e504e5e3
+ - Defect[0]: arch/tile/include/asm/atomic.h:136:0 ERROR = error: unknown type name 'atomic64_t'
+
+[2020-01-20 09:32:32] [info   ] [main] Restoring commit...
+[2020-01-20 09:32:32] [debug  ] [main] [git, remote]
+[2020-01-20 09:32:32] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 09:32:32] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:32:32] [debug  ] [main] [git, cat-file, -e, adf6d9b30f089c52e674e84ca2960581e504e5e3^{commit}]
+[2020-01-20 09:32:32] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:32:32] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:32:32] [debug  ] [main] Didn't need to fetch because commit adf6d9b30f089c52e674e84ca2960581e504e5e3 already existed
+[2020-01-20 09:32:32] [debug  ] [main] [git, checkout, --force, adf6d9b30f089c52e674e84ca2960581e504e5e3]
+[2020-01-20 09:33:37] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:33:37] [debug  ] [main] Stderr:
+                                       Previous HEAD position was 18aecc2b645bb arch/tile: finish enabling support for TILE-Gx 64-bit chip
+HEAD is now at adf6d9b30f089 tile: support atomic64_dec_if_positive()
+[2020-01-20 09:33:37] [info   ] [main] Source tree checked out at gitTest
+[2020-01-20 09:33:37] [info   ] [main] Checking if we need to run metrics...
+[2020-01-20 09:33:37] [info   ] [main] Starting to run metrics
+[2020-01-20 09:33:37] [warning] [main] certs/ doesn't exist (yet) in Linux source tree; omitting from code.extractor.files
+[2020-01-20 09:41:10] [info   ] [main] Got result for 2015-05-30 2238.57 adf6d9b3
+[2020-01-20 09:41:10] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] arch/tile/kernel/asm-offsets.c:27:4: error: #error Can has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+BRANCH: master
+HEAD: aaa20fc23341be3df7b17810e330f12244abcf29
+Commit: 6dc9658fa1af9f58d358692b68135f464c167e10
+ - Defect[0]: arch/tile/kernel/asm-offsets.c:27:0 ERROR = error: #error Can not build TILEPro configurations with tilegx compiler
+
+[2020-01-20 09:41:10] [info   ] [main] Restoring commit...
+[2020-01-20 09:41:10] [debug  ] [main] [git, remote]
+[2020-01-20 09:41:10] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 09:41:10] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:41:10] [debug  ] [main] [git, cat-file, -e, 6dc9658fa1af9f58d358692b68135f464c167e10^{commit}]
+[2020-01-20 09:41:10] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:41:10] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:41:10] [debug  ] [main] Didn't need to fetch because commit 6dc9658fa1af9f58d358692b68135f464c167e10 already existed
+[2020-01-20 09:41:10] [debug  ] [main] [git, checkout, --force, 6dc9658fa1af9f58d358692b68135f464c167e10]
+[2020-01-20 09:42:02] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:42:02] [debug  ] [main] Stderr:
+                                       Previous HEAD position was adf6d9b30f089 tile: support atomic64_dec_if_positive()
+HEAD is now at 6dc9658fa1af9 tile: rework <asm/cmpxchg.h>
+[2020-01-20 09:42:02] [info   ] [main] Source tree checked out at gitTest
+[2020-01-20 09:42:02] [info   ] [main] Checking if we need to run metrics...
+[2020-01-20 09:42:02] [info   ] [main] Don't need to run this, because no defect lies within a function
+[2020-01-20 09:42:02] [info   ] [main] Got NO result for 2015-05-31 0048.34 6dc9658f
+[2020-01-20 09:42:02] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [next:master 2392/7555] include/linux/sched.h:601:2: has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git
+BRANCH: master
+HEAD: 7732a9817fb01002bde7615066e86c156fb5a31b
+Commit: 1018016c706f7ff9f56fde3a649789c47085a293
+ - Defect[0]: include/linux/sched.h:601:0 ERROR = error: unknown type name 'atomic64_t'
+ - Defect[1]: include/linux/sched.h:602:0 ERROR = error: unknown type name 'atomic64_t'
+ - Defect[2]: include/linux/sched.h:603:0 ERROR = error: unknown type name 'atomic64_t'
+
+[2020-01-20 09:42:02] [info   ] [main] Restoring commit...
+[2020-01-20 09:42:02] [debug  ] [main] [git, remote]
+[2020-01-20 09:42:02] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 09:42:02] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:42:02] [debug  ] [main] [git, cat-file, -e, 1018016c706f7ff9f56fde3a649789c47085a293^{commit}]
+[2020-01-20 09:42:02] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:42:02] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:42:02] [debug  ] [main] Didn't need to fetch because commit 1018016c706f7ff9f56fde3a649789c47085a293 already existed
+[2020-01-20 09:42:02] [debug  ] [main] [git, checkout, --force, 1018016c706f7ff9f56fde3a649789c47085a293]
+[2020-01-20 09:43:10] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:43:10] [debug  ] [main] Stderr:
+                                       Previous HEAD position was 6dc9658fa1af9 tile: rework <asm/cmpxchg.h>
+HEAD is now at 1018016c706f7 sched, timer: Replace spinlocks with atomics in thread_group_cputimer(), to improve scalability
+[2020-01-20 09:43:10] [info   ] [main] Source tree checked out at gitTest
+[2020-01-20 09:43:10] [info   ] [main] Checking if we need to run metrics...
+[2020-01-20 09:43:10] [info   ] [main] Don't need to run this, because no defect lies within a function
+[2020-01-20 09:43:10] [info   ] [main] Got NO result for 2015-05-31 0214.49 1018016c
+[2020-01-20 09:43:10] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [nvdimm:pmem-api 13/16] has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/djbw/nvdimm.git
+BRANCH: pmem-api
+HEAD: 7ca63afbff5273047e5fdd579594f802febb8c98
+Commit: 6bfa9fcb15ea04d0cb295d0b5663c11bd86f8b39
+ - Defect[0]: include/asm-generic/iomap.h:74:0 ERROR = error: static declaration of 'ioremap_nocache' follows non-static declaration
+ - Defect[1]: arch/ia64/include/asm/io.h:434:0 NOTE = note: in expansion of macro 'ioremap_cache'
+
+[2020-01-20 09:43:10] [info   ] [main] Restoring commit...
+[2020-01-20 09:43:10] [debug  ] [main] [git, remote]
+[2020-01-20 09:43:10] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 09:43:10] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:43:10] [debug  ] [main] [git, cat-file, -e, 6bfa9fcb15ea04d0cb295d0b5663c11bd86f8b39^{commit}]
+[2020-01-20 09:43:10] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:43:10] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name 6bfa9fcb15ea04d0cb295d0b5663c11bd86f8b39^{commit}
+[2020-01-20 09:43:10] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_djbw_nvdimm, 6bfa9fcb15ea04d0cb295d0b5663c11bd86f8b39]
+[2020-01-20 09:43:24] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:43:24] [debug  ] [main] Stderr:
+                                       error: Server does not allow request for unadvertised object 6bfa9fcb15ea04d0cb295d0b5663c11bd86f8b39
+[2020-01-20 09:43:24] [warning] [main] Remote does not support fetching commits; falling back to fetching full remote
+[2020-01-20 09:43:24] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_djbw_nvdimm]
+[2020-01-20 09:43:52] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:43:52] [debug  ] [main] Stderr:
+                                       From https://git.kernel.org/pub/scm/linux/kernel/git/djbw/nvdimm
+ + 4bea6f15d7baa...aa831373c3b78 libnvdimm-pending -> git_kernel_org_pub_scm_linux_kernel_git_djbw_nvdimm/libnvdimm-pending  (forced update)
+[2020-01-20 09:43:52] [debug  ] [main] [git, checkout, --force, 6bfa9fcb15ea04d0cb295d0b5663c11bd86f8b39]
+[2020-01-20 09:43:52] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:43:52] [debug  ] [main] Stderr:
+                                       fatal: reference is not a tree: 6bfa9fcb15ea04d0cb295d0b5663c11bd86f8b39
+[2020-01-20 09:43:52] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: reference is not a tree: 6bfa9fcb15ea04d0cb295d0b5663c11bd86f8b39
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.checkout(GitRepository.java:148)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:96)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 09:43:52] [info   ] [main] Got NO result for 2015-05-31 0403.44 6bfa9fcb
+[2020-01-20 09:43:52] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [nvdimm:pmem-api 15/16] include/linux/io.h:158:9: has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/djbw/nvdimm.git
+BRANCH: pmem-api
+HEAD: 7ca63afbff5273047e5fdd579594f802febb8c98
+Commit: 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953
+ - Defect[0]: include/linux/io.h:158:0 ERROR = error: expected expression before 'do'
+ - Defect[1]: include/linux/io.h:158:0 WARNING = warning: 'return' with a value, in function returning void [enabled by default]
+
+[2020-01-20 09:43:52] [info   ] [main] Restoring commit...
+[2020-01-20 09:43:52] [debug  ] [main] [git, remote]
+[2020-01-20 09:43:52] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 09:43:52] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:43:52] [debug  ] [main] [git, cat-file, -e, 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953^{commit}]
+[2020-01-20 09:43:52] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:43:52] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953^{commit}
+[2020-01-20 09:43:52] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_djbw_nvdimm, 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953]
+[2020-01-20 09:44:01] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:44:01] [debug  ] [main] Stderr:
+                                       error: Server does not allow request for unadvertised object 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953
+[2020-01-20 09:44:01] [warning] [main] Remote does not support fetching commits; falling back to fetching full remote
+[2020-01-20 09:44:01] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_djbw_nvdimm]
+[2020-01-20 09:44:17] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:44:17] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:44:17] [debug  ] [main] [git, checkout, --force, 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953]
+[2020-01-20 09:44:17] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:44:17] [debug  ] [main] Stderr:
+                                       fatal: reference is not a tree: 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953
+[2020-01-20 09:44:17] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: reference is not a tree: 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.checkout(GitRepository.java:148)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:96)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 09:44:17] [info   ] [main] Got NO result for 2015-05-31 0404.06 90d61baf
+[2020-01-20 09:44:17] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [nvdimm:pmem-api 13/16] has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/djbw/nvdimm.git
+BRANCH: pmem-api
+HEAD: 7ca63afbff5273047e5fdd579594f802febb8c98
+Commit: 6bfa9fcb15ea04d0cb295d0b5663c11bd86f8b39
+ - Defect[0]: include/asm-generic/iomap.h:74:0 ERROR = error: static declaration of 'ioremap_nocache' follows non-static declaration
+ - Defect[1]: arch/ia64/include/asm/io.h:434:0 NOTE = note: in expansion of macro 'ioremap_cache'
+
+[2020-01-20 09:44:17] [info   ] [main] Restoring commit...
+[2020-01-20 09:44:17] [debug  ] [main] [git, remote]
+[2020-01-20 09:44:17] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 09:44:17] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:44:17] [debug  ] [main] [git, cat-file, -e, 6bfa9fcb15ea04d0cb295d0b5663c11bd86f8b39^{commit}]
+[2020-01-20 09:44:17] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:44:17] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name 6bfa9fcb15ea04d0cb295d0b5663c11bd86f8b39^{commit}
+[2020-01-20 09:44:17] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_djbw_nvdimm, 6bfa9fcb15ea04d0cb295d0b5663c11bd86f8b39]
+[2020-01-20 09:44:26] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:44:26] [debug  ] [main] Stderr:
+                                       error: Server does not allow request for unadvertised object 6bfa9fcb15ea04d0cb295d0b5663c11bd86f8b39
+[2020-01-20 09:44:26] [warning] [main] Remote does not support fetching commits; falling back to fetching full remote
+[2020-01-20 09:44:26] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_djbw_nvdimm]
+[2020-01-20 09:44:41] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:44:41] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:44:41] [debug  ] [main] [git, checkout, --force, 6bfa9fcb15ea04d0cb295d0b5663c11bd86f8b39]
+[2020-01-20 09:44:41] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:44:41] [debug  ] [main] Stderr:
+                                       fatal: reference is not a tree: 6bfa9fcb15ea04d0cb295d0b5663c11bd86f8b39
+[2020-01-20 09:44:41] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: reference is not a tree: 6bfa9fcb15ea04d0cb295d0b5663c11bd86f8b39
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.checkout(GitRepository.java:148)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:96)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 09:44:41] [info   ] [main] Got NO result for 2015-05-31 0404.07 6bfa9fcb
+[2020-01-20 09:44:41] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [nvdimm:pmem-api 14/16] lib/devres.c:50:2: warning: has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/djbw/nvdimm.git
+BRANCH: pmem-api
+HEAD: 7ca63afbff5273047e5fdd579594f802febb8c98
+Commit: 69f997e9e65ef726da7c0f3da38b50bf00471799
+ - Defect[0]: lib/devres.c:50:0 WARNING = warning: passing argument 4 of 'devm_ioremap_type' from incompatible pointer type [enabled by default]
+ - Defect[1]: lib/devres.c:57:0 WARNING = warning: passing argument 4 of 'devm_ioremap_type' from incompatible pointer type [enabled by default]
+ - Defect[2]: lib/devres.c:64:0 WARNING = warning: passing argument 4 of 'devm_ioremap_type' from incompatible pointer type [enabled by default]
+
+[2020-01-20 09:44:41] [info   ] [main] Restoring commit...
+[2020-01-20 09:44:41] [debug  ] [main] [git, remote]
+[2020-01-20 09:44:41] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 09:44:41] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:44:41] [debug  ] [main] [git, cat-file, -e, 69f997e9e65ef726da7c0f3da38b50bf00471799^{commit}]
+[2020-01-20 09:44:41] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:44:41] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name 69f997e9e65ef726da7c0f3da38b50bf00471799^{commit}
+[2020-01-20 09:44:41] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_djbw_nvdimm, 69f997e9e65ef726da7c0f3da38b50bf00471799]
+[2020-01-20 09:44:50] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:44:50] [debug  ] [main] Stderr:
+                                       error: Server does not allow request for unadvertised object 69f997e9e65ef726da7c0f3da38b50bf00471799
+[2020-01-20 09:44:50] [warning] [main] Remote does not support fetching commits; falling back to fetching full remote
+[2020-01-20 09:44:50] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_djbw_nvdimm]
+[2020-01-20 09:45:05] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:45:05] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:45:05] [debug  ] [main] [git, checkout, --force, 69f997e9e65ef726da7c0f3da38b50bf00471799]
+[2020-01-20 09:45:05] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:45:05] [debug  ] [main] Stderr:
+                                       fatal: reference is not a tree: 69f997e9e65ef726da7c0f3da38b50bf00471799
+[2020-01-20 09:45:05] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: reference is not a tree: 69f997e9e65ef726da7c0f3da38b50bf00471799
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.checkout(GitRepository.java:148)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:96)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 09:45:05] [info   ] [main] Got NO result for 2015-05-31 0404.20 69f997e9
+[2020-01-20 09:45:05] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [nvdimm:pmem-api 15/16] include/linux/io.h:133:2: has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/djbw/nvdimm.git
+BRANCH: pmem-api
+HEAD: 7ca63afbff5273047e5fdd579594f802febb8c98
+Commit: 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953
+ - Defect[0]: include/linux/io.h:133:0 ERROR = error: implicit declaration of function 'ioremap' [-Werror=implicit-function-declaration]
+ - Defect[1]: include/linux/io.h:133:0 ERROR = error: cast to pointer from integer of different size [-Werror=int-to-pointer-cast]
+ - Defect[2]: include/linux/io.h:138:0 ERROR = error: implicit declaration of function 'ioremap_nocache' [-Werror=implicit-function-declaration]
+ - Defect[3]: include/linux/io.h:138:0 ERROR = error: cast to pointer from integer of different size [-Werror=int-to-pointer-cast]
+ - Defect[4]: include/linux/io.h:143:0 ERROR = error: implicit declaration of function 'ioremap_cache' [-Werror=implicit-function-declaration]
+ - Defect[5]: include/linux/io.h:143:0 ERROR = error: cast to pointer from integer of different size [-Werror=int-to-pointer-cast]
+ - Defect[6]: include/linux/io.h:148:0 ERROR = error: implicit declaration of function 'ioremap_wc' [-Werror=implicit-function-declaration]
+ - Defect[7]: include/linux/io.h:148:0 ERROR = error: cast to pointer from integer of different size [-Werror=int-to-pointer-cast]
+ - Defect[8]: include/linux/io.h:153:0 ERROR = error: implicit declaration of function 'ioremap_wt' [-Werror=implicit-function-declaration]
+ - Defect[9]: include/linux/io.h:153:0 ERROR = error: cast to pointer from integer of different size [-Werror=int-to-pointer-cast]
+ - Defect[10]: include/linux/io.h:158:0 ERROR = error: implicit declaration of function 'iounmap' [-Werror=implicit-function-declaration]
+ - Defect[11]: arch/powerpc/include/asm/io.h:719:0 ERROR = error: conflicting types for 'ioremap'
+ - Defect[12]: arch/powerpc/include/asm/io.h:722:0 ERROR = error: conflicting types for 'ioremap_wc'
+ - Defect[13]: include/linux/io.h:133:0 ERROR = error: implicit declaration of function 'ioremap' [-Werror=implicit-function-declaration]
+ - Defect[14]: include/linux/io.h:133:0 WARNING = warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ - Defect[15]: include/linux/io.h:138:0 ERROR = error: implicit declaration of function 'ioremap_nocache' [-Werror=implicit-function-declaration]
+ - Defect[16]: include/linux/io.h:138:0 WARNING = warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ - Defect[17]: include/linux/io.h:143:0 ERROR = error: implicit declaration of function 'ioremap_cache' [-Werror=implicit-function-declaration]
+ - Defect[18]: include/linux/io.h:143:0 WARNING = warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ - Defect[19]: include/linux/io.h:148:0 ERROR = error: implicit declaration of function 'ioremap_wc' [-Werror=implicit-function-declaration]
+ - Defect[20]: include/linux/io.h:148:0 WARNING = warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ - Defect[21]: include/linux/io.h:153:0 ERROR = error: implicit declaration of function 'ioremap_wt' [-Werror=implicit-function-declaration]
+ - Defect[22]: include/linux/io.h:153:0 WARNING = warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ - Defect[23]: include/linux/io.h:158:0 ERROR = error: implicit declaration of function 'iounmap' [-Werror=implicit-function-declaration]
+ - Defect[24]: arch/powerpc/include/asm/io.h:719:0 ERROR = error: conflicting types for 'ioremap'
+ - Defect[25]: arch/powerpc/include/asm/io.h:722:0 ERROR = error: conflicting types for 'ioremap_wc'
+ - Defect[26]: arch/powerpc/include/asm/io.h:725:0 WARNING = warning: conflicting types for 'iounmap'
+
+[2020-01-20 09:45:05] [info   ] [main] Restoring commit...
+[2020-01-20 09:45:05] [debug  ] [main] [git, remote]
+[2020-01-20 09:45:05] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 09:45:05] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:45:05] [debug  ] [main] [git, cat-file, -e, 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953^{commit}]
+[2020-01-20 09:45:05] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:45:05] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953^{commit}
+[2020-01-20 09:45:05] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_djbw_nvdimm, 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953]
+[2020-01-20 09:45:15] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:45:15] [debug  ] [main] Stderr:
+                                       error: Server does not allow request for unadvertised object 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953
+[2020-01-20 09:45:15] [warning] [main] Remote does not support fetching commits; falling back to fetching full remote
+[2020-01-20 09:45:15] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_djbw_nvdimm]
+[2020-01-20 09:45:31] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:45:31] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:45:31] [debug  ] [main] [git, checkout, --force, 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953]
+[2020-01-20 09:45:31] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:45:31] [debug  ] [main] Stderr:
+                                       fatal: reference is not a tree: 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953
+[2020-01-20 09:45:31] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: reference is not a tree: 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.checkout(GitRepository.java:148)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:96)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 09:45:31] [info   ] [main] Got NO result for 2015-05-31 0406.19 90d61baf
+[2020-01-20 09:45:31] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [nvdimm:pmem-api 14/16] has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/djbw/nvdimm.git
+BRANCH: pmem-api
+HEAD: 7ca63afbff5273047e5fdd579594f802febb8c98
+Commit: 69f997e9e65ef726da7c0f3da38b50bf00471799
+ - Defect[0]: include/asm-generic/iomap.h:74:0 ERROR = error: 'ioremap_nocache' undeclared (first use in this function)
+ - Defect[1]: lib/devres.c:57:0 NOTE = note: in expansion of macro 'ioremap_cache'
+
+[2020-01-20 09:45:31] [info   ] [main] Restoring commit...
+[2020-01-20 09:45:31] [debug  ] [main] [git, remote]
+[2020-01-20 09:45:31] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 09:45:31] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:45:31] [debug  ] [main] [git, cat-file, -e, 69f997e9e65ef726da7c0f3da38b50bf00471799^{commit}]
+[2020-01-20 09:45:31] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:45:31] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name 69f997e9e65ef726da7c0f3da38b50bf00471799^{commit}
+[2020-01-20 09:45:31] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_djbw_nvdimm, 69f997e9e65ef726da7c0f3da38b50bf00471799]
+[2020-01-20 09:45:42] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:45:42] [debug  ] [main] Stderr:
+                                       error: Server does not allow request for unadvertised object 69f997e9e65ef726da7c0f3da38b50bf00471799
+[2020-01-20 09:45:42] [warning] [main] Remote does not support fetching commits; falling back to fetching full remote
+[2020-01-20 09:45:42] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_djbw_nvdimm]
+[2020-01-20 09:45:58] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:45:58] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:45:58] [debug  ] [main] [git, checkout, --force, 69f997e9e65ef726da7c0f3da38b50bf00471799]
+[2020-01-20 09:45:58] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:45:58] [debug  ] [main] Stderr:
+                                       fatal: reference is not a tree: 69f997e9e65ef726da7c0f3da38b50bf00471799
+[2020-01-20 09:45:58] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: reference is not a tree: 69f997e9e65ef726da7c0f3da38b50bf00471799
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.checkout(GitRepository.java:148)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:96)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 09:45:58] [info   ] [main] Got NO result for 2015-05-31 0415.00 69f997e9
+[2020-01-20 09:45:58] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [nvdimm:pmem-api 15/16] include/linux/io.h:158:2: has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/djbw/nvdimm.git
+BRANCH: pmem-api
+HEAD: 7ca63afbff5273047e5fdd579594f802febb8c98
+Commit: 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953
+ - Defect[0]: include/linux/io.h:158:0 WARNING = warning: 'return' with a value, in function returning void [enabled by default]
+
+[2020-01-20 09:45:58] [info   ] [main] Restoring commit...
+[2020-01-20 09:45:58] [debug  ] [main] [git, remote]
+[2020-01-20 09:45:58] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 09:45:58] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:45:58] [debug  ] [main] [git, cat-file, -e, 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953^{commit}]
+[2020-01-20 09:45:58] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:45:58] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953^{commit}
+[2020-01-20 09:45:58] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_djbw_nvdimm, 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953]
+[2020-01-20 09:46:08] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:46:08] [debug  ] [main] Stderr:
+                                       error: Server does not allow request for unadvertised object 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953
+[2020-01-20 09:46:08] [warning] [main] Remote does not support fetching commits; falling back to fetching full remote
+[2020-01-20 09:46:08] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_djbw_nvdimm]
+[2020-01-20 09:46:25] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:46:25] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:46:25] [debug  ] [main] [git, checkout, --force, 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953]
+[2020-01-20 09:46:25] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:46:25] [debug  ] [main] Stderr:
+                                       fatal: reference is not a tree: 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953
+[2020-01-20 09:46:25] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: reference is not a tree: 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.checkout(GitRepository.java:148)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:96)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 09:46:25] [info   ] [main] Got NO result for 2015-05-31 0421.21 90d61baf
+[2020-01-20 09:46:25] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [nvdimm:pmem-api 15/16] drivers/block/pmem.c:146:2: has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/djbw/nvdimm.git
+BRANCH: pmem-api
+HEAD: 7ca63afbff5273047e5fdd579594f802febb8c98
+Commit: 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953
+ - Defect[0]: drivers/block/pmem.c:146:0 ERROR = error: implicit declaration of function 'memremap_wt' [-Werror=implicit-function-declaration]
+ - Defect[1]: drivers/block/pmem.c:182:0 ERROR = error: implicit declaration of function 'memunmap' [-Werror=implicit-function-declaration]
+
+[2020-01-20 09:46:25] [info   ] [main] Restoring commit...
+[2020-01-20 09:46:25] [debug  ] [main] [git, remote]
+[2020-01-20 09:46:25] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 09:46:25] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:46:25] [debug  ] [main] [git, cat-file, -e, 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953^{commit}]
+[2020-01-20 09:46:25] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:46:25] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953^{commit}
+[2020-01-20 09:46:25] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_djbw_nvdimm, 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953]
+[2020-01-20 09:46:34] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:46:34] [debug  ] [main] Stderr:
+                                       error: Server does not allow request for unadvertised object 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953
+[2020-01-20 09:46:34] [warning] [main] Remote does not support fetching commits; falling back to fetching full remote
+[2020-01-20 09:46:34] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_djbw_nvdimm]
+[2020-01-20 09:46:52] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:46:52] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:46:52] [debug  ] [main] [git, checkout, --force, 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953]
+[2020-01-20 09:46:52] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:46:52] [debug  ] [main] Stderr:
+                                       fatal: reference is not a tree: 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953
+[2020-01-20 09:46:52] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: reference is not a tree: 90d61baf42ffbb2cc7836c4fa0fff7185b6ed953
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.checkout(GitRepository.java:148)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:96)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 09:46:52] [info   ] [main] Got NO result for 2015-05-31 0438.44 90d61baf
+[2020-01-20 09:46:52] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [next:master 6511/7555] has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git
+BRANCH: master
+HEAD: 7732a9817fb01002bde7615066e86c156fb5a31b
+Commit: bb5530e4082446aac3a3d69780cd4dbfa4520013
+ - Defect[0]: arch/openrisc/include/asm/spr.h:30:0 WARNING = warning: asm operand 1 probably doesn't match constraints
+ - Defect[1]: arch/openrisc/include/asm/spr.h:30:0 ERROR = error: impossible constraint in 'asm'
+ - Defect[2]: arch/openrisc/include/asm/spr.h:30:0 WARNING = warning: asm operand 1 probably doesn't match constraints
+ - Defect[3]: arch/openrisc/include/asm/spr.h:30:0 WARNING = warning: asm operand 1 probably doesn't match constraints
+ - Defect[4]: arch/openrisc/include/asm/spr.h:30:0 WARNING = warning: asm operand 1 probably doesn't match constraints
+
+[2020-01-20 09:46:52] [info   ] [main] Restoring commit...
+[2020-01-20 09:46:52] [debug  ] [main] [git, remote]
+[2020-01-20 09:46:52] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 09:46:52] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:46:52] [debug  ] [main] [git, cat-file, -e, bb5530e4082446aac3a3d69780cd4dbfa4520013^{commit}]
+[2020-01-20 09:46:52] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:46:52] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:46:52] [debug  ] [main] Didn't need to fetch because commit bb5530e4082446aac3a3d69780cd4dbfa4520013 already existed
+[2020-01-20 09:46:52] [debug  ] [main] [git, checkout, --force, bb5530e4082446aac3a3d69780cd4dbfa4520013]
+[2020-01-20 09:47:40] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:47:40] [debug  ] [main] Stderr:
+                                       Previous HEAD position was 1018016c706f7 sched, timer: Replace spinlocks with atomics in thread_group_cputimer(), to improve scalability
+HEAD is now at bb5530e408244 crypto: jitterentropy - add jitterentropy RNG
+[2020-01-20 09:47:40] [info   ] [main] Source tree checked out at gitTest
+[2020-01-20 09:47:40] [info   ] [main] Checking if we need to run metrics...
+[2020-01-20 09:47:40] [info   ] [main] Starting to run metrics
+[2020-01-20 09:47:40] [warning] [main] certs/ doesn't exist (yet) in Linux source tree; omitting from code.extractor.files
+[2020-01-20 09:56:31] [info   ] [main] Got NO result for 2015-05-31 0800.26 bb5530e4
+[2020-01-20 09:56:31] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [next:master 1354/7555] has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git
+BRANCH: master
+HEAD: 7732a9817fb01002bde7615066e86c156fb5a31b
+Commit: 6920ccf65d0964f7f6c6c36c551151e0fcd62327
+ - Defect[0]: drivers/staging/iio/light/isl29018.c:119:0 WARNING = warning: 'new_int_time' may be used uninitialized in this function
+
+[2020-01-20 09:56:31] [info   ] [main] Restoring commit...
+[2020-01-20 09:56:31] [debug  ] [main] [git, remote]
+[2020-01-20 09:56:31] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 09:56:31] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:56:31] [debug  ] [main] [git, cat-file, -e, 6920ccf65d0964f7f6c6c36c551151e0fcd62327^{commit}]
+[2020-01-20 09:56:31] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:56:31] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 09:56:31] [debug  ] [main] Didn't need to fetch because commit 6920ccf65d0964f7f6c6c36c551151e0fcd62327 already existed
+[2020-01-20 09:56:31] [debug  ] [main] [git, checkout, --force, 6920ccf65d0964f7f6c6c36c551151e0fcd62327]
+[2020-01-20 09:57:18] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 09:57:18] [debug  ] [main] Stderr:
+                                       Previous HEAD position was bb5530e408244 crypto: jitterentropy - add jitterentropy RNG
+HEAD is now at 6920ccf65d096 staging: iio: light: isl29018: Use standard sysfs attributes for scale and integration time
+[2020-01-20 09:57:18] [info   ] [main] Source tree checked out at gitTest
+[2020-01-20 09:57:18] [info   ] [main] Checking if we need to run metrics...
+[2020-01-20 09:57:18] [info   ] [main] Starting to run metrics
+[2020-01-20 09:57:18] [warning] [main] certs/ doesn't exist (yet) in Linux source tree; omitting from code.extractor.files
+[2020-01-20 10:06:09] [info   ] [main] Got result for 2015-05-31 0821.58 6920ccf6
+[2020-01-20 10:06:09] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [staging:staging-testing 524/578] has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging.git
+BRANCH: staging-testing
+HEAD: 895875a3d85596e3e2e46aeb382bf14f1419de82
+Commit: 24b8c88a7122df35ce6a413cd76e9581411eab8f
+ - Defect[0]: drivers/staging/lustre/lustre/ptlrpc/../../lustre/ldlm/ldlm_pool.c:721:0 WARNING = warning: (near initialization for 'lustre_attr_recalc_period.store')
+ - Defect[1]: drivers/staging/lustre/lustre/ptlrpc/../../lustre/ldlm/ldlm_pool.c:728:0 WARNING = warning: (near initialization for 'lustre_attr_limit.store')
+ - Defect[2]: drivers/staging/lustre/lustre/ptlrpc/../../lustre/ldlm/ldlm_pool.c:741:0 WARNING = warning: (near initialization for 'lustre_attr_lock_volume_factor.store')
+
+[2020-01-20 10:06:09] [info   ] [main] Restoring commit...
+[2020-01-20 10:06:09] [debug  ] [main] [git, remote]
+[2020-01-20 10:06:09] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 10:06:09] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 10:06:09] [debug  ] [main] [git, cat-file, -e, 24b8c88a7122df35ce6a413cd76e9581411eab8f^{commit}]
+[2020-01-20 10:06:09] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 10:06:09] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 10:06:09] [debug  ] [main] Didn't need to fetch because commit 24b8c88a7122df35ce6a413cd76e9581411eab8f already existed
+[2020-01-20 10:06:09] [debug  ] [main] [git, checkout, --force, 24b8c88a7122df35ce6a413cd76e9581411eab8f]
+[2020-01-20 10:06:57] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 10:06:57] [debug  ] [main] Stderr:
+                                       Previous HEAD position was 6920ccf65d096 staging: iio: light: isl29018: Use standard sysfs attributes for scale and integration time
+HEAD is now at 24b8c88a7122d staging/lustre/ldlm: move procfs ldlm pool stats to sysfs
+[2020-01-20 10:06:57] [info   ] [main] Source tree checked out at gitTest
+[2020-01-20 10:06:57] [info   ] [main] Checking if we need to run metrics...
+[2020-01-20 10:06:58] [info   ] [main] Don't need to run this, because no defect lies within a function
+[2020-01-20 10:06:58] [info   ] [main] Got NO result for 2015-05-31 1159.50 24b8c88a
+[2020-01-20 10:06:58] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [staging:staging-testing 524/578] has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging.git
+BRANCH: staging-testing
+HEAD: 895875a3d85596e3e2e46aeb382bf14f1419de82
+Commit: 24b8c88a7122df35ce6a413cd76e9581411eab8f
+ - Defect[0]: drivers/staging/lustre/lustre/ptlrpc/../../lustre/ldlm/../include/lprocfs_status.h:756:0 NOTE = note: in expansion of macro '__ATTR'
+ - Defect[1]: drivers/staging/lustre/lustre/ptlrpc/../../lustre/ldlm/../include/lprocfs_status.h:759:0 NOTE = note: in expansion of macro 'LUSTRE_ATTR'
+ - Defect[2]: drivers/staging/lustre/lustre/ptlrpc/../../lustre/ldlm/ldlm_pool.c:721:0 NOTE = note: in expansion of macro 'LUSTRE_RW_ATTR'
+ - Defect[3]: include/linux/bug.h:33:0 WARNING = warning: (near initialization for 'lustre_attr_recalc_period.store')
+ - Defect[4]: drivers/staging/lustre/lustre/ptlrpc/../../lustre/ldlm/../include/lprocfs_status.h:756:0 NOTE = note: in expansion of macro '__ATTR'
+ - Defect[5]: drivers/staging/lustre/lustre/ptlrpc/../../lustre/ldlm/../include/lprocfs_status.h:759:0 NOTE = note: in expansion of macro 'LUSTRE_ATTR'
+ - Defect[6]: drivers/staging/lustre/lustre/ptlrpc/../../lustre/ldlm/ldlm_pool.c:721:0 NOTE = note: in expansion of macro 'LUSTRE_RW_ATTR'
+ - Defect[7]: drivers/staging/lustre/lustre/ptlrpc/../../lustre/ldlm/../include/lprocfs_status.h:756:0 NOTE = note: in expansion of macro '__ATTR'
+ - Defect[8]: drivers/staging/lustre/lustre/ptlrpc/../../lustre/ldlm/../include/lprocfs_status.h:759:0 NOTE = note: in expansion of macro 'LUSTRE_ATTR'
+ - Defect[9]: drivers/staging/lustre/lustre/ptlrpc/../../lustre/ldlm/ldlm_pool.c:728:0 NOTE = note: in expansion of macro 'LUSTRE_RW_ATTR'
+ - Defect[10]: include/linux/bug.h:33:0 WARNING = warning: (near initialization for 'lustre_attr_limit.store')
+ - Defect[11]: drivers/staging/lustre/lustre/ptlrpc/../../lustre/ldlm/../include/lprocfs_status.h:756:0 NOTE = note: in expansion of macro '__ATTR'
+ - Defect[12]: drivers/staging/lustre/lustre/ptlrpc/../../lustre/ldlm/../include/lprocfs_status.h:759:0 NOTE = note: in expansion of macro 'LUSTRE_ATTR'
+ - Defect[13]: drivers/staging/lustre/lustre/ptlrpc/../../lustre/ldlm/ldlm_pool.c:728:0 NOTE = note: in expansion of macro 'LUSTRE_RW_ATTR'
+ - Defect[14]: drivers/staging/lustre/lustre/ptlrpc/../../lustre/ldlm/../include/lprocfs_status.h:756:0 NOTE = note: in expansion of macro '__ATTR'
+ - Defect[15]: drivers/staging/lustre/lustre/ptlrpc/../../lustre/ldlm/../include/lprocfs_status.h:759:0 NOTE = note: in expansion of macro 'LUSTRE_ATTR'
+ - Defect[16]: drivers/staging/lustre/lustre/ptlrpc/../../lustre/ldlm/ldlm_pool.c:741:0 NOTE = note: in expansion of macro 'LUSTRE_RW_ATTR'
+ - Defect[17]: include/linux/bug.h:33:0 WARNING = warning: (near initialization for 'lustre_attr_lock_volume_factor.store')
+ - Defect[18]: drivers/staging/lustre/lustre/ptlrpc/../../lustre/ldlm/../include/lprocfs_status.h:756:0 NOTE = note: in expansion of macro '__ATTR'
+ - Defect[19]: drivers/staging/lustre/lustre/ptlrpc/../../lustre/ldlm/../include/lprocfs_status.h:759:0 NOTE = note: in expansion of macro 'LUSTRE_ATTR'
+
+[2020-01-20 10:06:58] [info   ] [main] Restoring commit...
+[2020-01-20 10:06:58] [debug  ] [main] [git, remote]
+[2020-01-20 10:06:58] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 10:06:58] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 10:06:58] [debug  ] [main] [git, cat-file, -e, 24b8c88a7122df35ce6a413cd76e9581411eab8f^{commit}]
+[2020-01-20 10:06:58] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 10:06:58] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 10:06:58] [debug  ] [main] Didn't need to fetch because commit 24b8c88a7122df35ce6a413cd76e9581411eab8f already existed
+[2020-01-20 10:06:58] [debug  ] [main] [git, checkout, --force, 24b8c88a7122df35ce6a413cd76e9581411eab8f]
+[2020-01-20 10:06:58] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 10:06:58] [debug  ] [main] Stderr:
+                                       HEAD is now at 24b8c88a7122d staging/lustre/ldlm: move procfs ldlm pool stats to sysfs
+[2020-01-20 10:06:58] [info   ] [main] Source tree checked out at gitTest
+[2020-01-20 10:06:58] [info   ] [main] Checking if we need to run metrics...
+[2020-01-20 10:07:00] [info   ] [main] Don't need to run this, because no defect lies within a function
+[2020-01-20 10:07:00] [info   ] [main] Got NO result for 2015-05-31 1217.50 24b8c88a
+[2020-01-20 10:07:00] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [next:master 7235/7555] mm/cma.c:186:27: note: in has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git
+BRANCH: master
+HEAD: 7732a9817fb01002bde7615066e86c156fb5a31b
+Commit: 0491d0d6aac97c5b8df17851db525f3758de26e6
+ - Defect[0]: mm/cma.c:186:0 NOTE = note: in expansion of macro 'max'
+ - Defect[1]: mm/cma.c:270:0 NOTE = note: in expansion of macro 'max'
+ - Defect[2]: mm/cma.c:270:0 NOTE = note: in expansion of macro 'max'
+
+[2020-01-20 10:07:00] [info   ] [main] Restoring commit...
+[2020-01-20 10:07:00] [debug  ] [main] [git, remote]
+[2020-01-20 10:07:00] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 10:07:00] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 10:07:00] [debug  ] [main] [git, cat-file, -e, 0491d0d6aac97c5b8df17851db525f3758de26e6^{commit}]
+[2020-01-20 10:07:00] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 10:07:00] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 10:07:00] [debug  ] [main] Didn't need to fetch because commit 0491d0d6aac97c5b8df17851db525f3758de26e6 already existed
+[2020-01-20 10:07:00] [debug  ] [main] [git, checkout, --force, 0491d0d6aac97c5b8df17851db525f3758de26e6]
+[2020-01-20 10:07:43] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 10:07:43] [debug  ] [main] Stderr:
+                                       Previous HEAD position was 24b8c88a7122d staging/lustre/ldlm: move procfs ldlm pool stats to sysfs
+HEAD is now at 0491d0d6aac97 s390/mm: make hugepages_supported a boot time decision
+[2020-01-20 10:07:43] [info   ] [main] Source tree checked out at gitTest
+[2020-01-20 10:07:43] [info   ] [main] Checking if we need to run metrics...
+[2020-01-20 10:07:43] [info   ] [main] Starting to run metrics
+[2020-01-20 10:07:43] [warning] [main] certs/ doesn't exist (yet) in Linux source tree; omitting from code.extractor.files
+[2020-01-20 10:15:54] [info   ] [main] Got result for 2015-05-31 1341.03 0491d0d6
+[2020-01-20 10:15:54] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [wfg:break-build 1/1] mm/readahead.c:32:2: error: has problem in:
+BASE: wfg/break-build
+BRANCH: master
+HEAD: fda2c8acbd9dadf97c59a9fdbf6bf1d1563cb235
+Commit: fda2c8acbd9dadf97c59a9fdbf6bf1d1563cb235
+ - Defect[0]: mm/readahead.c:32:0 ERROR = error: 'XXXXX' undeclared (first use in this function)
+
+[2020-01-20 10:15:54] [info   ] [main] Restoring commit...
+[2020-01-20 10:15:54] [debug  ] [main] [git, remote]
+[2020-01-20 10:15:54] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 10:15:54] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 10:15:54] [debug  ] [main] [git, remote, add, wfg_break-build, wfg/break-build]
+[2020-01-20 10:15:54] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 10:15:54] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 10:15:54] [debug  ] [main] [git, cat-file, -e, fda2c8acbd9dadf97c59a9fdbf6bf1d1563cb235^{commit}]
+[2020-01-20 10:15:54] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 10:15:54] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name fda2c8acbd9dadf97c59a9fdbf6bf1d1563cb235^{commit}
+[2020-01-20 10:15:54] [debug  ] [main] [git, fetch, wfg_break-build, fda2c8acbd9dadf97c59a9fdbf6bf1d1563cb235]
+[2020-01-20 10:15:54] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 10:15:54] [debug  ] [main] Stderr:
+                                       fatal: 'wfg/break-build' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2020-01-20 10:15:54] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: 'wfg/break-build' does not appear to be a git repository
+                                       fatal: Could not read from remote repository.
+                                       
+                                       Please make sure you have the correct access rights
+                                       and the repository exists.
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.fetch(GitRepository.java:131)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:88)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 10:15:54] [info   ] [main] Got NO result for 2015-06-01 0657.55 fda2c8ac
+[2020-01-20 10:15:54] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [wfg:break-build 1/1] mm/readahead.c:32:2: error: has problem in:
+BASE: wfg/break-build
+BRANCH: master
+HEAD: 18f42f84e62679b1d6c2437cfd863e1b4352a0f0
+Commit: 18f42f84e62679b1d6c2437cfd863e1b4352a0f0
+ - Defect[0]: mm/readahead.c:32:0 ERROR = error: 'XXXX' undeclared (first use in this function)
+
+[2020-01-20 10:15:54] [info   ] [main] Restoring commit...
+[2020-01-20 10:15:54] [debug  ] [main] [git, remote]
+[2020-01-20 10:15:54] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 10:15:54] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 10:15:54] [debug  ] [main] [git, cat-file, -e, 18f42f84e62679b1d6c2437cfd863e1b4352a0f0^{commit}]
+[2020-01-20 10:15:54] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 10:15:54] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name 18f42f84e62679b1d6c2437cfd863e1b4352a0f0^{commit}
+[2020-01-20 10:15:54] [debug  ] [main] [git, fetch, wfg_break-build, 18f42f84e62679b1d6c2437cfd863e1b4352a0f0]
+[2020-01-20 10:15:54] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 10:15:54] [debug  ] [main] Stderr:
+                                       fatal: 'wfg/break-build' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2020-01-20 10:15:54] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: 'wfg/break-build' does not appear to be a git repository
+                                       fatal: Could not read from remote repository.
+                                       
+                                       Please make sure you have the correct access rights
+                                       and the repository exists.
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.fetch(GitRepository.java:131)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:88)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 10:15:54] [info   ] [main] Got NO result for 2015-06-01 1010.20 18f42f84
+[2020-01-20 10:15:54] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [next:master 7497/7555] has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git
+BRANCH: master
+HEAD: 7732a9817fb01002bde7615066e86c156fb5a31b
+Commit: b114f50dde045c71fa1833ddabe2b70c52576f90
+ - Defect[0]: arch/x86/include/asm/qspinlock.h:17:0 ERROR = error: call to '__compiletime_assert_17' declared with attribute error: Need native word sized stores/loads for atomicity.
+
+[2020-01-20 10:15:54] [info   ] [main] Restoring commit...
+[2020-01-20 10:15:54] [debug  ] [main] [git, remote]
+[2020-01-20 10:15:54] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 10:15:54] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 10:15:54] [debug  ] [main] [git, cat-file, -e, b114f50dde045c71fa1833ddabe2b70c52576f90^{commit}]
+[2020-01-20 10:15:54] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 10:15:54] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 10:15:54] [debug  ] [main] Didn't need to fetch because commit b114f50dde045c71fa1833ddabe2b70c52576f90 already existed
+[2020-01-20 10:15:54] [debug  ] [main] [git, checkout, --force, b114f50dde045c71fa1833ddabe2b70c52576f90]
+[2020-01-20 10:16:33] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 10:16:33] [debug  ] [main] Stderr:
+                                       Previous HEAD position was 0491d0d6aac97 s390/mm: make hugepages_supported a boot time decision
+HEAD is now at b114f50dde045 Merge remote-tracking branch 'tip/auto-latest'
+[2020-01-20 10:16:33] [info   ] [main] Source tree checked out at gitTest
+[2020-01-20 10:16:33] [info   ] [main] Checking if we need to run metrics...
+[2020-01-20 10:16:33] [info   ] [main] Starting to run metrics
+[2020-01-20 10:16:33] [warning] [main] certs/ doesn't exist (yet) in Linux source tree; omitting from code.extractor.files
+[2020-01-20 10:25:09] [info   ] [main] Got result for 2015-06-01 1036.05 b114f50d
+[2020-01-20 10:25:09] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [scsi:misc 114/120] drivers/scsi/st.c:4594:3: warning: has problem in:
+BASE: git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi.git
+BRANCH: misc
+HEAD: f6e08d7c118cc44f10bffdf52a31d7f40ce86ba7
+Commit: fc5280a80c124fe2d8b661513670a574fcd8bcbc
+ - Defect[0]: drivers/scsi/st.c:4594:0 WARNING = warning: format '%ld' expects argument of type 'long int', but argument 3 has type 'long long int' [-Wformat=]
+ - Defect[1]: drivers/scsi/st.c:4612:0 WARNING = warning: format '%ld' expects argument of type 'long int', but argument 3 has type 'long long int' [-Wformat=]
+ - Defect[2]: drivers/scsi/st.c:4628:0 WARNING = warning: format '%ld' expects argument of type 'long int', but argument 3 has type 'long long int' [-Wformat=]
+ - Defect[3]: drivers/scsi/st.c:4645:0 WARNING = warning: format '%ld' expects argument of type 'long int', but argument 3 has type 'long long int' [-Wformat=]
+ - Defect[4]: drivers/scsi/st.c:4662:0 WARNING = warning: format '%ld' expects argument of type 'long int', but argument 3 has type 'long long int' [-Wformat=]
+ - Defect[5]: drivers/scsi/st.c:4679:0 WARNING = warning: format '%ld' expects argument of type 'long int', but argument 3 has type 'long long int' [-Wformat=]
+ - Defect[6]: drivers/scsi/st.c:4697:0 WARNING = warning: format '%ld' expects argument of type 'long int', but argument 3 has type 'long long int' [-Wformat=]
+ - Defect[7]: drivers/scsi/st.c:4717:0 WARNING = warning: format '%ld' expects argument of type 'long int', but argument 3 has type 'long long int' [-Wformat=]
+ - Defect[8]: drivers/scsi/st.c:4736:0 WARNING = warning: format '%ld' expects argument of type 'long int', but argument 3 has type 'long long int' [-Wformat=]
+ - Defect[9]: drivers/scsi/st.c:4754:0 WARNING = warning: format '%ld' expects argument of type 'long int', but argument 3 has type 'long long int' [-Wformat=]
+
+[2020-01-20 10:25:09] [info   ] [main] Restoring commit...
+[2020-01-20 10:25:09] [debug  ] [main] [git, remote]
+[2020-01-20 10:25:09] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 10:25:09] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 10:25:09] [debug  ] [main] [git, cat-file, -e, fc5280a80c124fe2d8b661513670a574fcd8bcbc^{commit}]
+[2020-01-20 10:25:09] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 10:25:09] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name fc5280a80c124fe2d8b661513670a574fcd8bcbc^{commit}
+[2020-01-20 10:25:09] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_jejb_scsi, fc5280a80c124fe2d8b661513670a574fcd8bcbc]
+[2020-01-20 10:25:17] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 10:25:17] [debug  ] [main] Stderr:
+                                       error: Server does not allow request for unadvertised object fc5280a80c124fe2d8b661513670a574fcd8bcbc
+[2020-01-20 10:25:17] [warning] [main] Remote does not support fetching commits; falling back to fetching full remote
+[2020-01-20 10:25:17] [debug  ] [main] [git, fetch, git_kernel_org_pub_scm_linux_kernel_git_jejb_scsi]
+[2020-01-20 10:25:35] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 10:25:35] [debug  ] [main] Stderr:
+                                       From git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+   529244bd1afc1..28d76df18f0ad  fixes      -> git_kernel_org_pub_scm_linux_kernel_git_jejb_scsi/fixes
+   e4dc9a4c31fe1..529244bd1afc1  fixes-base -> git_kernel_org_pub_scm_linux_kernel_git_jejb_scsi/fixes-base
+   7b34f400f5e7a..76dd8578c8c6c  for-next   -> git_kernel_org_pub_scm_linux_kernel_git_jejb_scsi/for-next
+   fdb827e4a3f84..824b72db5086b  misc       -> git_kernel_org_pub_scm_linux_kernel_git_jejb_scsi/misc
+[2020-01-20 10:25:35] [debug  ] [main] [git, checkout, --force, fc5280a80c124fe2d8b661513670a574fcd8bcbc]
+[2020-01-20 10:25:35] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 10:25:35] [debug  ] [main] Stderr:
+                                       fatal: reference is not a tree: fc5280a80c124fe2d8b661513670a574fcd8bcbc
+[2020-01-20 10:25:35] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: reference is not a tree: fc5280a80c124fe2d8b661513670a574fcd8bcbc
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.checkout(GitRepository.java:148)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:96)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 10:25:35] [info   ] [main] Got NO result for 2015-06-01 1036.04 fc5280a8
+[2020-01-20 10:25:35] [info   ] [main] --------------------------------
+                                       Running KernelHaven metrics for:
+                                       From: fengguang.wu at intel.com (kbuild test robot) with subject: [kbuild-all] [wfg:break-build 1/1] mm/readahead.c:32:2: error: 'XX' has problem in:
+BASE: wfg/break-build
+BRANCH: master
+HEAD: 8b5551f646d9d456ee366d20391eccd597e507d5
+Commit: 8b5551f646d9d456ee366d20391eccd597e507d5
+ - Defect[0]: mm/readahead.c:32:0 ERROR = error: 'XX' undeclared (first use in this function)
+
+[2020-01-20 10:25:35] [info   ] [main] Restoring commit...
+[2020-01-20 10:25:35] [debug  ] [main] [git, remote]
+[2020-01-20 10:25:35] [debug  ] [main] Stdout:
+                                       <too long>
+[2020-01-20 10:25:35] [debug  ] [main] Stderr:
+                                       
+[2020-01-20 10:25:35] [debug  ] [main] [git, cat-file, -e, 8b5551f646d9d456ee366d20391eccd597e507d5^{commit}]
+[2020-01-20 10:25:35] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 10:25:35] [debug  ] [main] Stderr:
+                                       fatal: Not a valid object name 8b5551f646d9d456ee366d20391eccd597e507d5^{commit}
+[2020-01-20 10:25:35] [debug  ] [main] [git, fetch, wfg_break-build, 8b5551f646d9d456ee366d20391eccd597e507d5]
+[2020-01-20 10:25:35] [debug  ] [main] Stdout:
+                                       
+[2020-01-20 10:25:35] [debug  ] [main] Stderr:
+                                       fatal: 'wfg/break-build' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2020-01-20 10:25:35] [error  ] [main] Unable to restore commit:
+                                       net.ssehub.kBuildCrawler.git.GitException: fatal: 'wfg/break-build' does not appear to be a git repository
+                                       fatal: Could not read from remote repository.
+                                       
+                                       Please make sure you have the correct access rights
+                                       and the repository exists.
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.runGitCommand(GitRepository.java:276)
+                                           at net.ssehub.kBuildCrawler.git.GitRepository.fetch(GitRepository.java:131)
+                                           at net.ssehub.kBuildCrawler.git.GitInterface.restoreCommit(GitInterface.java:88)
+                                           at net.ssehub.kBuildCrawler.metrics.AbstractKernelHavenRunner.run(AbstractKernelHavenRunner.java:42)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.runMetrics(KbuildCrawler.java:172)
+                                           at net.ssehub.kBuildCrawler.KbuildCrawler.main(KbuildCrawler.java:112)
+[2020-01-20 10:25:35] [info   ] [main] Got NO result for 2015-06-01 1247.22 8b5551f6

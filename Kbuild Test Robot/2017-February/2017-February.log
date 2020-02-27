@@ -1,0 +1,3030 @@
+Mailinglist items: ../kbuild-all/2017-February.txt.gz
+Processing 1 of 629 at 10:47:59 (15.01.20)
+  Restoring commit took 5273ms
+    1 files produced, start merging them
+    Read file: 1 (33739 bytes)
+  Metric execution (+ merging 1 results) took 10:40.633
+  Running metrics took 640644ms
+Handling (+writing) KH output took 646276ms
+Processing 2 of 629 at 10:58:45 (15.01.20)
+  Restoring commit took 37088ms
+    1 files produced, start merging them
+    Read file: 1 (32992 bytes)
+  Metric execution (+ merging 1 results) took 11:00.624
+  Running metrics took 660625ms
+Handling (+writing) KH output took 697863ms
+Processing 3 of 629 at 11:10:23 (15.01.20)
+  Restoring commit took 10528ms
+    1 files produced, start merging them
+    Read file: 1 (34160 bytes)
+  Metric execution (+ merging 1 results) took 09:21.869
+  Running metrics took 561871ms
+Handling (+writing) KH output took 572803ms
+Processing 4 of 629 at 11:19:56 (15.01.20)
+  Restoring commit took 2254ms
+    1 files produced, start merging them
+    Read file: 1 (34160 bytes)
+  Metric execution (+ merging 1 results) took 09:32.276
+  Running metrics took 572290ms
+Handling (+writing) KH output took 574744ms
+Processing 5 of 629 at 11:29:31 (15.01.20)
+Handling (+writing) KH output took 20225ms
+Processing 6 of 629 at 11:29:51 (15.01.20)
+  Restoring commit took 13579ms
+    1 files produced, start merging them
+    Read file: 1 (0 bytes)
+  Metric execution (+ merging 0 results) took 06:19.114
+  Running metrics took 379115ms
+Handling (+writing) KH output took 393076ms
+Processing 7 of 629 at 11:36:24 (15.01.20)
+  Restoring commit took 44866ms
+    1 files produced, start merging them
+    Read file: 1 (33398 bytes)
+  Metric execution (+ merging 1 results) took 10:40.674
+  Running metrics took 640676ms
+Handling (+writing) KH output took 685770ms
+Processing 8 of 629 at 11:47:50 (15.01.20)
+  Restoring commit took 11454ms
+    1 files produced, start merging them
+    Read file: 1 (65680 bytes)
+  Metric execution (+ merging 11 results) took 10:35.875
+  Running metrics took 635877ms
+Handling (+writing) KH output took 647617ms
+Processing 9 of 629 at 11:58:37 (15.01.20)
+  Restoring commit took 3824ms
+Handling (+writing) KH output took 4036ms
+Processing 10 of 629 at 11:58:41 (15.01.20)
+Handling (+writing) KH output took 43782ms
+Processing 11 of 629 at 11:59:25 (15.01.20)
+  Restoring commit took 8087ms
+    1 files produced, start merging them
+    Read file: 1 (39674 bytes)
+  Metric execution (+ merging 3 results) took 10:17.158
+  Running metrics took 617159ms
+Handling (+writing) KH output took 625377ms
+Processing 12 of 629 at 12:09:50 (15.01.20)
+  Restoring commit took 10464ms
+    1 files produced, start merging them
+    Read file: 1 (32974 bytes)
+  Metric execution (+ merging 1 results) took 10:30.302
+  Running metrics took 630304ms
+Handling (+writing) KH output took 641074ms
+Processing 13 of 629 at 12:20:31 (15.01.20)
+  Restoring commit took 10221ms
+    1 files produced, start merging them
+    Read file: 1 (36317 bytes)
+  Metric execution (+ merging 2 results) took 10:54.626
+  Running metrics took 654628ms
+Handling (+writing) KH output took 664966ms
+Processing 14 of 629 at 12:31:36 (15.01.20)
+  Restoring commit took 10626ms
+    1 files produced, start merging them
+    Read file: 1 (32969 bytes)
+  Metric execution (+ merging 1 results) took 10:51.508
+  Running metrics took 651511ms
+Handling (+writing) KH output took 662222ms
+Processing 15 of 629 at 12:42:39 (15.01.20)
+  Restoring commit took 12183ms
+    1 files produced, start merging them
+    Read file: 1 (36448 bytes)
+  Metric execution (+ merging 2 results) took 10:08.873
+  Running metrics took 608874ms
+Handling (+writing) KH output took 621167ms
+Processing 16 of 629 at 12:53:00 (15.01.20)
+Handling (+writing) KH output took 24008ms
+Processing 17 of 629 at 12:53:24 (15.01.20)
+Handling (+writing) KH output took 27082ms
+Processing 18 of 629 at 12:53:51 (15.01.20)
+Handling (+writing) KH output took 25760ms
+Processing 19 of 629 at 12:54:17 (15.01.20)
+  Restoring commit took 7057ms
+    1 files produced, start merging them
+    Read file: 1 (33295 bytes)
+  Metric execution (+ merging 1 results) took 10:40.590
+  Running metrics took 640591ms
+Handling (+writing) KH output took 647984ms
+Processing 20 of 629 at 13:05:05 (15.01.20)
+Handling (+writing) KH output took 26256ms
+Processing 21 of 629 at 13:05:31 (15.01.20)
+  Restoring commit took 38095ms
+    1 files produced, start merging them
+    Read file: 1 (33097 bytes)
+  Metric execution (+ merging 1 results) took 09:13.605
+  Running metrics took 553606ms
+Handling (+writing) KH output took 591790ms
+Processing 22 of 629 at 13:15:23 (15.01.20)
+  Restoring commit took 3072ms
+    1 files produced, start merging them
+    Read file: 1 (39661 bytes)
+  Metric execution (+ merging 3 results) took 10:35.383
+  Running metrics took 635385ms
+Handling (+writing) KH output took 638496ms
+Processing 23 of 629 at 13:26:01 (15.01.20)
+  Restoring commit took 6455ms
+Handling (+writing) KH output took 6677ms
+Processing 24 of 629 at 13:26:08 (15.01.20)
+  Restoring commit took 37052ms
+    1 files produced, start merging them
+    Read file: 1 (33223 bytes)
+  Metric execution (+ merging 1 results) took 09:39.268
+  Running metrics took 579269ms
+Handling (+writing) KH output took 616472ms
+Processing 25 of 629 at 13:36:24 (15.01.20)
+  Restoring commit took 3157ms
+    1 files produced, start merging them
+    Read file: 1 (33254 bytes)
+  Metric execution (+ merging 1 results) took 10:39.474
+  Running metrics took 639475ms
+Handling (+writing) KH output took 642716ms
+Processing 26 of 629 at 13:47:07 (15.01.20)
+  Restoring commit took 2990ms
+    1 files produced, start merging them
+    Read file: 1 (33097 bytes)
+  Metric execution (+ merging 1 results) took 10:46.881
+  Running metrics took 646883ms
+Handling (+writing) KH output took 649953ms
+Processing 27 of 629 at 13:57:57 (15.01.20)
+Handling (+writing) KH output took 24677ms
+Processing 28 of 629 at 13:58:22 (15.01.20)
+  Restoring commit took 9580ms
+    1 files produced, start merging them
+    Read file: 1 (42856 bytes)
+  Metric execution (+ merging 4 results) took 10:12.654
+  Running metrics took 612657ms
+Handling (+writing) KH output took 622367ms
+Processing 29 of 629 at 14:08:44 (15.01.20)
+  Restoring commit took 2717ms
+    1 files produced, start merging them
+    Read file: 1 (33313 bytes)
+  Metric execution (+ merging 1 results) took 10:22.213
+  Running metrics took 622214ms
+Handling (+writing) KH output took 624960ms
+Processing 30 of 629 at 14:19:09 (15.01.20)
+  Restoring commit took 6874ms
+Handling (+writing) KH output took 6910ms
+Processing 31 of 629 at 14:19:16 (15.01.20)
+  Restoring commit took 636ms
+Handling (+writing) KH output took 682ms
+Processing 32 of 629 at 14:19:17 (15.01.20)
+  Restoring commit took 6098ms
+    1 files produced, start merging them
+    Read file: 1 (36861 bytes)
+  Metric execution (+ merging 2 results) took 10:02.220
+  Running metrics took 602221ms
+Handling (+writing) KH output took 608558ms
+Processing 33 of 629 at 14:29:25 (15.01.20)
+  Restoring commit took 34704ms
+Handling (+writing) KH output took 36058ms
+Processing 34 of 629 at 14:30:01 (15.01.20)
+  Restoring commit took 3013ms
+Handling (+writing) KH output took 4382ms
+Processing 35 of 629 at 14:30:06 (15.01.20)
+  Restoring commit took 6130ms
+    1 files produced, start merging them
+    Read file: 1 (35991 bytes)
+  Metric execution (+ merging 2 results) took 11:03.741
+  Running metrics took 663743ms
+Handling (+writing) KH output took 670008ms
+Processing 36 of 629 at 14:41:16 (15.01.20)
+  Restoring commit took 34788ms
+    1 files produced, start merging them
+    Read file: 1 (34376 bytes)
+  Metric execution (+ merging 1 results) took 10:44.413
+  Running metrics took 644414ms
+Handling (+writing) KH output took 679247ms
+Processing 37 of 629 at 14:52:35 (15.01.20)
+  Restoring commit took 3089ms
+    1 files produced, start merging them
+    Read file: 1 (34394 bytes)
+  Metric execution (+ merging 1 results) took 10:37.953
+  Running metrics took 637955ms
+Handling (+writing) KH output took 641094ms
+Processing 38 of 629 at 15:03:16 (15.01.20)
+Handling (+writing) KH output took 30171ms
+Processing 39 of 629 at 15:03:46 (15.01.20)
+Handling (+writing) KH output took 23675ms
+Processing 40 of 629 at 15:04:10 (15.01.20)
+Handling (+writing) KH output took 25916ms
+Processing 41 of 629 at 15:04:36 (15.01.20)
+  Restoring commit took 10381ms
+Handling (+writing) KH output took 10596ms
+Processing 42 of 629 at 15:04:46 (15.01.20)
+Handling (+writing) KH output took 24073ms
+Processing 43 of 629 at 15:05:10 (15.01.20)
+Handling (+writing) KH output took 23678ms
+Processing 44 of 629 at 15:05:34 (15.01.20)
+  Restoring commit took 9338ms
+    1 files produced, start merging them
+    Read file: 1 (33909 bytes)
+  Metric execution (+ merging 1 results) took 10:30.010
+  Running metrics took 630011ms
+Handling (+writing) KH output took 639569ms
+Processing 45 of 629 at 15:16:14 (15.01.20)
+  Restoring commit took 9996ms
+    1 files produced, start merging them
+    Read file: 1 (37619 bytes)
+  Metric execution (+ merging 2 results) took 10:32.558
+  Running metrics took 632560ms
+Handling (+writing) KH output took 642668ms
+Processing 46 of 629 at 15:26:56 (15.01.20)
+  Restoring commit took 2989ms
+    1 files produced, start merging them
+    Read file: 1 (33741 bytes)
+  Metric execution (+ merging 1 results) took 09:47.553
+  Running metrics took 587554ms
+Handling (+writing) KH output took 590635ms
+Processing 47 of 629 at 15:36:47 (15.01.20)
+  Restoring commit took 26873ms
+    1 files produced, start merging them
+    Read file: 1 (34206 bytes)
+  Metric execution (+ merging 1 results) took 10:45.596
+  Running metrics took 645597ms
+Handling (+writing) KH output took 672564ms
+Processing 48 of 629 at 15:48:00 (15.01.20)
+  Restoring commit took 2739ms
+Handling (+writing) KH output took 2868ms
+Processing 49 of 629 at 15:48:02 (15.01.20)
+  Restoring commit took 8468ms
+    1 files produced, start merging them
+    Read file: 1 (34140 bytes)
+  Metric execution (+ merging 1 results) took 10:23.612
+  Running metrics took 623613ms
+Handling (+writing) KH output took 632227ms
+Processing 50 of 629 at 15:58:35 (15.01.20)
+  Restoring commit took 8709ms
+    1 files produced, start merging them
+    Read file: 1 (33407 bytes)
+  Metric execution (+ merging 1 results) took 09:14.404
+  Running metrics took 554405ms
+Handling (+writing) KH output took 563145ms
+Processing 51 of 629 at 16:07:58 (15.01.20)
+  Restoring commit took 6679ms
+    1 files produced, start merging them
+    Read file: 1 (33680 bytes)
+  Metric execution (+ merging 1 results) took 09:31.071
+  Running metrics took 571073ms
+Handling (+writing) KH output took 577799ms
+Processing 52 of 629 at 16:17:36 (15.01.20)
+  Restoring commit took 33769ms
+    1 files produced, start merging them
+    Read file: 1 (33094 bytes)
+  Metric execution (+ merging 1 results) took 10:08.026
+  Running metrics took 608027ms
+Handling (+writing) KH output took 641864ms
+Processing 53 of 629 at 16:28:17 (15.01.20)
+Handling (+writing) KH output took 19398ms
+Processing 54 of 629 at 16:28:37 (15.01.20)
+  Restoring commit took 5148ms
+    1 files produced, start merging them
+    Read file: 1 (36926 bytes)
+  Metric execution (+ merging 2 results) took 09:57.494
+  Running metrics took 597496ms
+Handling (+writing) KH output took 602696ms
+Processing 55 of 629 at 16:38:40 (15.01.20)
+Handling (+writing) KH output took 21508ms
+Processing 56 of 629 at 16:39:01 (15.01.20)
+Handling (+writing) KH output took 19849ms
+Processing 57 of 629 at 16:39:21 (15.01.20)
+Handling (+writing) KH output took 17830ms
+Processing 58 of 629 at 16:39:39 (15.01.20)
+Handling (+writing) KH output took 22538ms
+Processing 59 of 629 at 16:40:01 (15.01.20)
+Handling (+writing) KH output took 24663ms
+Processing 60 of 629 at 16:40:26 (15.01.20)
+Handling (+writing) KH output took 23263ms
+Processing 61 of 629 at 16:40:49 (15.01.20)
+Handling (+writing) KH output took 25304ms
+Processing 62 of 629 at 16:41:15 (15.01.20)
+Handling (+writing) KH output took 25388ms
+Processing 63 of 629 at 16:41:40 (15.01.20)
+Handling (+writing) KH output took 23849ms
+Processing 64 of 629 at 16:42:04 (15.01.20)
+Handling (+writing) KH output took 23101ms
+Processing 65 of 629 at 16:42:27 (15.01.20)
+Handling (+writing) KH output took 22903ms
+Processing 66 of 629 at 16:42:50 (15.01.20)
+Handling (+writing) KH output took 23973ms
+Processing 67 of 629 at 16:43:14 (15.01.20)
+Handling (+writing) KH output took 24714ms
+Processing 68 of 629 at 16:43:38 (15.01.20)
+Handling (+writing) KH output took 25301ms
+Processing 69 of 629 at 16:44:04 (15.01.20)
+Handling (+writing) KH output took 25593ms
+Processing 70 of 629 at 16:44:29 (15.01.20)
+Handling (+writing) KH output took 25208ms
+Processing 71 of 629 at 16:44:55 (15.01.20)
+Handling (+writing) KH output took 25261ms
+Processing 72 of 629 at 16:45:20 (15.01.20)
+Handling (+writing) KH output took 23555ms
+Processing 73 of 629 at 16:45:43 (15.01.20)
+Handling (+writing) KH output took 24980ms
+Processing 74 of 629 at 16:46:08 (15.01.20)
+  Restoring commit took 30167ms
+Handling (+writing) KH output took 31952ms
+Processing 75 of 629 at 16:46:40 (15.01.20)
+Handling (+writing) KH output took 25438ms
+Processing 76 of 629 at 16:47:06 (15.01.20)
+  Restoring commit took 15419ms
+    1 files produced, start merging them
+    Read file: 1 (0 bytes)
+  Metric execution (+ merging 0 results) took 06:52.180
+  Running metrics took 412182ms
+Handling (+writing) KH output took 427627ms
+Processing 77 of 629 at 16:54:13 (15.01.20)
+Handling (+writing) KH output took 25158ms
+Processing 78 of 629 at 16:54:39 (15.01.20)
+Handling (+writing) KH output took 25279ms
+Processing 79 of 629 at 16:55:04 (15.01.20)
+  Restoring commit took 62409ms
+    1 files produced, start merging them
+    Read file: 1 (33084 bytes)
+  Metric execution (+ merging 1 results) took 10:12.292
+  Running metrics took 612293ms
+Handling (+writing) KH output took 674960ms
+Processing 80 of 629 at 17:06:19 (15.01.20)
+  Restoring commit took 7926ms
+    1 files produced, start merging them
+    Read file: 1 (33319 bytes)
+  Metric execution (+ merging 1 results) took 10:24.910
+  Running metrics took 624911ms
+Handling (+writing) KH output took 632882ms
+Processing 81 of 629 at 17:16:52 (15.01.20)
+  Restoring commit took 40796ms
+    1 files produced, start merging them
+    Read file: 1 (41606 bytes)
+  Metric execution (+ merging 3 results) took 09:35.742
+  Running metrics took 575743ms
+Handling (+writing) KH output took 616570ms
+Processing 82 of 629 at 17:27:08 (15.01.20)
+Handling (+writing) KH output took 20840ms
+Processing 83 of 629 at 17:27:29 (15.01.20)
+  Restoring commit took 48147ms
+    1 files produced, start merging them
+    Read file: 1 (33386 bytes)
+  Metric execution (+ merging 1 results) took 10:45.705
+  Running metrics took 645707ms
+Handling (+writing) KH output took 694138ms
+Processing 84 of 629 at 17:39:03 (15.01.20)
+  Restoring commit took 11315ms
+Handling (+writing) KH output took 11367ms
+Processing 85 of 629 at 17:39:15 (15.01.20)
+  Restoring commit took 9238ms
+    1 files produced, start merging them
+    Read file: 1 (33393 bytes)
+  Metric execution (+ merging 1 results) took 09:34.459
+  Running metrics took 574461ms
+Handling (+writing) KH output took 583743ms
+Processing 86 of 629 at 17:48:58 (15.01.20)
+Handling (+writing) KH output took 23878ms
+Processing 87 of 629 at 17:49:22 (15.01.20)
+  Restoring commit took 3086ms
+    1 files produced, start merging them
+    Read file: 1 (33505 bytes)
+  Metric execution (+ merging 1 results) took 09:17.980
+  Running metrics took 557981ms
+Handling (+writing) KH output took 561163ms
+Processing 88 of 629 at 17:58:43 (15.01.20)
+Handling (+writing) KH output took 25608ms
+Processing 89 of 629 at 17:59:09 (15.01.20)
+  Restoring commit took 10998ms
+    1 files produced, start merging them
+    Read file: 1 (37367 bytes)
+  Metric execution (+ merging 2 results) took 10:52.397
+  Running metrics took 652398ms
+Handling (+writing) KH output took 663569ms
+Processing 90 of 629 at 18:10:13 (15.01.20)
+  Restoring commit took 3123ms
+    1 files produced, start merging them
+    Read file: 1 (37367 bytes)
+  Metric execution (+ merging 2 results) took 10:07.752
+  Running metrics took 607753ms
+Handling (+writing) KH output took 611089ms
+Processing 91 of 629 at 18:20:24 (15.01.20)
+  Restoring commit took 8848ms
+    1 files produced, start merging them
+    Read file: 1 (35851 bytes)
+  Metric execution (+ merging 2 results) took 10:11.350
+  Running metrics took 611350ms
+Handling (+writing) KH output took 620436ms
+Processing 92 of 629 at 18:30:44 (15.01.20)
+  Restoring commit took 10478ms
+    1 files produced, start merging them
+    Read file: 1 (36619 bytes)
+  Metric execution (+ merging 2 results) took 10:51.899
+  Running metrics took 651900ms
+Handling (+writing) KH output took 662441ms
+Processing 93 of 629 at 18:41:46 (15.01.20)
+Handling (+writing) KH output took 23367ms
+Processing 94 of 629 at 18:42:10 (15.01.20)
+Handling (+writing) KH output took 23836ms
+Processing 95 of 629 at 18:42:34 (15.01.20)
+Handling (+writing) KH output took 21681ms
+Processing 96 of 629 at 18:42:55 (15.01.20)
+Handling (+writing) KH output took 24669ms
+Processing 97 of 629 at 18:43:20 (15.01.20)
+Handling (+writing) KH output took 24947ms
+Processing 98 of 629 at 18:43:45 (15.01.20)
+  Restoring commit took 9596ms
+    1 files produced, start merging them
+    Read file: 1 (33279 bytes)
+  Metric execution (+ merging 1 results) took 10:52.910
+  Running metrics took 652911ms
+Handling (+writing) KH output took 662535ms
+Processing 99 of 629 at 18:54:48 (15.01.20)
+Handling (+writing) KH output took 27280ms
+Processing 100 of 629 at 18:55:15 (15.01.20)
+Handling (+writing) KH output took 23588ms
+Processing 101 of 629 at 18:55:38 (15.01.20)
+Handling (+writing) KH output took 20431ms
+Processing 102 of 629 at 18:55:59 (15.01.20)
+Handling (+writing) KH output took 19334ms
+Processing 103 of 629 at 18:56:18 (15.01.20)
+Handling (+writing) KH output took 19126ms
+Processing 104 of 629 at 18:56:37 (15.01.20)
+Handling (+writing) KH output took 24066ms
+Processing 105 of 629 at 18:57:01 (15.01.20)
+  Restoring commit took 39153ms
+Handling (+writing) KH output took 40335ms
+Processing 106 of 629 at 18:57:42 (15.01.20)
+  Restoring commit took 3692ms
+    1 files produced, start merging them
+    Read file: 1 (33335 bytes)
+  Metric execution (+ merging 1 results) took 11:20.389
+  Running metrics took 680391ms
+Handling (+writing) KH output took 684911ms
+Processing 107 of 629 at 19:09:07 (15.01.20)
+  Restoring commit took 8524ms
+    1 files produced, start merging them
+    Read file: 1 (32867 bytes)
+  Metric execution (+ merging 1 results) took 10:02.722
+  Running metrics took 602723ms
+Handling (+writing) KH output took 611282ms
+Processing 108 of 629 at 19:19:18 (15.01.20)
+Handling (+writing) KH output took 23817ms
+Processing 109 of 629 at 19:19:42 (15.01.20)
+Handling (+writing) KH output took 132525ms
+Processing 110 of 629 at 19:21:54 (15.01.20)
+  Restoring commit took 13619ms
+Handling (+writing) KH output took 13695ms
+Processing 111 of 629 at 19:22:08 (15.01.20)
+Handling (+writing) KH output took 25546ms
+Processing 112 of 629 at 19:22:33 (15.01.20)
+Handling (+writing) KH output took 24795ms
+Processing 113 of 629 at 19:22:58 (15.01.20)
+Handling (+writing) KH output took 24690ms
+Processing 114 of 629 at 19:23:23 (15.01.20)
+Handling (+writing) KH output took 22977ms
+Processing 115 of 629 at 19:23:46 (15.01.20)
+Handling (+writing) KH output took 190ms
+Processing 116 of 629 at 19:23:46 (15.01.20)
+  Restoring commit took 14299ms
+    1 files produced, start merging them
+    Read file: 1 (33427 bytes)
+  Metric execution (+ merging 1 results) took 10:15.385
+  Running metrics took 615385ms
+Handling (+writing) KH output took 630040ms
+Processing 117 of 629 at 19:34:16 (15.01.20)
+  Restoring commit took 16090ms
+    1 files produced, start merging them
+    Read file: 1 (40304 bytes)
+  Metric execution (+ merging 3 results) took 10:12.973
+  Running metrics took 612974ms
+Handling (+writing) KH output took 629669ms
+Processing 118 of 629 at 19:44:46 (15.01.20)
+  Restoring commit took 11316ms
+    1 files produced, start merging them
+    Read file: 1 (33288 bytes)
+  Metric execution (+ merging 1 results) took 10:38.799
+  Running metrics took 638800ms
+Handling (+writing) KH output took 650159ms
+Processing 119 of 629 at 19:55:36 (15.01.20)
+  Restoring commit took 10996ms
+    1 files produced, start merging them
+    Read file: 1 (33154 bytes)
+  Metric execution (+ merging 1 results) took 10:04.813
+  Running metrics took 604814ms
+Handling (+writing) KH output took 616899ms
+Processing 120 of 629 at 20:05:53 (15.01.20)
+Handling (+writing) KH output took 22847ms
+Processing 121 of 629 at 20:06:16 (15.01.20)
+  Restoring commit took 37233ms
+    1 files produced, start merging them
+    Read file: 1 (33255 bytes)
+  Metric execution (+ merging 1 results) took 10:24.153
+  Running metrics took 624154ms
+Handling (+writing) KH output took 661488ms
+Processing 122 of 629 at 20:17:17 (15.01.20)
+  Restoring commit took 7024ms
+    1 files produced, start merging them
+    Read file: 1 (32982 bytes)
+  Metric execution (+ merging 1 results) took 09:57.266
+  Running metrics took 597266ms
+Handling (+writing) KH output took 604380ms
+Processing 123 of 629 at 20:27:22 (15.01.20)
+  Restoring commit took 25786ms
+    1 files produced, start merging them
+    Read file: 1 (37324 bytes)
+  Metric execution (+ merging 2 results) took 09:39.002
+  Running metrics took 579003ms
+Handling (+writing) KH output took 605015ms
+Processing 124 of 629 at 20:37:27 (15.01.20)
+  Restoring commit took 34323ms
+    1 files produced, start merging them
+    Read file: 1 (33374 bytes)
+  Metric execution (+ merging 1 results) took 09:16.360
+  Running metrics took 556361ms
+Handling (+writing) KH output took 590907ms
+Processing 125 of 629 at 20:47:18 (15.01.20)
+  Restoring commit took 13561ms
+Handling (+writing) KH output took 13791ms
+Processing 126 of 629 at 20:47:31 (15.01.20)
+  Restoring commit took 42488ms
+    1 files produced, start merging them
+    Read file: 1 (33230 bytes)
+  Metric execution (+ merging 1 results) took 10:06.737
+  Running metrics took 606737ms
+Handling (+writing) KH output took 649527ms
+Processing 127 of 629 at 20:58:21 (15.01.20)
+  Restoring commit took 38507ms
+Handling (+writing) KH output took 38634ms
+Processing 128 of 629 at 20:58:59 (15.01.20)
+  Restoring commit took 55049ms
+    1 files produced, start merging them
+    Read file: 1 (51416 bytes)
+  Metric execution (+ merging 7 results) took 10:41.273
+  Running metrics took 641274ms
+Handling (+writing) KH output took 696368ms
+Processing 129 of 629 at 21:10:36 (15.01.20)
+  Restoring commit took 29962ms
+    1 files produced, start merging them
+    Read file: 1 (32875 bytes)
+  Metric execution (+ merging 1 results) took 09:27.838
+  Running metrics took 567840ms
+Handling (+writing) KH output took 597823ms
+Processing 130 of 629 at 21:20:34 (15.01.20)
+  Restoring commit took 21930ms
+    1 files produced, start merging them
+    Read file: 1 (33093 bytes)
+  Metric execution (+ merging 1 results) took 08:47.262
+  Running metrics took 527262ms
+Handling (+writing) KH output took 549219ms
+Processing 131 of 629 at 21:29:43 (15.01.20)
+  Restoring commit took 19797ms
+    1 files produced, start merging them
+    Read file: 1 (32974 bytes)
+  Metric execution (+ merging 1 results) took 10:54.611
+  Running metrics took 654611ms
+Handling (+writing) KH output took 674443ms
+Processing 132 of 629 at 21:40:57 (15.01.20)
+  Restoring commit took 28323ms
+    1 files produced, start merging them
+    Read file: 1 (33686 bytes)
+  Metric execution (+ merging 1 results) took 10:40.607
+  Running metrics took 640608ms
+Handling (+writing) KH output took 669049ms
+Processing 133 of 629 at 21:52:06 (15.01.20)
+  Restoring commit took 2615ms
+    1 files produced, start merging them
+    Read file: 1 (33686 bytes)
+  Metric execution (+ merging 1 results) took 09:48.866
+  Running metrics took 588866ms
+Handling (+writing) KH output took 591626ms
+Processing 134 of 629 at 22:01:58 (15.01.20)
+  Restoring commit took 18534ms
+Handling (+writing) KH output took 18556ms
+Processing 135 of 629 at 22:02:17 (15.01.20)
+  Restoring commit took 85681ms
+    1 files produced, start merging them
+    Read file: 1 (33255 bytes)
+  Metric execution (+ merging 1 results) took 10:02.081
+  Running metrics took 602083ms
+Handling (+writing) KH output took 687807ms
+Processing 136 of 629 at 22:13:44 (15.01.20)
+  Restoring commit took 34764ms
+    1 files produced, start merging them
+    Read file: 1 (32982 bytes)
+  Metric execution (+ merging 1 results) took 10:10.250
+  Running metrics took 610251ms
+Handling (+writing) KH output took 645074ms
+Processing 137 of 629 at 22:24:29 (15.01.20)
+  Restoring commit took 27728ms
+    1 files produced, start merging them
+    Read file: 1 (36804 bytes)
+  Metric execution (+ merging 2 results) took 10:14.605
+  Running metrics took 614606ms
+Handling (+writing) KH output took 642357ms
+Processing 138 of 629 at 22:35:12 (15.01.20)
+  Restoring commit took 29779ms
+    1 files produced, start merging them
+    Read file: 1 (48391 bytes)
+  Metric execution (+ merging 6 results) took 10:20.555
+  Running metrics took 620556ms
+Handling (+writing) KH output took 650689ms
+Processing 139 of 629 at 22:46:02 (15.01.20)
+  Restoring commit took 1003ms
+    1 files produced, start merging them
+    Read file: 1 (32945 bytes)
+  Metric execution (+ merging 1 results) took 10:34.961
+  Running metrics took 634962ms
+Handling (+writing) KH output took 636077ms
+Processing 140 of 629 at 22:56:39 (15.01.20)
+Handling (+writing) KH output took 20410ms
+Processing 141 of 629 at 22:56:59 (15.01.20)
+  Restoring commit took 19680ms
+    1 files produced, start merging them
+    Read file: 1 (0 bytes)
+  Metric execution (+ merging 0 results) took 06:35.190
+  Running metrics took 395191ms
+Handling (+writing) KH output took 414896ms
+Processing 142 of 629 at 23:03:54 (15.01.20)
+Handling (+writing) KH output took 25256ms
+Processing 143 of 629 at 23:04:19 (15.01.20)
+Handling (+writing) KH output took 25826ms
+Processing 144 of 629 at 23:04:45 (15.01.20)
+  Restoring commit took 44796ms
+Handling (+writing) KH output took 45106ms
+Processing 145 of 629 at 23:05:30 (15.01.20)
+  Restoring commit took 8697ms
+    1 files produced, start merging them
+    Read file: 1 (33924 bytes)
+  Metric execution (+ merging 1 results) took 10:30.303
+  Running metrics took 630303ms
+Handling (+writing) KH output took 639050ms
+Processing 146 of 629 at 23:16:09 (15.01.20)
+  Restoring commit took 30501ms
+    1 files produced, start merging them
+    Read file: 1 (32885 bytes)
+  Metric execution (+ merging 1 results) took 10:37.816
+  Running metrics took 637817ms
+Handling (+writing) KH output took 668355ms
+Processing 147 of 629 at 23:27:17 (15.01.20)
+  Restoring commit took 28657ms
+    1 files produced, start merging them
+    Read file: 1 (33104 bytes)
+  Metric execution (+ merging 1 results) took 11:10.968
+  Running metrics took 670969ms
+Handling (+writing) KH output took 699846ms
+Processing 148 of 629 at 23:38:57 (15.01.20)
+  Restoring commit took 40540ms
+Handling (+writing) KH output took 40570ms
+Processing 149 of 629 at 23:39:38 (15.01.20)
+  Restoring commit took 49902ms
+    1 files produced, start merging them
+    Read file: 1 (33865 bytes)
+  Metric execution (+ merging 1 results) took 10:10.151
+  Running metrics took 610153ms
+Handling (+writing) KH output took 660078ms
+Processing 150 of 629 at 23:50:38 (15.01.20)
+  Restoring commit took 35678ms
+    1 files produced, start merging them
+    Read file: 1 (33109 bytes)
+  Metric execution (+ merging 1 results) took 09:55.820
+  Running metrics took 595821ms
+Handling (+writing) KH output took 631654ms
+Processing 151 of 629 at 00:01:10 (16.01.20)
+  Restoring commit took 6046ms
+    1 files produced, start merging them
+    Read file: 1 (33100 bytes)
+  Metric execution (+ merging 1 results) took 10:05.648
+  Running metrics took 605649ms
+Handling (+writing) KH output took 611724ms
+Processing 152 of 629 at 00:11:21 (16.01.20)
+  Restoring commit took 26057ms
+    1 files produced, start merging them
+    Read file: 1 (33066 bytes)
+  Metric execution (+ merging 1 results) took 09:57.762
+  Running metrics took 597764ms
+Handling (+writing) KH output took 623862ms
+Processing 153 of 629 at 00:21:45 (16.01.20)
+  Restoring commit took 5542ms
+Handling (+writing) KH output took 5599ms
+Processing 154 of 629 at 00:21:51 (16.01.20)
+  Restoring commit took 35054ms
+    1 files produced, start merging them
+    Read file: 1 (33703 bytes)
+  Metric execution (+ merging 1 results) took 09:44.723
+  Running metrics took 584724ms
+Handling (+writing) KH output took 620141ms
+Processing 155 of 629 at 00:32:11 (16.01.20)
+Handling (+writing) KH output took 20107ms
+Processing 156 of 629 at 00:32:31 (16.01.20)
+Handling (+writing) KH output took 21854ms
+Processing 157 of 629 at 00:32:53 (16.01.20)
+  Restoring commit took 10083ms
+    1 files produced, start merging them
+    Read file: 1 (39140 bytes)
+  Metric execution (+ merging 3 results) took 10:05.845
+  Running metrics took 605846ms
+Handling (+writing) KH output took 616083ms
+Processing 158 of 629 at 00:43:09 (16.01.20)
+  Restoring commit took 13037ms
+    1 files produced, start merging them
+    Read file: 1 (33840 bytes)
+  Metric execution (+ merging 1 results) took 10:33.067
+  Running metrics took 633068ms
+Handling (+writing) KH output took 646169ms
+Processing 159 of 629 at 00:53:55 (16.01.20)
+Handling (+writing) KH output took 24234ms
+Processing 160 of 629 at 00:54:19 (16.01.20)
+  Restoring commit took 12772ms
+    1 files produced, start merging them
+    Read file: 1 (33035 bytes)
+  Metric execution (+ merging 1 results) took 10:42.323
+  Running metrics took 642323ms
+Handling (+writing) KH output took 655224ms
+Processing 161 of 629 at 01:05:15 (16.01.20)
+  Restoring commit took 13509ms
+    1 files produced, start merging them
+    Read file: 1 (33478 bytes)
+  Metric execution (+ merging 1 results) took 09:49.123
+  Running metrics took 589123ms
+Handling (+writing) KH output took 602740ms
+Processing 162 of 629 at 01:15:17 (16.01.20)
+Handling (+writing) KH output took 22689ms
+Processing 163 of 629 at 01:15:40 (16.01.20)
+Handling (+writing) KH output took 22644ms
+Processing 164 of 629 at 01:16:03 (16.01.20)
+Handling (+writing) KH output took 21188ms
+Processing 165 of 629 at 01:16:24 (16.01.20)
+Handling (+writing) KH output took 24730ms
+Processing 166 of 629 at 01:16:49 (16.01.20)
+Handling (+writing) KH output took 25045ms
+Processing 167 of 629 at 01:17:14 (16.01.20)
+Handling (+writing) KH output took 23899ms
+Processing 168 of 629 at 01:17:38 (16.01.20)
+Handling (+writing) KH output took 23037ms
+Processing 169 of 629 at 01:18:01 (16.01.20)
+  Restoring commit took 47258ms
+    1 files produced, start merging them
+    Read file: 1 (39140 bytes)
+  Metric execution (+ merging 3 results) took 10:34.986
+  Running metrics took 634986ms
+Handling (+writing) KH output took 682397ms
+Processing 170 of 629 at 01:29:23 (16.01.20)
+Handling (+writing) KH output took 23111ms
+Processing 171 of 629 at 01:29:46 (16.01.20)
+Handling (+writing) KH output took 21861ms
+Processing 172 of 629 at 01:30:08 (16.01.20)
+Handling (+writing) KH output took 23194ms
+Processing 173 of 629 at 01:30:31 (16.01.20)
+Handling (+writing) KH output took 25167ms
+Processing 174 of 629 at 01:30:56 (16.01.20)
+  Restoring commit took 10873ms
+    1 files produced, start merging them
+    Read file: 1 (33599 bytes)
+  Metric execution (+ merging 1 results) took 10:25.434
+  Running metrics took 625435ms
+Handling (+writing) KH output took 636449ms
+Processing 175 of 629 at 01:41:33 (16.01.20)
+Handling (+writing) KH output took 20488ms
+Processing 176 of 629 at 01:41:53 (16.01.20)
+Handling (+writing) KH output took 25706ms
+Processing 177 of 629 at 01:42:19 (16.01.20)
+Handling (+writing) KH output took 25551ms
+Processing 178 of 629 at 01:42:45 (16.01.20)
+Handling (+writing) KH output took 26701ms
+Processing 179 of 629 at 01:43:11 (16.01.20)
+  Restoring commit took 41338ms
+    1 files produced, start merging them
+    Read file: 1 (33343 bytes)
+  Metric execution (+ merging 1 results) took 07:37.982
+  Running metrics took 457983ms
+Handling (+writing) KH output took 499519ms
+Processing 180 of 629 at 01:51:31 (16.01.20)
+  Restoring commit took 57141ms
+    1 files produced, start merging them
+    Read file: 1 (33345 bytes)
+  Metric execution (+ merging 1 results) took 08:23.865
+  Running metrics took 503866ms
+Handling (+writing) KH output took 561100ms
+Processing 181 of 629 at 02:00:52 (16.01.20)
+  Restoring commit took 48822ms
+    1 files produced, start merging them
+    Read file: 1 (79481 bytes)
+  Metric execution (+ merging 15 results) took 08:08.122
+  Running metrics took 488122ms
+Handling (+writing) KH output took 536998ms
+Processing 182 of 629 at 02:09:49 (16.01.20)
+  Restoring commit took 49824ms
+    1 files produced, start merging them
+    Read file: 1 (33142 bytes)
+  Metric execution (+ merging 1 results) took 08:14.477
+  Running metrics took 494478ms
+Handling (+writing) KH output took 544339ms
+Processing 183 of 629 at 02:18:53 (16.01.20)
+Handling (+writing) KH output took 35973ms
+Processing 184 of 629 at 02:19:29 (16.01.20)
+  Restoring commit took 43649ms
+    1 files produced, start merging them
+    Read file: 1 (36724 bytes)
+  Metric execution (+ merging 2 results) took 08:39.151
+  Running metrics took 519152ms
+Handling (+writing) KH output took 563182ms
+Processing 185 of 629 at 02:28:52 (16.01.20)
+Handling (+writing) KH output took 24790ms
+Processing 186 of 629 at 02:29:17 (16.01.20)
+  Restoring commit took 50319ms
+    1 files produced, start merging them
+    Read file: 1 (33419 bytes)
+  Metric execution (+ merging 1 results) took 08:20.306
+  Running metrics took 500307ms
+Handling (+writing) KH output took 551081ms
+Processing 187 of 629 at 02:38:28 (16.01.20)
+  Restoring commit took 57035ms
+    1 files produced, start merging them
+    Read file: 1 (33627 bytes)
+  Metric execution (+ merging 1 results) took 10:20.236
+  Running metrics took 620237ms
+Handling (+writing) KH output took 677323ms
+Processing 188 of 629 at 02:49:46 (16.01.20)
+  Restoring commit took 6552ms
+    1 files produced, start merging them
+    Read file: 1 (33275 bytes)
+  Metric execution (+ merging 1 results) took 10:06.006
+  Running metrics took 606007ms
+Handling (+writing) KH output took 612622ms
+Processing 189 of 629 at 02:59:58 (16.01.20)
+  Restoring commit took 40269ms
+    1 files produced, start merging them
+    Read file: 1 (33615 bytes)
+  Metric execution (+ merging 1 results) took 07:42.296
+  Running metrics took 462296ms
+Handling (+writing) KH output took 503084ms
+Processing 190 of 629 at 03:08:21 (16.01.20)
+Handling (+writing) KH output took 17876ms
+Processing 191 of 629 at 03:08:39 (16.01.20)
+Handling (+writing) KH output took 26203ms
+Processing 192 of 629 at 03:09:05 (16.01.20)
+  Restoring commit took 59443ms
+    1 files produced, start merging them
+    Read file: 1 (36730 bytes)
+  Metric execution (+ merging 2 results) took 09:52.864
+  Running metrics took 592865ms
+Handling (+writing) KH output took 652532ms
+Processing 193 of 629 at 03:19:58 (16.01.20)
+  Restoring commit took 9015ms
+    1 files produced, start merging them
+    Read file: 1 (33449 bytes)
+  Metric execution (+ merging 1 results) took 09:58.999
+  Running metrics took 599000ms
+Handling (+writing) KH output took 608104ms
+Processing 194 of 629 at 03:30:06 (16.01.20)
+  Restoring commit took 3478ms
+    1 files produced, start merging them
+    Read file: 1 (33670 bytes)
+  Metric execution (+ merging 1 results) took 10:45.645
+  Running metrics took 645647ms
+Handling (+writing) KH output took 649198ms
+Processing 195 of 629 at 03:40:55 (16.01.20)
+  Restoring commit took 2577ms
+    1 files produced, start merging them
+    Read file: 1 (33439 bytes)
+  Metric execution (+ merging 1 results) took 10:43.616
+  Running metrics took 643617ms
+Handling (+writing) KH output took 646320ms
+Processing 196 of 629 at 03:51:41 (16.01.20)
+  Restoring commit took 13132ms
+    1 files produced, start merging them
+    Read file: 1 (0 bytes)
+  Metric execution (+ merging 0 results) took 05:57.653
+  Running metrics took 357653ms
+Handling (+writing) KH output took 370808ms
+Processing 197 of 629 at 03:57:52 (16.01.20)
+Handling (+writing) KH output took 24316ms
+Processing 198 of 629 at 03:58:17 (16.01.20)
+Handling (+writing) KH output took 54084ms
+Processing 199 of 629 at 03:59:11 (16.01.20)
+Handling (+writing) KH output took 21380ms
+Processing 200 of 629 at 03:59:32 (16.01.20)
+  Restoring commit took 53103ms
+    1 files produced, start merging them
+    Read file: 1 (46144 bytes)
+  Metric execution (+ merging 5 results) took 09:45.415
+  Running metrics took 585416ms
+Handling (+writing) KH output took 638557ms
+Processing 201 of 629 at 04:10:11 (16.01.20)
+Handling (+writing) KH output took 33395ms
+Processing 202 of 629 at 04:10:44 (16.01.20)
+Handling (+writing) KH output took 35790ms
+Processing 203 of 629 at 04:11:20 (16.01.20)
+  Restoring commit took 55720ms
+    1 files produced, start merging them
+    Read file: 1 (33190 bytes)
+  Metric execution (+ merging 1 results) took 09:54.162
+  Running metrics took 594162ms
+Handling (+writing) KH output took 650539ms
+Processing 204 of 629 at 04:22:10 (16.01.20)
+  Restoring commit took 10746ms
+    1 files produced, start merging them
+    Read file: 1 (33442 bytes)
+  Metric execution (+ merging 1 results) took 10:01.970
+  Running metrics took 601972ms
+Handling (+writing) KH output took 612801ms
+Processing 205 of 629 at 04:32:23 (16.01.20)
+  Restoring commit took 29219ms
+Handling (+writing) KH output took 29285ms
+Processing 206 of 629 at 04:32:52 (16.01.20)
+Handling (+writing) KH output took 41934ms
+Processing 207 of 629 at 04:33:34 (16.01.20)
+  Restoring commit took 35357ms
+    1 files produced, start merging them
+    Read file: 1 (33315 bytes)
+  Metric execution (+ merging 1 results) took 10:30.836
+  Running metrics took 630837ms
+Handling (+writing) KH output took 667048ms
+Processing 208 of 629 at 04:44:41 (16.01.20)
+  Restoring commit took 186ms
+    1 files produced, start merging them
+    Read file: 1 (33315 bytes)
+  Metric execution (+ merging 1 results) took 09:59.848
+  Running metrics took 599850ms
+Handling (+writing) KH output took 600858ms
+Processing 209 of 629 at 04:54:42 (16.01.20)
+Handling (+writing) KH output took 44782ms
+Processing 210 of 629 at 04:55:27 (16.01.20)
+Handling (+writing) KH output took 25920ms
+Processing 211 of 629 at 04:55:53 (16.01.20)
+  Restoring commit took 38026ms
+    1 files produced, start merging them
+    Read file: 1 (33425 bytes)
+  Metric execution (+ merging 1 results) took 09:51.543
+  Running metrics took 591544ms
+Handling (+writing) KH output took 629674ms
+Processing 212 of 629 at 05:06:23 (16.01.20)
+  Restoring commit took 6228ms
+    1 files produced, start merging them
+    Read file: 1 (32939 bytes)
+  Metric execution (+ merging 1 results) took 10:46.125
+  Running metrics took 646127ms
+Handling (+writing) KH output took 652378ms
+Processing 213 of 629 at 05:17:15 (16.01.20)
+  Restoring commit took 37936ms
+    1 files produced, start merging them
+    Read file: 1 (33625 bytes)
+  Metric execution (+ merging 1 results) took 10:16.810
+  Running metrics took 616811ms
+Handling (+writing) KH output took 655341ms
+Processing 214 of 629 at 05:28:10 (16.01.20)
+  Restoring commit took 12617ms
+Handling (+writing) KH output took 12645ms
+Processing 215 of 629 at 05:28:23 (16.01.20)
+Handling (+writing) KH output took 26091ms
+Processing 216 of 629 at 05:28:49 (16.01.20)
+Handling (+writing) KH output took 25709ms
+Processing 217 of 629 at 05:29:15 (16.01.20)
+  Restoring commit took 13187ms
+    1 files produced, start merging them
+    Read file: 1 (36610 bytes)
+  Metric execution (+ merging 2 results) took 10:30.562
+  Running metrics took 630562ms
+Handling (+writing) KH output took 643814ms
+Processing 218 of 629 at 05:39:59 (16.01.20)
+  Restoring commit took 32713ms
+    1 files produced, start merging them
+    Read file: 1 (48391 bytes)
+  Metric execution (+ merging 6 results) took 09:20.425
+  Running metrics took 560426ms
+Handling (+writing) KH output took 593538ms
+Processing 219 of 629 at 05:49:52 (16.01.20)
+  Restoring commit took 9338ms
+    1 files produced, start merging them
+    Read file: 1 (0 bytes)
+  Metric execution (+ merging 0 results) took 09:22.139
+  Running metrics took 562140ms
+Handling (+writing) KH output took 572006ms
+Processing 220 of 629 at 05:59:24 (16.01.20)
+  Restoring commit took 3087ms
+    1 files produced, start merging them
+    Read file: 1 (0 bytes)
+  Metric execution (+ merging 0 results) took 10:06.741
+  Running metrics took 606741ms
+Handling (+writing) KH output took 610493ms
+Processing 221 of 629 at 06:09:35 (16.01.20)
+  Restoring commit took 11908ms
+    1 files produced, start merging them
+    Read file: 1 (33756 bytes)
+  Metric execution (+ merging 1 results) took 10:54.717
+  Running metrics took 654718ms
+Handling (+writing) KH output took 666748ms
+Processing 222 of 629 at 06:20:41 (16.01.20)
+Handling (+writing) KH output took 49ms
+Processing 223 of 629 at 06:20:41 (16.01.20)
+  Restoring commit took 7533ms
+    1 files produced, start merging them
+    Read file: 1 (36672 bytes)
+  Metric execution (+ merging 2 results) took 10:26.720
+  Running metrics took 626721ms
+Handling (+writing) KH output took 634313ms
+Processing 224 of 629 at 06:31:16 (16.01.20)
+  Restoring commit took 28249ms
+    1 files produced, start merging them
+    Read file: 1 (33691 bytes)
+  Metric execution (+ merging 1 results) took 10:39.529
+  Running metrics took 639530ms
+Handling (+writing) KH output took 667812ms
+Processing 225 of 629 at 06:42:24 (16.01.20)
+  Restoring commit took 7354ms
+    1 files produced, start merging them
+    Read file: 1 (33126 bytes)
+  Metric execution (+ merging 1 results) took 10:17.187
+  Running metrics took 617189ms
+Handling (+writing) KH output took 624565ms
+Processing 226 of 629 at 06:52:48 (16.01.20)
+  Restoring commit took 7571ms
+    1 files produced, start merging them
+    Read file: 1 (0 bytes)
+  Metric execution (+ merging 0 results) took 09:58.178
+  Running metrics took 598180ms
+Handling (+writing) KH output took 606015ms
+Processing 227 of 629 at 07:02:54 (16.01.20)
+  Restoring commit took 8446ms
+    1 files produced, start merging them
+    Read file: 1 (33593 bytes)
+  Metric execution (+ merging 1 results) took 10:46.784
+  Running metrics took 646785ms
+Handling (+writing) KH output took 655305ms
+Processing 228 of 629 at 07:13:49 (16.01.20)
+  Restoring commit took 7206ms
+    1 files produced, start merging them
+    Read file: 1 (0 bytes)
+  Metric execution (+ merging 0 results) took 10:47.402
+  Running metrics took 647402ms
+Handling (+writing) KH output took 654841ms
+Processing 229 of 629 at 07:24:44 (16.01.20)
+  Restoring commit took 4986ms
+    1 files produced, start merging them
+    Read file: 1 (33315 bytes)
+  Metric execution (+ merging 1 results) took 10:57.209
+  Running metrics took 657209ms
+Handling (+writing) KH output took 662804ms
+Processing 230 of 629 at 07:35:47 (16.01.20)
+  Restoring commit took 36370ms
+Handling (+writing) KH output took 36422ms
+Processing 231 of 629 at 07:36:24 (16.01.20)
+  Restoring commit took 43199ms
+    1 files produced, start merging them
+    Read file: 1 (33129 bytes)
+  Metric execution (+ merging 1 results) took 10:41.453
+  Running metrics took 641454ms
+Handling (+writing) KH output took 684694ms
+Processing 232 of 629 at 07:47:48 (16.01.20)
+  Restoring commit took 2653ms
+    1 files produced, start merging them
+    Read file: 1 (36196 bytes)
+  Metric execution (+ merging 2 results) took 10:46.737
+  Running metrics took 646738ms
+Handling (+writing) KH output took 649424ms
+Processing 233 of 629 at 07:58:38 (16.01.20)
+Handling (+writing) KH output took 41887ms
+Processing 234 of 629 at 07:59:20 (16.01.20)
+  Restoring commit took 13586ms
+    1 files produced, start merging them
+    Read file: 1 (33190 bytes)
+  Metric execution (+ merging 1 results) took 10:23.936
+  Running metrics took 623937ms
+Handling (+writing) KH output took 637556ms
+Processing 235 of 629 at 08:09:57 (16.01.20)
+Handling (+writing) KH output took 22694ms
+Processing 236 of 629 at 08:10:20 (16.01.20)
+  Restoring commit took 12187ms
+    1 files produced, start merging them
+    Read file: 1 (33307 bytes)
+  Metric execution (+ merging 1 results) took 10:13.177
+  Running metrics took 613177ms
+Handling (+writing) KH output took 625407ms
+Processing 237 of 629 at 08:20:45 (16.01.20)
+  Restoring commit took 8400ms
+    1 files produced, start merging them
+    Read file: 1 (33632 bytes)
+  Metric execution (+ merging 1 results) took 10:44.330
+  Running metrics took 644330ms
+Handling (+writing) KH output took 652827ms
+Processing 238 of 629 at 08:31:38 (16.01.20)
+  Restoring commit took 9511ms
+    1 files produced, start merging them
+    Read file: 1 (33175 bytes)
+  Metric execution (+ merging 1 results) took 09:59.435
+  Running metrics took 599436ms
+Handling (+writing) KH output took 609384ms
+Processing 239 of 629 at 08:41:47 (16.01.20)
+  Restoring commit took 8202ms
+Handling (+writing) KH output took 8994ms
+Processing 240 of 629 at 08:41:56 (16.01.20)
+Handling (+writing) KH output took 26915ms
+Processing 241 of 629 at 08:42:23 (16.01.20)
+Handling (+writing) KH output took 24099ms
+Processing 242 of 629 at 08:42:47 (16.01.20)
+Handling (+writing) KH output took 23286ms
+Processing 243 of 629 at 08:43:11 (16.01.20)
+  Restoring commit took 7054ms
+    1 files produced, start merging them
+    Read file: 1 (36351 bytes)
+  Metric execution (+ merging 2 results) took 10:17.629
+  Running metrics took 617629ms
+Handling (+writing) KH output took 624735ms
+Processing 244 of 629 at 08:53:35 (16.01.20)
+  Restoring commit took 31533ms
+    1 files produced, start merging them
+    Read file: 1 (33229 bytes)
+  Metric execution (+ merging 1 results) took 09:34.450
+  Running metrics took 574451ms
+Handling (+writing) KH output took 606008ms
+Processing 245 of 629 at 09:03:41 (16.01.20)
+  Restoring commit took 31469ms
+    1 files produced, start merging them
+    Read file: 1 (33414 bytes)
+  Metric execution (+ merging 1 results) took 09:44.849
+  Running metrics took 584850ms
+Handling (+writing) KH output took 616347ms
+Processing 246 of 629 at 09:13:58 (16.01.20)
+  Restoring commit took 4247ms
+Handling (+writing) KH output took 4280ms
+Processing 247 of 629 at 09:14:02 (16.01.20)
+Handling (+writing) KH output took 22941ms
+Processing 248 of 629 at 09:14:25 (16.01.20)
+  Restoring commit took 10024ms
+    1 files produced, start merging them
+    Read file: 1 (36399 bytes)
+  Metric execution (+ merging 2 results) took 09:37.595
+  Running metrics took 577596ms
+Handling (+writing) KH output took 587972ms
+Processing 249 of 629 at 09:24:13 (16.01.20)
+Handling (+writing) KH output took 22816ms
+Processing 250 of 629 at 09:24:36 (16.01.20)
+Handling (+writing) KH output took 20564ms
+Processing 251 of 629 at 09:24:56 (16.01.20)
+  Restoring commit took 6267ms
+Handling (+writing) KH output took 6297ms
+Processing 252 of 629 at 09:25:03 (16.01.20)
+  Restoring commit took 30000ms
+    1 files produced, start merging them
+    Read file: 1 (48979 bytes)
+  Metric execution (+ merging 6 results) took 09:47.178
+  Running metrics took 587178ms
+Handling (+writing) KH output took 617230ms
+Processing 253 of 629 at 09:35:20 (16.01.20)
+  Restoring commit took 9772ms
+    1 files produced, start merging them
+    Read file: 1 (0 bytes)
+  Metric execution (+ merging 0 results) took 10:14.021
+  Running metrics took 614022ms
+Handling (+writing) KH output took 624018ms
+Processing 254 of 629 at 09:45:44 (16.01.20)
+  Restoring commit took 12714ms
+    1 files produced, start merging them
+    Read file: 1 (33185 bytes)
+  Metric execution (+ merging 1 results) took 10:55.364
+  Running metrics took 655365ms
+Handling (+writing) KH output took 668258ms
+Processing 255 of 629 at 09:56:52 (16.01.20)
+Handling (+writing) KH output took 24326ms
+Processing 256 of 629 at 09:57:17 (16.01.20)
+Handling (+writing) KH output took 23104ms
+Processing 257 of 629 at 09:57:40 (16.01.20)
+  Restoring commit took 3579ms
+    1 files produced, start merging them
+    Read file: 1 (33185 bytes)
+  Metric execution (+ merging 1 results) took 09:52.536
+  Running metrics took 592537ms
+Handling (+writing) KH output took 596331ms
+Processing 258 of 629 at 10:07:36 (16.01.20)
+  Restoring commit took 11031ms
+    1 files produced, start merging them
+    Read file: 1 (33949 bytes)
+  Metric execution (+ merging 1 results) took 10:11.285
+  Running metrics took 611286ms
+Handling (+writing) KH output took 622339ms
+Processing 259 of 629 at 10:17:58 (16.01.20)
+Handling (+writing) KH output took 58ms
+Processing 260 of 629 at 10:17:58 (16.01.20)
+Handling (+writing) KH output took 42ms
+Processing 261 of 629 at 10:17:58 (16.01.20)
+  Restoring commit took 9856ms
+    1 files produced, start merging them
+    Read file: 1 (33185 bytes)
+  Metric execution (+ merging 1 results) took 11:07.481
+  Running metrics took 667482ms
+Handling (+writing) KH output took 677464ms
+Processing 262 of 629 at 10:29:16 (16.01.20)
+  Restoring commit took 8430ms
+    1 files produced, start merging them
+    Read file: 1 (36638 bytes)
+  Metric execution (+ merging 2 results) took 10:27.761
+  Running metrics took 627762ms
+Handling (+writing) KH output took 636370ms
+Processing 263 of 629 at 10:39:52 (16.01.20)
+  Restoring commit took 5210ms
+    1 files produced, start merging them
+    Read file: 1 (36741 bytes)
+  Metric execution (+ merging 2 results) took 09:14.323
+  Running metrics took 554324ms
+Handling (+writing) KH output took 559751ms
+Processing 264 of 629 at 10:49:12 (16.01.20)
+Handling (+writing) KH output took 25235ms
+Processing 265 of 629 at 10:49:37 (16.01.20)
+  Restoring commit took 25364ms
+    1 files produced, start merging them
+    Read file: 1 (42225 bytes)
+  Metric execution (+ merging 4 results) took 09:55.010
+  Running metrics took 595011ms
+Handling (+writing) KH output took 620670ms
+Processing 266 of 629 at 10:59:58 (16.01.20)
+Handling (+writing) KH output took 20156ms
+Processing 267 of 629 at 11:00:18 (16.01.20)
+Handling (+writing) KH output took 21330ms
+Processing 268 of 629 at 11:00:39 (16.01.20)
+  Restoring commit took 8678ms
+    1 files produced, start merging them
+    Read file: 1 (33204 bytes)
+  Metric execution (+ merging 1 results) took 10:19.001
+  Running metrics took 619002ms
+Handling (+writing) KH output took 627776ms
+Processing 269 of 629 at 11:11:07 (16.01.20)
+Handling (+writing) KH output took 21143ms
+Processing 270 of 629 at 11:11:28 (16.01.20)
+  Restoring commit took 8110ms
+    1 files produced, start merging them
+    Read file: 1 (33084 bytes)
+  Metric execution (+ merging 1 results) took 10:54.298
+  Running metrics took 654299ms
+Handling (+writing) KH output took 662477ms
+Processing 271 of 629 at 11:22:31 (16.01.20)
+  Restoring commit took 7539ms
+    1 files produced, start merging them
+    Read file: 1 (37364 bytes)
+  Metric execution (+ merging 2 results) took 09:58.738
+  Running metrics took 598739ms
+Handling (+writing) KH output took 606421ms
+Processing 272 of 629 at 11:32:37 (16.01.20)
+  Restoring commit took 9518ms
+    1 files produced, start merging them
+    Read file: 1 (36898 bytes)
+  Metric execution (+ merging 2 results) took 09:16.631
+  Running metrics took 556632ms
+Handling (+writing) KH output took 566261ms
+Processing 273 of 629 at 11:42:03 (16.01.20)
+  Restoring commit took 9331ms
+    1 files produced, start merging them
+    Read file: 1 (32928 bytes)
+  Metric execution (+ merging 1 results) took 10:20.410
+  Running metrics took 620411ms
+Handling (+writing) KH output took 629813ms
+Processing 274 of 629 at 11:52:33 (16.01.20)
+Handling (+writing) KH output took 25982ms
+Processing 275 of 629 at 11:52:59 (16.01.20)
+  Restoring commit took 7388ms
+    1 files produced, start merging them
+    Read file: 1 (33084 bytes)
+  Metric execution (+ merging 1 results) took 10:29.844
+  Running metrics took 629845ms
+Handling (+writing) KH output took 637315ms
+Processing 276 of 629 at 12:03:37 (16.01.20)
+Handling (+writing) KH output took 24946ms
+Processing 277 of 629 at 12:04:02 (16.01.20)
+  Restoring commit took 7596ms
+    1 files produced, start merging them
+    Read file: 1 (37301 bytes)
+  Metric execution (+ merging 2 results) took 10:32.781
+  Running metrics took 632782ms
+Handling (+writing) KH output took 640420ms
+Processing 278 of 629 at 12:14:42 (16.01.20)
+  Restoring commit took 195ms
+    1 files produced, start merging them
+    Read file: 1 (44011 bytes)
+  Metric execution (+ merging 4 results) took 09:28.700
+  Running metrics took 568700ms
+Handling (+writing) KH output took 568934ms
+Processing 279 of 629 at 12:24:11 (16.01.20)
+  Restoring commit took 9291ms
+    1 files produced, start merging them
+    Read file: 1 (37034 bytes)
+  Metric execution (+ merging 2 results) took 09:56.608
+  Running metrics took 596608ms
+Handling (+writing) KH output took 605972ms
+Processing 280 of 629 at 12:34:17 (16.01.20)
+  Restoring commit took 10147ms
+    1 files produced, start merging them
+    Read file: 1 (33920 bytes)
+  Metric execution (+ merging 1 results) took 10:07.021
+  Running metrics took 607021ms
+Handling (+writing) KH output took 617390ms
+Processing 281 of 629 at 12:44:34 (16.01.20)
+  Restoring commit took 21148ms
+    1 files produced, start merging them
+    Read file: 1 (36151 bytes)
+  Metric execution (+ merging 2 results) took 08:06.782
+  Running metrics took 486783ms
+Handling (+writing) KH output took 507969ms
+Processing 282 of 629 at 12:53:02 (16.01.20)
+  Restoring commit took 55326ms
+    1 files produced, start merging them
+    Read file: 1 (33920 bytes)
+  Metric execution (+ merging 1 results) took 09:43.757
+  Running metrics took 583759ms
+Handling (+writing) KH output took 639300ms
+Processing 283 of 629 at 13:03:41 (16.01.20)
+Handling (+writing) KH output took 24607ms
+Processing 284 of 629 at 13:04:06 (16.01.20)
+  Restoring commit took 3311ms
+    1 files produced, start merging them
+    Read file: 1 (33920 bytes)
+  Metric execution (+ merging 1 results) took 09:27.927
+  Running metrics took 567928ms
+Handling (+writing) KH output took 571443ms
+Processing 285 of 629 at 13:13:38 (16.01.20)
+  Restoring commit took 9032ms
+Handling (+writing) KH output took 13079ms
+Processing 286 of 629 at 13:13:51 (16.01.20)
+  Restoring commit took 6503ms
+    1 files produced, start merging them
+    Read file: 1 (32959 bytes)
+  Metric execution (+ merging 1 results) took 09:54.115
+  Running metrics took 594116ms
+Handling (+writing) KH output took 600803ms
+Processing 287 of 629 at 13:23:51 (16.01.20)
+  Restoring commit took 9128ms
+    1 files produced, start merging them
+    Read file: 1 (34099 bytes)
+  Metric execution (+ merging 1 results) took 09:47.005
+  Running metrics took 587005ms
+Handling (+writing) KH output took 596367ms
+Processing 288 of 629 at 13:33:48 (16.01.20)
+  Restoring commit took 7244ms
+    1 files produced, start merging them
+    Read file: 1 (33958 bytes)
+  Metric execution (+ merging 1 results) took 10:06.043
+  Running metrics took 606043ms
+Handling (+writing) KH output took 613343ms
+Processing 289 of 629 at 13:44:01 (16.01.20)
+Handling (+writing) KH output took 94514ms
+Processing 290 of 629 at 13:45:36 (16.01.20)
+Handling (+writing) KH output took 23742ms
+Processing 291 of 629 at 13:45:59 (16.01.20)
+Handling (+writing) KH output took 18931ms
+Processing 292 of 629 at 13:46:18 (16.01.20)
+Handling (+writing) KH output took 22844ms
+Processing 293 of 629 at 13:46:41 (16.01.20)
+  Restoring commit took 10151ms
+    1 files produced, start merging them
+    Read file: 1 (33359 bytes)
+  Metric execution (+ merging 1 results) took 10:39.390
+  Running metrics took 639391ms
+Handling (+writing) KH output took 649651ms
+Processing 294 of 629 at 13:57:31 (16.01.20)
+  Restoring commit took 30006ms
+Handling (+writing) KH output took 30025ms
+Processing 295 of 629 at 13:58:01 (16.01.20)
+  Restoring commit took 11534ms
+    1 files produced, start merging them
+    Read file: 1 (33723 bytes)
+  Metric execution (+ merging 1 results) took 09:38.124
+  Running metrics took 578125ms
+Handling (+writing) KH output took 589737ms
+Processing 296 of 629 at 14:07:51 (16.01.20)
+  Restoring commit took 34954ms
+    1 files produced, start merging them
+    Read file: 1 (33174 bytes)
+  Metric execution (+ merging 1 results) took 09:42.067
+  Running metrics took 582067ms
+Handling (+writing) KH output took 617071ms
+Processing 297 of 629 at 14:18:08 (16.01.20)
+  Restoring commit took 32111ms
+    1 files produced, start merging them
+    Read file: 1 (33099 bytes)
+  Metric execution (+ merging 1 results) took 10:37.185
+  Running metrics took 637186ms
+Handling (+writing) KH output took 669457ms
+Processing 298 of 629 at 14:29:17 (16.01.20)
+  Restoring commit took 7850ms
+    1 files produced, start merging them
+    Read file: 1 (33770 bytes)
+  Metric execution (+ merging 1 results) took 09:27.897
+  Running metrics took 567897ms
+Handling (+writing) KH output took 575802ms
+Processing 299 of 629 at 14:38:53 (16.01.20)
+  Restoring commit took 7226ms
+    1 files produced, start merging them
+    Read file: 1 (33859 bytes)
+  Metric execution (+ merging 1 results) took 09:51.280
+  Running metrics took 591281ms
+Handling (+writing) KH output took 598730ms
+Processing 300 of 629 at 14:48:52 (16.01.20)
+  Restoring commit took 9671ms
+    1 files produced, start merging them
+    Read file: 1 (33098 bytes)
+  Metric execution (+ merging 1 results) took 09:38.531
+  Running metrics took 578532ms
+Handling (+writing) KH output took 588864ms
+Processing 301 of 629 at 14:58:41 (16.01.20)
+Handling (+writing) KH output took 24132ms
+Processing 302 of 629 at 14:59:05 (16.01.20)
+  Restoring commit took 2929ms
+    1 files produced, start merging them
+    Read file: 1 (33098 bytes)
+  Metric execution (+ merging 1 results) took 10:27.002
+  Running metrics took 627003ms
+Handling (+writing) KH output took 630699ms
+Processing 303 of 629 at 15:09:35 (16.01.20)
+  Restoring commit took 7767ms
+Handling (+writing) KH output took 7823ms
+Processing 304 of 629 at 15:09:43 (16.01.20)
+  Restoring commit took 7604ms
+    1 files produced, start merging them
+    Read file: 1 (33401 bytes)
+  Metric execution (+ merging 1 results) took 10:05.538
+  Running metrics took 605540ms
+Handling (+writing) KH output took 613295ms
+Processing 305 of 629 at 15:19:56 (16.01.20)
+  Restoring commit took 5325ms
+Handling (+writing) KH output took 5363ms
+Processing 306 of 629 at 15:20:02 (16.01.20)
+Handling (+writing) KH output took 68ms
+Processing 307 of 629 at 15:20:02 (16.01.20)
+  Restoring commit took 5627ms
+    1 files produced, start merging them
+    Read file: 1 (32875 bytes)
+  Metric execution (+ merging 1 results) took 09:35.831
+  Running metrics took 575831ms
+Handling (+writing) KH output took 581478ms
+Processing 308 of 629 at 15:29:43 (16.01.20)
+  Restoring commit took 11795ms
+    1 files produced, start merging them
+    Read file: 1 (0 bytes)
+  Metric execution (+ merging 0 results) took 09:49.248
+  Running metrics took 589248ms
+Handling (+writing) KH output took 601466ms
+Processing 309 of 629 at 15:39:45 (16.01.20)
+  Restoring commit took 10547ms
+Handling (+writing) KH output took 10591ms
+Processing 310 of 629 at 15:39:55 (16.01.20)
+  Restoring commit took 13356ms
+Handling (+writing) KH output took 13379ms
+Processing 311 of 629 at 15:40:09 (16.01.20)
+  Restoring commit took 54463ms
+    1 files produced, start merging them
+    Read file: 1 (0 bytes)
+  Metric execution (+ merging 0 results) took 09:23.906
+  Running metrics took 563906ms
+Handling (+writing) KH output took 618808ms
+Processing 312 of 629 at 15:50:28 (16.01.20)
+  Restoring commit took 8907ms
+Handling (+writing) KH output took 8932ms
+Processing 313 of 629 at 15:50:37 (16.01.20)
+  Restoring commit took 30436ms
+    1 files produced, start merging them
+    Read file: 1 (0 bytes)
+  Metric execution (+ merging 0 results) took 10:33.953
+  Running metrics took 633954ms
+Handling (+writing) KH output took 666093ms
+Processing 314 of 629 at 16:01:43 (16.01.20)
+  Restoring commit took 32904ms
+    1 files produced, start merging them
+    Read file: 1 (75159 bytes)
+  Metric execution (+ merging 12 results) took 09:26.996
+  Running metrics took 566996ms
+Handling (+writing) KH output took 600032ms
+Processing 315 of 629 at 16:11:43 (16.01.20)
+  Restoring commit took 2977ms
+    1 files produced, start merging them
+    Read file: 1 (37687 bytes)
+  Metric execution (+ merging 2 results) took 10:48.024
+  Running metrics took 648025ms
+Handling (+writing) KH output took 651096ms
+Processing 316 of 629 at 16:22:34 (16.01.20)
+  Restoring commit took 7122ms
+Handling (+writing) KH output took 7176ms
+Processing 317 of 629 at 16:22:41 (16.01.20)
+  Restoring commit took 33128ms
+Handling (+writing) KH output took 33438ms
+Processing 318 of 629 at 16:23:14 (16.01.20)
+  Restoring commit took 30919ms
+Handling (+writing) KH output took 30997ms
+Processing 319 of 629 at 16:23:45 (16.01.20)
+  Restoring commit took 26993ms
+    1 files produced, start merging them
+    Read file: 1 (32892 bytes)
+  Metric execution (+ merging 1 results) took 10:53.646
+  Running metrics took 653646ms
+Handling (+writing) KH output took 680659ms
+Processing 320 of 629 at 16:35:06 (16.01.20)
+  Restoring commit took 38270ms
+    1 files produced, start merging them
+    Read file: 1 (33192 bytes)
+  Metric execution (+ merging 1 results) took 09:28.142
+  Running metrics took 568143ms
+Handling (+writing) KH output took 606470ms
+Processing 321 of 629 at 16:45:13 (16.01.20)
+Handling (+writing) KH output took 25275ms
+Processing 322 of 629 at 16:45:38 (16.01.20)
+  Restoring commit took 11795ms
+    1 files produced, start merging them
+    Read file: 1 (0 bytes)
+  Metric execution (+ merging 0 results) took 08:58.083
+  Running metrics took 538084ms
+Handling (+writing) KH output took 549913ms
+Processing 323 of 629 at 16:54:48 (16.01.20)
+  Restoring commit took 57187ms
+    1 files produced, start merging them
+    Read file: 1 (33595 bytes)
+  Metric execution (+ merging 1 results) took 10:32.449
+  Running metrics took 632450ms
+Handling (+writing) KH output took 689730ms
+Processing 324 of 629 at 17:06:17 (16.01.20)
+  Restoring commit took 43940ms
+    1 files produced, start merging them
+    Read file: 1 (33093 bytes)
+  Metric execution (+ merging 1 results) took 09:51.454
+  Running metrics took 591454ms
+Handling (+writing) KH output took 635422ms
+Processing 325 of 629 at 17:16:53 (16.01.20)
+  Restoring commit took 14449ms
+    1 files produced, start merging them
+    Read file: 1 (33408 bytes)
+  Metric execution (+ merging 1 results) took 10:35.241
+  Running metrics took 635241ms
+Handling (+writing) KH output took 650075ms
+Processing 326 of 629 at 17:27:43 (16.01.20)
+  Restoring commit took 35094ms
+    1 files produced, start merging them
+    Read file: 1 (33280 bytes)
+  Metric execution (+ merging 1 results) took 09:44.333
+  Running metrics took 584333ms
+Handling (+writing) KH output took 619763ms
+Processing 327 of 629 at 17:38:03 (16.01.20)
+Handling (+writing) KH output took 24553ms
+Processing 328 of 629 at 17:38:27 (16.01.20)
+  Restoring commit took 13395ms
+    1 files produced, start merging them
+    Read file: 1 (33001 bytes)
+  Metric execution (+ merging 1 results) took 09:24.566
+  Running metrics took 564568ms
+Handling (+writing) KH output took 578084ms
+Processing 329 of 629 at 17:48:05 (16.01.20)
+  Restoring commit took 48437ms
+Handling (+writing) KH output took 49346ms
+Processing 330 of 629 at 17:48:55 (16.01.20)
+  Restoring commit took 39918ms
+    1 files produced, start merging them
+    Read file: 1 (32917 bytes)
+  Metric execution (+ merging 1 results) took 09:29.665
+  Running metrics took 569665ms
+Handling (+writing) KH output took 609706ms
+Processing 331 of 629 at 17:59:04 (16.01.20)
+  Restoring commit took 45490ms
+    1 files produced, start merging them
+    Read file: 1 (33535 bytes)
+  Metric execution (+ merging 1 results) took 09:45.980
+  Running metrics took 585980ms
+Handling (+writing) KH output took 631524ms
+Processing 332 of 629 at 18:09:36 (16.01.20)
+  Restoring commit took 42187ms
+    1 files produced, start merging them
+    Read file: 1 (33830 bytes)
+  Metric execution (+ merging 1 results) took 09:53.575
+  Running metrics took 593576ms
+Handling (+writing) KH output took 635944ms
+Processing 333 of 629 at 18:20:12 (16.01.20)
+  Restoring commit took 52706ms
+    1 files produced, start merging them
+    Read file: 1 (74545 bytes)
+  Metric execution (+ merging 14 results) took 09:53.296
+  Running metrics took 593298ms
+Handling (+writing) KH output took 646259ms
+Processing 334 of 629 at 18:30:58 (16.01.20)
+  Restoring commit took 43875ms
+    1 files produced, start merging them
+    Read file: 1 (33154 bytes)
+  Metric execution (+ merging 1 results) took 09:11.811
+  Running metrics took 551812ms
+Handling (+writing) KH output took 595832ms
+Processing 335 of 629 at 18:40:54 (16.01.20)
+  Restoring commit took 7760ms
+    1 files produced, start merging them
+    Read file: 1 (46264 bytes)
+  Metric execution (+ merging 5 results) took 09:53.572
+  Running metrics took 593573ms
+Handling (+writing) KH output took 601405ms
+Processing 336 of 629 at 18:50:55 (16.01.20)
+  Restoring commit took 54856ms
+    1 files produced, start merging them
+    Read file: 1 (33139 bytes)
+  Metric execution (+ merging 1 results) took 10:52.456
+  Running metrics took 652457ms
+Handling (+writing) KH output took 707407ms
+Processing 337 of 629 at 19:02:43 (16.01.20)
+  Restoring commit took 39260ms
+    1 files produced, start merging them
+    Read file: 1 (37096 bytes)
+  Metric execution (+ merging 2 results) took 10:24.254
+  Running metrics took 624254ms
+Handling (+writing) KH output took 663700ms
+Processing 338 of 629 at 19:13:46 (16.01.20)
+  Restoring commit took 41967ms
+    1 files produced, start merging them
+    Read file: 1 (33294 bytes)
+  Metric execution (+ merging 1 results) took 10:32.245
+  Running metrics took 632246ms
+Handling (+writing) KH output took 674245ms
+Processing 339 of 629 at 19:25:01 (16.01.20)
+  Restoring commit took 28115ms
+    1 files produced, start merging them
+    Read file: 1 (0 bytes)
+  Metric execution (+ merging 0 results) took 11:21.178
+  Running metrics took 681179ms
+Handling (+writing) KH output took 709322ms
+Processing 340 of 629 at 19:36:50 (16.01.20)
+  Restoring commit took 34602ms
+    1 files produced, start merging them
+    Read file: 1 (36734 bytes)
+  Metric execution (+ merging 2 results) took 10:19.428
+  Running metrics took 619430ms
+Handling (+writing) KH output took 654216ms
+Processing 341 of 629 at 19:47:44 (16.01.20)
+  Restoring commit took 37293ms
+    1 files produced, start merging them
+    Read file: 1 (33173 bytes)
+  Metric execution (+ merging 1 results) took 10:33.845
+  Running metrics took 633847ms
+Handling (+writing) KH output took 671256ms
+Processing 342 of 629 at 19:58:55 (16.01.20)
+  Restoring commit took 5680ms
+    1 files produced, start merging them
+    Read file: 1 (36161 bytes)
+  Metric execution (+ merging 2 results) took 10:44.209
+  Running metrics took 644209ms
+Handling (+writing) KH output took 650042ms
+Processing 343 of 629 at 20:09:46 (16.01.20)
+  Restoring commit took 31057ms
+    1 files produced, start merging them
+    Read file: 1 (36210 bytes)
+  Metric execution (+ merging 2 results) took 10:12.452
+  Running metrics took 612453ms
+Handling (+writing) KH output took 643666ms
+Processing 344 of 629 at 20:20:29 (16.01.20)
+  Restoring commit took 27279ms
+    1 files produced, start merging them
+    Read file: 1 (33064 bytes)
+  Metric execution (+ merging 1 results) took 09:46.891
+  Running metrics took 586892ms
+Handling (+writing) KH output took 614273ms
+Processing 345 of 629 at 20:30:43 (16.01.20)
+  Restoring commit took 32702ms
+    1 files produced, start merging them
+    Read file: 1 (66734 bytes)
+  Metric execution (+ merging 11 results) took 09:20.439
+  Running metrics took 560439ms
+Handling (+writing) KH output took 593310ms
+Processing 346 of 629 at 20:40:37 (16.01.20)
+  Restoring commit took 10642ms
+    1 files produced, start merging them
+    Read file: 1 (33116 bytes)
+  Metric execution (+ merging 1 results) took 10:01.354
+  Running metrics took 601355ms
+Handling (+writing) KH output took 612028ms
+Processing 347 of 629 at 20:50:49 (16.01.20)
+  Restoring commit took 5520ms
+    1 files produced, start merging them
+    Read file: 1 (33322 bytes)
+  Metric execution (+ merging 1 results) took 10:52.955
+  Running metrics took 652956ms
+Handling (+writing) KH output took 658532ms
+Processing 348 of 629 at 21:01:47 (16.01.20)
+  Restoring commit took 26089ms
+    1 files produced, start merging them
+    Read file: 1 (33124 bytes)
+  Metric execution (+ merging 1 results) took 10:14.779
+  Running metrics took 614780ms
+Handling (+writing) KH output took 640927ms
+Processing 349 of 629 at 21:12:28 (16.01.20)
+  Restoring commit took 26607ms
+    1 files produced, start merging them
+    Read file: 1 (33212 bytes)
+  Metric execution (+ merging 1 results) took 09:19.777
+  Running metrics took 559778ms
+Handling (+writing) KH output took 586429ms
+Processing 350 of 629 at 21:22:15 (16.01.20)
+Handling (+writing) KH output took 21961ms
+Processing 351 of 629 at 21:22:37 (16.01.20)
+Handling (+writing) KH output took 23639ms
+Processing 352 of 629 at 21:23:00 (16.01.20)
+  Restoring commit took 34428ms
+    1 files produced, start merging them
+    Read file: 1 (33252 bytes)
+  Metric execution (+ merging 1 results) took 09:29.956
+  Running metrics took 569963ms
+Handling (+writing) KH output took 604445ms
+Processing 353 of 629 at 21:33:05 (16.01.20)
+  Restoring commit took 4165ms
+    1 files produced, start merging them
+    Read file: 1 (33446 bytes)
+  Metric execution (+ merging 1 results) took 09:53.787
+  Running metrics took 593788ms
+Handling (+writing) KH output took 598034ms
+Processing 354 of 629 at 21:43:03 (16.01.20)
+  Restoring commit took 2533ms
+    1 files produced, start merging them
+    Read file: 1 (33223 bytes)
+  Metric execution (+ merging 1 results) took 10:41.576
+  Running metrics took 641577ms
+Handling (+writing) KH output took 644258ms
+Processing 355 of 629 at 21:53:47 (16.01.20)
+  Restoring commit took 3663ms
+    1 files produced, start merging them
+    Read file: 1 (42909 bytes)
+  Metric execution (+ merging 4 results) took 10:59.913
+  Running metrics took 659913ms
+Handling (+writing) KH output took 663668ms
+Processing 356 of 629 at 22:04:51 (16.01.20)
+  Restoring commit took 2712ms
+    1 files produced, start merging them
+    Read file: 1 (32904 bytes)
+  Metric execution (+ merging 1 results) took 10:59.127
+  Running metrics took 659128ms
+Handling (+writing) KH output took 661875ms
+Processing 357 of 629 at 22:15:53 (16.01.20)
+  Restoring commit took 9690ms
+    1 files produced, start merging them
+    Read file: 1 (33345 bytes)
+  Metric execution (+ merging 1 results) took 10:25.001
+  Running metrics took 625001ms
+Handling (+writing) KH output took 634727ms
+Processing 358 of 629 at 22:26:27 (16.01.20)
+  Restoring commit took 8032ms
+    1 files produced, start merging them
+    Read file: 1 (37156 bytes)
+  Metric execution (+ merging 2 results) took 10:20.727
+  Running metrics took 620728ms
+Handling (+writing) KH output took 628876ms
+Processing 359 of 629 at 22:36:56 (16.01.20)
+  Restoring commit took 2708ms
+    1 files produced, start merging them
+    Read file: 1 (37613 bytes)
+  Metric execution (+ merging 2 results) took 10:14.644
+  Running metrics took 614645ms
+Handling (+writing) KH output took 617410ms
+Processing 360 of 629 at 22:47:14 (16.01.20)
+  Restoring commit took 8145ms
+    1 files produced, start merging them
+    Read file: 1 (33877 bytes)
+  Metric execution (+ merging 1 results) took 09:45.938
+  Running metrics took 585938ms
+Handling (+writing) KH output took 594334ms
+Processing 361 of 629 at 22:57:08 (16.01.20)
+Handling (+writing) KH output took 43468ms
+Processing 362 of 629 at 22:57:51 (16.01.20)
+  Restoring commit took 6445ms
+    1 files produced, start merging them
+    Read file: 1 (0 bytes)
+  Metric execution (+ merging 0 results) took 10:26.311
+  Running metrics took 626311ms
+Handling (+writing) KH output took 632913ms
+Processing 363 of 629 at 23:08:24 (16.01.20)
+Handling (+writing) KH output took 46242ms
+Processing 364 of 629 at 23:09:11 (16.01.20)
+  Restoring commit took 996ms
+    1 files produced, start merging them
+    Read file: 1 (0 bytes)
+  Metric execution (+ merging 0 results) took 10:09.869
+  Running metrics took 609870ms
+Handling (+writing) KH output took 611000ms
+Processing 365 of 629 at 23:19:22 (16.01.20)
+  Restoring commit took 11121ms
+    1 files produced, start merging them
+    Read file: 1 (33154 bytes)
+  Metric execution (+ merging 1 results) took 10:24.819
+  Running metrics took 624820ms
+Handling (+writing) KH output took 636039ms
+Processing 366 of 629 at 23:29:58 (16.01.20)
+Handling (+writing) KH output took 20865ms
+Processing 367 of 629 at 23:30:18 (16.01.20)
+  Restoring commit took 35312ms
+Handling (+writing) KH output took 35399ms
+Processing 368 of 629 at 23:30:54 (16.01.20)
+  Restoring commit took 9284ms
+    1 files produced, start merging them
+    Read file: 1 (33367 bytes)
+  Metric execution (+ merging 1 results) took 10:31.006
+  Running metrics took 631008ms
+Handling (+writing) KH output took 640462ms
+Processing 369 of 629 at 23:41:34 (16.01.20)
+Handling (+writing) KH output took 23446ms
+Processing 370 of 629 at 23:41:58 (16.01.20)
+Handling (+writing) KH output took 22220ms
+Processing 371 of 629 at 23:42:20 (16.01.20)
+  Restoring commit took 10957ms
+    1 files produced, start merging them
+    Read file: 1 (33548 bytes)
+  Metric execution (+ merging 1 results) took 10:27.675
+  Running metrics took 627676ms
+Handling (+writing) KH output took 638897ms
+Processing 372 of 629 at 23:52:59 (16.01.20)
+Handling (+writing) KH output took 30123ms
+Processing 373 of 629 at 23:53:29 (16.01.20)
+  Restoring commit took 9466ms
+    1 files produced, start merging them
+    Read file: 1 (33367 bytes)
+  Metric execution (+ merging 1 results) took 10:06.136
+  Running metrics took 606136ms
+Handling (+writing) KH output took 615803ms
+Processing 374 of 629 at 00:03:45 (17.01.20)
+Handling (+writing) KH output took 26690ms
+Processing 375 of 629 at 00:04:12 (17.01.20)
+  Restoring commit took 9751ms
+    1 files produced, start merging them
+    Read file: 1 (33638 bytes)
+  Metric execution (+ merging 1 results) took 10:15.467
+  Running metrics took 615467ms
+Handling (+writing) KH output took 625256ms
+Processing 376 of 629 at 00:14:37 (17.01.20)
+  Restoring commit took 2753ms
+    1 files produced, start merging them
+    Read file: 1 (33272 bytes)
+  Metric execution (+ merging 1 results) took 10:58.276
+  Running metrics took 658277ms
+Handling (+writing) KH output took 661106ms
+Processing 377 of 629 at 00:25:38 (17.01.20)
+Handling (+writing) KH output took 58ms
+Processing 378 of 629 at 00:25:38 (17.01.20)
+  Restoring commit took 9837ms
+    1 files produced, start merging them
+    Read file: 1 (33765 bytes)
+  Metric execution (+ merging 1 results) took 10:20.272
+  Running metrics took 620274ms
+Handling (+writing) KH output took 630425ms
+Processing 379 of 629 at 00:36:08 (17.01.20)
+  Restoring commit took 11156ms
+Handling (+writing) KH output took 11404ms
+Processing 380 of 629 at 00:36:20 (17.01.20)
+  Restoring commit took 31078ms
+    1 files produced, start merging them
+    Read file: 1 (32978 bytes)
+  Metric execution (+ merging 1 results) took 10:19.075
+  Running metrics took 619076ms
+Handling (+writing) KH output took 650275ms
+Processing 381 of 629 at 00:47:10 (17.01.20)
+  Restoring commit took 38099ms
+    1 files produced, start merging them
+    Read file: 1 (33464 bytes)
+  Metric execution (+ merging 1 results) took 09:05.552
+  Running metrics took 545553ms
+Handling (+writing) KH output took 583678ms
+Processing 382 of 629 at 00:56:54 (17.01.20)
+  Restoring commit took 36263ms
+    1 files produced, start merging them
+    Read file: 1 (33060 bytes)
+  Metric execution (+ merging 1 results) took 09:53.403
+  Running metrics took 593404ms
+Handling (+writing) KH output took 629706ms
+Processing 383 of 629 at 01:07:23 (17.01.20)
+  Restoring commit took 9300ms
+    1 files produced, start merging them
+    Read file: 1 (36018 bytes)
+  Metric execution (+ merging 2 results) took 10:14.655
+  Running metrics took 614656ms
+Handling (+writing) KH output took 624867ms
+Processing 384 of 629 at 01:17:48 (17.01.20)
+  Restoring commit took 3085ms
+Handling (+writing) KH output took 3359ms
+Processing 385 of 629 at 01:17:52 (17.01.20)
+Handling (+writing) KH output took 19964ms
+Processing 386 of 629 at 01:18:12 (17.01.20)
+  Restoring commit took 8325ms
+    1 files produced, start merging them
+    Read file: 1 (33372 bytes)
+  Metric execution (+ merging 1 results) took 09:33.950
+  Running metrics took 573951ms
+Handling (+writing) KH output took 582343ms
+Processing 387 of 629 at 01:27:54 (17.01.20)
+  Restoring commit took 8797ms
+    1 files produced, start merging them
+    Read file: 1 (36149 bytes)
+  Metric execution (+ merging 2 results) took 08:47.401
+  Running metrics took 527403ms
+Handling (+writing) KH output took 536221ms
+Processing 388 of 629 at 01:36:50 (17.01.20)
+Handling (+writing) KH output took 30126ms
+Processing 389 of 629 at 01:37:20 (17.01.20)
+  Restoring commit took 8664ms
+    1 files produced, start merging them
+    Read file: 1 (33332 bytes)
+  Metric execution (+ merging 1 results) took 10:07.301
+  Running metrics took 607301ms
+Handling (+writing) KH output took 616255ms
+Processing 390 of 629 at 01:47:37 (17.01.20)
+  Restoring commit took 7590ms
+Handling (+writing) KH output took 7619ms
+Processing 391 of 629 at 01:47:44 (17.01.20)
+Handling (+writing) KH output took 22751ms
+Processing 392 of 629 at 01:48:07 (17.01.20)
+Handling (+writing) KH output took 24553ms
+Processing 393 of 629 at 01:48:31 (17.01.20)
+Handling (+writing) KH output took 26742ms
+Processing 394 of 629 at 01:48:58 (17.01.20)
+  Restoring commit took 35414ms
+    1 files produced, start merging them
+    Read file: 1 (39877 bytes)
+  Metric execution (+ merging 3 results) took 09:52.127
+  Running metrics took 592128ms
+Handling (+writing) KH output took 627590ms
+Processing 395 of 629 at 01:59:26 (17.01.20)
+  Restoring commit took 11652ms
+    1 files produced, start merging them
+    Read file: 1 (36697 bytes)
+  Metric execution (+ merging 2 results) took 10:49.644
+  Running metrics took 649646ms
+Handling (+writing) KH output took 661619ms
+Processing 396 of 629 at 02:10:27 (17.01.20)
+  Restoring commit took 25901ms
+    1 files produced, start merging them
+    Read file: 1 (33322 bytes)
+  Metric execution (+ merging 1 results) took 10:39.780
+  Running metrics took 639781ms
+Handling (+writing) KH output took 665922ms
+Processing 397 of 629 at 02:21:33 (17.01.20)
+Handling (+writing) KH output took 56ms
+Processing 398 of 629 at 02:21:33 (17.01.20)
+  Restoring commit took 484ms
+    1 files produced, start merging them
+    Read file: 1 (35868 bytes)
+  Metric execution (+ merging 2 results) took 10:10.143
+  Running metrics took 610143ms
+Handling (+writing) KH output took 611277ms
+Processing 399 of 629 at 02:31:45 (17.01.20)
+  Restoring commit took 182ms
+    1 files produced, start merging them
+    Read file: 1 (36359 bytes)
+  Metric execution (+ merging 2 results) took 10:12.212
+  Running metrics took 612213ms
+Handling (+writing) KH output took 612544ms
+Processing 400 of 629 at 02:41:57 (17.01.20)
+Handling (+writing) KH output took 24230ms
+Processing 401 of 629 at 02:42:21 (17.01.20)
+  Restoring commit took 10724ms
+Handling (+writing) KH output took 10752ms
+Processing 402 of 629 at 02:42:32 (17.01.20)
+  Restoring commit took 3925ms
+Handling (+writing) KH output took 3948ms
+Processing 403 of 629 at 02:42:36 (17.01.20)
+  Restoring commit took 10049ms
+    1 files produced, start merging them
+    Read file: 1 (33870 bytes)
+  Metric execution (+ merging 1 results) took 10:55.920
+  Running metrics took 655921ms
+Handling (+writing) KH output took 666257ms
+Processing 404 of 629 at 02:53:42 (17.01.20)
+  Restoring commit took 10029ms
+    1 files produced, start merging them
+    Read file: 1 (50291 bytes)
+  Metric execution (+ merging 6 results) took 10:17.258
+  Running metrics took 617259ms
+Handling (+writing) KH output took 627408ms
+Processing 405 of 629 at 03:04:10 (17.01.20)
+  Restoring commit took 8475ms
+    1 files produced, start merging them
+    Read file: 1 (70825 bytes)
+  Metric execution (+ merging 13 results) took 09:57.642
+  Running metrics took 597643ms
+Handling (+writing) KH output took 606155ms
+Processing 406 of 629 at 03:14:16 (17.01.20)
+  Restoring commit took 2873ms
+    1 files produced, start merging them
+    Read file: 1 (36339 bytes)
+  Metric execution (+ merging 2 results) took 10:38.824
+  Running metrics took 638824ms
+Handling (+writing) KH output took 641845ms
+Processing 407 of 629 at 03:24:58 (17.01.20)
+Handling (+writing) KH output took 40321ms
+Processing 408 of 629 at 03:25:38 (17.01.20)
+Handling (+writing) KH output took 29299ms
+Processing 409 of 629 at 03:26:07 (17.01.20)
+Handling (+writing) KH output took 21523ms
+Processing 410 of 629 at 03:26:29 (17.01.20)
+Handling (+writing) KH output took 22820ms
+Processing 411 of 629 at 03:26:52 (17.01.20)
+Handling (+writing) KH output took 25122ms
+Processing 412 of 629 at 03:27:17 (17.01.20)
+Handling (+writing) KH output took 25416ms
+Processing 413 of 629 at 03:27:42 (17.01.20)
+Handling (+writing) KH output took 24987ms
+Processing 414 of 629 at 03:28:07 (17.01.20)
+Handling (+writing) KH output took 24368ms
+Processing 415 of 629 at 03:28:32 (17.01.20)
+  Restoring commit took 8775ms
+    1 files produced, start merging them
+    Read file: 1 (33144 bytes)
+  Metric execution (+ merging 1 results) took 10:32.651
+  Running metrics took 632651ms
+Handling (+writing) KH output took 641558ms
+Processing 416 of 629 at 03:39:13 (17.01.20)
+  Restoring commit took 9816ms
+Handling (+writing) KH output took 9859ms
+Processing 417 of 629 at 03:39:23 (17.01.20)
+  Restoring commit took 34669ms
+    1 files produced, start merging them
+    Read file: 1 (33404 bytes)
+  Metric execution (+ merging 1 results) took 10:28.863
+  Running metrics took 628864ms
+Handling (+writing) KH output took 663827ms
+Processing 418 of 629 at 03:50:27 (17.01.20)
+  Restoring commit took 9637ms
+    1 files produced, start merging them
+    Read file: 1 (33532 bytes)
+  Metric execution (+ merging 1 results) took 10:43.307
+  Running metrics took 643307ms
+Handling (+writing) KH output took 652996ms
+Processing 419 of 629 at 04:01:20 (17.01.20)
+Handling (+writing) KH output took 22803ms
+Processing 420 of 629 at 04:01:43 (17.01.20)
+Handling (+writing) KH output took 23936ms
+Processing 421 of 629 at 04:02:07 (17.01.20)
+Handling (+writing) KH output took 20665ms
+Processing 422 of 629 at 04:02:27 (17.01.20)
+Handling (+writing) KH output took 28989ms
+Processing 423 of 629 at 04:02:56 (17.01.20)
+  Restoring commit took 10352ms
+    1 files produced, start merging them
+    Read file: 1 (36239 bytes)
+  Metric execution (+ merging 2 results) took 10:09.265
+  Running metrics took 609265ms
+Handling (+writing) KH output took 619697ms
+Processing 424 of 629 at 04:13:16 (17.01.20)
+  Restoring commit took 36654ms
+    1 files produced, start merging them
+    Read file: 1 (33445 bytes)
+  Metric execution (+ merging 1 results) took 10:34.816
+  Running metrics took 634817ms
+Handling (+writing) KH output took 671514ms
+Processing 425 of 629 at 04:24:28 (17.01.20)
+  Restoring commit took 10965ms
+    1 files produced, start merging them
+    Read file: 1 (33808 bytes)
+  Metric execution (+ merging 1 results) took 10:01.713
+  Running metrics took 601714ms
+Handling (+writing) KH output took 612934ms
+Processing 426 of 629 at 04:34:40 (17.01.20)
+  Restoring commit took 2307ms
+    1 files produced, start merging them
+    Read file: 1 (33807 bytes)
+  Metric execution (+ merging 1 results) took 09:44.999
+  Running metrics took 584999ms
+Handling (+writing) KH output took 587597ms
+Processing 427 of 629 at 04:44:28 (17.01.20)
+  Restoring commit took 9824ms
+Handling (+writing) KH output took 9855ms
+Processing 428 of 629 at 04:44:38 (17.01.20)
+  Restoring commit took 12037ms
+    1 files produced, start merging them
+    Read file: 1 (33160 bytes)
+  Metric execution (+ merging 1 results) took 10:12.237
+  Running metrics took 612238ms
+Handling (+writing) KH output took 624311ms
+Processing 429 of 629 at 04:55:02 (17.01.20)
+  Restoring commit took 10504ms
+Handling (+writing) KH output took 10532ms
+Processing 430 of 629 at 04:55:13 (17.01.20)
+  Restoring commit took 3047ms
+Handling (+writing) KH output took 3092ms
+Processing 431 of 629 at 04:55:16 (17.01.20)
+  Restoring commit took 2285ms
+    1 files produced, start merging them
+    Read file: 1 (0 bytes)
+  Metric execution (+ merging 0 results) took 10:05.307
+  Running metrics took 605307ms
+Handling (+writing) KH output took 607845ms
+Processing 432 of 629 at 05:05:24 (17.01.20)
+  Restoring commit took 2605ms
+    1 files produced, start merging them
+    Read file: 1 (0 bytes)
+  Metric execution (+ merging 0 results) took 10:50.723
+  Running metrics took 650724ms
+Handling (+writing) KH output took 653702ms
+Processing 433 of 629 at 05:16:17 (17.01.20)
+  Restoring commit took 10669ms
+    1 files produced, start merging them
+    Read file: 1 (33877 bytes)
+  Metric execution (+ merging 1 results) took 10:08.690
+  Running metrics took 608690ms
+Handling (+writing) KH output took 619712ms
+Processing 434 of 629 at 05:26:37 (17.01.20)
+  Restoring commit took 11495ms
+    1 files produced, start merging them
+    Read file: 1 (33448 bytes)
+  Metric execution (+ merging 1 results) took 09:48.532
+  Running metrics took 588533ms
+Handling (+writing) KH output took 600098ms
+Processing 435 of 629 at 05:36:37 (17.01.20)
+  Restoring commit took 11884ms
+    1 files produced, start merging them
+    Read file: 1 (33612 bytes)
+  Metric execution (+ merging 1 results) took 10:55.428
+  Running metrics took 655428ms
+Handling (+writing) KH output took 667343ms
+Processing 436 of 629 at 05:47:45 (17.01.20)
+  Restoring commit took 13654ms
+    1 files produced, start merging them
+    Read file: 1 (33045 bytes)
+  Metric execution (+ merging 1 results) took 10:34.056
+  Running metrics took 634056ms
+Handling (+writing) KH output took 647814ms
+Processing 437 of 629 at 05:58:32 (17.01.20)
+  Restoring commit took 9848ms
+    1 files produced, start merging them
+    Read file: 1 (33568 bytes)
+  Metric execution (+ merging 1 results) took 09:58.557
+  Running metrics took 598558ms
+Handling (+writing) KH output took 608509ms
+Processing 438 of 629 at 06:08:41 (17.01.20)
+Handling (+writing) KH output took 23943ms
+Processing 439 of 629 at 06:09:05 (17.01.20)
+Handling (+writing) KH output took 27244ms
+Processing 440 of 629 at 06:09:32 (17.01.20)
+Handling (+writing) KH output took 25344ms
+Processing 441 of 629 at 06:09:57 (17.01.20)
+  Restoring commit took 10248ms
+    1 files produced, start merging them
+    Read file: 1 (33026 bytes)
+  Metric execution (+ merging 1 results) took 10:07.617
+  Running metrics took 607618ms
+Handling (+writing) KH output took 617895ms
+Processing 442 of 629 at 06:20:15 (17.01.20)
+  Restoring commit took 10199ms
+    1 files produced, start merging them
+    Read file: 1 (37516 bytes)
+  Metric execution (+ merging 2 results) took 10:34.038
+  Running metrics took 634039ms
+Handling (+writing) KH output took 644290ms
+Processing 443 of 629 at 06:31:00 (17.01.20)
+  Restoring commit took 7865ms
+    1 files produced, start merging them
+    Read file: 1 (35834 bytes)
+  Metric execution (+ merging 2 results) took 09:32.340
+  Running metrics took 572341ms
+Handling (+writing) KH output took 580263ms
+Processing 444 of 629 at 06:40:40 (17.01.20)
+  Restoring commit took 7427ms
+    1 files produced, start merging them
+    Read file: 1 (33708 bytes)
+  Metric execution (+ merging 1 results) took 10:11.380
+  Running metrics took 611381ms
+Handling (+writing) KH output took 618846ms
+Processing 445 of 629 at 06:50:59 (17.01.20)
+  Restoring commit took 9199ms
+    1 files produced, start merging them
+    Read file: 1 (33747 bytes)
+  Metric execution (+ merging 1 results) took 10:37.057
+  Running metrics took 637058ms
+Handling (+writing) KH output took 646414ms
+Processing 446 of 629 at 07:01:45 (17.01.20)
+  Restoring commit took 10468ms
+    1 files produced, start merging them
+    Read file: 1 (33562 bytes)
+  Metric execution (+ merging 1 results) took 09:59.366
+  Running metrics took 599367ms
+Handling (+writing) KH output took 609885ms
+Processing 447 of 629 at 07:11:55 (17.01.20)
+Handling (+writing) KH output took 28653ms
+Processing 448 of 629 at 07:12:24 (17.01.20)
+  Restoring commit took 9073ms
+    1 files produced, start merging them
+    Read file: 1 (33361 bytes)
+  Metric execution (+ merging 1 results) took 10:08.902
+  Running metrics took 608903ms
+Handling (+writing) KH output took 618051ms
+Processing 449 of 629 at 07:22:42 (17.01.20)
+Handling (+writing) KH output took 269ms
+Processing 450 of 629 at 07:22:42 (17.01.20)
+  Restoring commit took 9694ms
+    1 files produced, start merging them
+    Read file: 1 (33562 bytes)
+  Metric execution (+ merging 1 results) took 11:07.127
+  Running metrics took 667128ms
+Handling (+writing) KH output took 676915ms
+Processing 451 of 629 at 07:33:59 (17.01.20)
+  Restoring commit took 9723ms
+    1 files produced, start merging them
+    Read file: 1 (32968 bytes)
+  Metric execution (+ merging 1 results) took 10:06.616
+  Running metrics took 606617ms
+Handling (+writing) KH output took 616387ms
+Processing 452 of 629 at 07:44:15 (17.01.20)
+  Restoring commit took 13295ms
+Handling (+writing) KH output took 13394ms
+Processing 453 of 629 at 07:44:29 (17.01.20)
+  Restoring commit took 2705ms
+Handling (+writing) KH output took 2721ms
+Processing 454 of 629 at 07:44:31 (17.01.20)
+  Restoring commit took 7899ms
+    1 files produced, start merging them
+    Read file: 1 (32912 bytes)
+  Metric execution (+ merging 1 results) took 10:40.543
+  Running metrics took 640544ms
+Handling (+writing) KH output took 648560ms
+Processing 455 of 629 at 07:55:20 (17.01.20)
+  Restoring commit took 11086ms
+    1 files produced, start merging them
+    Read file: 1 (33344 bytes)
+  Metric execution (+ merging 1 results) took 09:53.848
+  Running metrics took 593849ms
+Handling (+writing) KH output took 605078ms
+Processing 456 of 629 at 08:05:25 (17.01.20)
+  Restoring commit took 8611ms
+    1 files produced, start merging them
+    Read file: 1 (33733 bytes)
+  Metric execution (+ merging 1 results) took 10:48.536
+  Running metrics took 648537ms
+Handling (+writing) KH output took 657212ms
+Processing 457 of 629 at 08:16:22 (17.01.20)
+  Restoring commit took 6725ms
+    1 files produced, start merging them
+    Read file: 1 (33086 bytes)
+  Metric execution (+ merging 1 results) took 10:26.065
+  Running metrics took 626066ms
+Handling (+writing) KH output took 632999ms
+Processing 458 of 629 at 08:26:55 (17.01.20)
+  Restoring commit took 33977ms
+    1 files produced, start merging them
+    Read file: 1 (33733 bytes)
+  Metric execution (+ merging 1 results) took 10:07.782
+  Running metrics took 607783ms
+Handling (+writing) KH output took 641849ms
+Processing 459 of 629 at 08:37:37 (17.01.20)
+  Restoring commit took 10965ms
+Handling (+writing) KH output took 11010ms
+Processing 460 of 629 at 08:37:48 (17.01.20)
+  Restoring commit took 11419ms
+    1 files produced, start merging them
+    Read file: 1 (33185 bytes)
+  Metric execution (+ merging 1 results) took 11:00.123
+  Running metrics took 660123ms
+Handling (+writing) KH output took 671973ms
+Processing 461 of 629 at 08:49:00 (17.01.20)
+  Restoring commit took 9965ms
+    1 files produced, start merging them
+    Read file: 1 (33766 bytes)
+  Metric execution (+ merging 1 results) took 10:16.309
+  Running metrics took 616310ms
+Handling (+writing) KH output took 626299ms
+Processing 462 of 629 at 08:59:26 (17.01.20)
+  Restoring commit took 9467ms
+    1 files produced, start merging them
+    Read file: 1 (33129 bytes)
+  Metric execution (+ merging 1 results) took 10:17.135
+  Running metrics took 617136ms
+Handling (+writing) KH output took 626867ms
+Processing 463 of 629 at 09:09:53 (17.01.20)
+  Restoring commit took 11285ms
+    1 files produced, start merging them
+    Read file: 1 (32924 bytes)
+  Metric execution (+ merging 1 results) took 10:19.545
+  Running metrics took 619546ms
+Handling (+writing) KH output took 631008ms
+Processing 464 of 629 at 09:20:24 (17.01.20)
+  Restoring commit took 43275ms
+    1 files produced, start merging them
+    Read file: 1 (37133 bytes)
+  Metric execution (+ merging 2 results) took 10:15.765
+  Running metrics took 615765ms
+Handling (+writing) KH output took 660033ms
+Processing 465 of 629 at 09:31:24 (17.01.20)
+  Restoring commit took 3859ms
+    1 files produced, start merging them
+    Read file: 1 (37133 bytes)
+  Metric execution (+ merging 2 results) took 09:30.976
+  Running metrics took 570977ms
+Handling (+writing) KH output took 575970ms
+Processing 466 of 629 at 09:41:00 (17.01.20)
+  Restoring commit took 2749ms
+    1 files produced, start merging them
+    Read file: 1 (33798 bytes)
+  Metric execution (+ merging 1 results) took 09:21.455
+  Running metrics took 561455ms
+Handling (+writing) KH output took 564297ms
+Processing 467 of 629 at 09:50:25 (17.01.20)
+  Restoring commit took 10828ms
+    1 files produced, start merging them
+    Read file: 1 (35928 bytes)
+  Metric execution (+ merging 2 results) took 09:00.369
+  Running metrics took 540369ms
+Handling (+writing) KH output took 551258ms
+Processing 468 of 629 at 09:59:36 (17.01.20)
+  Restoring commit took 32944ms
+    1 files produced, start merging them
+    Read file: 1 (33798 bytes)
+  Metric execution (+ merging 1 results) took 09:37.714
+  Running metrics took 577714ms
+Handling (+writing) KH output took 610746ms
+Processing 469 of 629 at 10:09:47 (17.01.20)
+  Restoring commit took 9316ms
+    1 files produced, start merging them
+    Read file: 1 (33519 bytes)
+  Metric execution (+ merging 1 results) took 09:29.421
+  Running metrics took 569422ms
+Handling (+writing) KH output took 578799ms
+Processing 470 of 629 at 10:19:25 (17.01.20)
+Handling (+writing) KH output took 18041ms
+Processing 471 of 629 at 10:19:43 (17.01.20)
+  Restoring commit took 33756ms
+Handling (+writing) KH output took 33859ms
+Processing 472 of 629 at 10:20:17 (17.01.20)
+  Restoring commit took 9768ms
+    1 files produced, start merging them
+    Read file: 1 (33126 bytes)
+  Metric execution (+ merging 1 results) took 09:51.157
+  Running metrics took 591158ms
+Handling (+writing) KH output took 601596ms
+Processing 473 of 629 at 10:30:19 (17.01.20)
+  Restoring commit took 3344ms
+    1 files produced, start merging them
+    Read file: 1 (33289 bytes)
+  Metric execution (+ merging 1 results) took 08:47.788
+  Running metrics took 527788ms
+Handling (+writing) KH output took 531927ms
+Processing 474 of 629 at 10:39:11 (17.01.20)
+  Restoring commit took 9014ms
+Handling (+writing) KH output took 9077ms
+Processing 475 of 629 at 10:39:20 (17.01.20)
+  Restoring commit took 9105ms
+    1 files produced, start merging them
+    Read file: 1 (33145 bytes)
+  Metric execution (+ merging 1 results) took 09:11.879
+  Running metrics took 551879ms
+Handling (+writing) KH output took 561058ms
+Processing 476 of 629 at 10:48:41 (17.01.20)
+Handling (+writing) KH output took 28953ms
+Processing 477 of 629 at 10:49:10 (17.01.20)
+  Restoring commit took 2782ms
+    1 files produced, start merging them
+    Read file: 1 (33149 bytes)
+  Metric execution (+ merging 1 results) took 09:03.589
+  Running metrics took 543590ms
+Handling (+writing) KH output took 546396ms
+Processing 478 of 629 at 10:58:16 (17.01.20)
+Handling (+writing) KH output took 26374ms
+Processing 479 of 629 at 10:58:43 (17.01.20)
+Handling (+writing) KH output took 22843ms
+Processing 480 of 629 at 10:59:05 (17.01.20)
+  Restoring commit took 5949ms
+    1 files produced, start merging them
+    Read file: 1 (33644 bytes)
+  Metric execution (+ merging 1 results) took 09:34.009
+  Running metrics took 574010ms
+Handling (+writing) KH output took 580016ms
+Processing 481 of 629 at 11:08:46 (17.01.20)
+  Restoring commit took 33231ms
+    1 files produced, start merging them
+    Read file: 1 (33274 bytes)
+  Metric execution (+ merging 1 results) took 09:50.844
+  Running metrics took 590845ms
+Handling (+writing) KH output took 624193ms
+Processing 482 of 629 at 11:19:10 (17.01.20)
+  Restoring commit took 2993ms
+    1 files produced, start merging them
+    Read file: 1 (32870 bytes)
+  Metric execution (+ merging 1 results) took 09:31.716
+  Running metrics took 571717ms
+Handling (+writing) KH output took 574731ms
+Processing 483 of 629 at 11:28:44 (17.01.20)
+  Restoring commit took 3080ms
+    1 files produced, start merging them
+    Read file: 1 (32870 bytes)
+  Metric execution (+ merging 1 results) took 09:31.260
+  Running metrics took 571260ms
+Handling (+writing) KH output took 574366ms
+Processing 484 of 629 at 11:38:19 (17.01.20)
+  Restoring commit took 6928ms
+    1 files produced, start merging them
+    Read file: 1 (33859 bytes)
+  Metric execution (+ merging 1 results) took 09:29.773
+  Running metrics took 569774ms
+Handling (+writing) KH output took 576938ms
+Processing 485 of 629 at 11:47:56 (17.01.20)
+  Restoring commit took 37899ms
+    1 files produced, start merging them
+    Read file: 1 (33975 bytes)
+  Metric execution (+ merging 1 results) took 10:18.579
+  Running metrics took 618580ms
+Handling (+writing) KH output took 656651ms
+Processing 486 of 629 at 11:58:52 (17.01.20)
+  Restoring commit took 11865ms
+    1 files produced, start merging them
+    Read file: 1 (33091 bytes)
+  Metric execution (+ merging 1 results) took 10:33.716
+  Running metrics took 633716ms
+Handling (+writing) KH output took 645615ms
+Processing 487 of 629 at 12:09:38 (17.01.20)
+  Restoring commit took 12185ms
+    1 files produced, start merging them
+    Read file: 1 (42336 bytes)
+  Metric execution (+ merging 4 results) took 10:00.421
+  Running metrics took 600422ms
+Handling (+writing) KH output took 612654ms
+Processing 488 of 629 at 12:19:51 (17.01.20)
+  Restoring commit took 2987ms
+    1 files produced, start merging them
+    Read file: 1 (33010 bytes)
+  Metric execution (+ merging 1 results) took 10:19.185
+  Running metrics took 619186ms
+Handling (+writing) KH output took 622212ms
+Processing 489 of 629 at 12:30:13 (17.01.20)
+  Restoring commit took 11665ms
+    1 files produced, start merging them
+    Read file: 1 (36760 bytes)
+  Metric execution (+ merging 2 results) took 09:42.156
+  Running metrics took 582156ms
+Handling (+writing) KH output took 593887ms
+Processing 490 of 629 at 12:40:07 (17.01.20)
+  Restoring commit took 10107ms
+Handling (+writing) KH output took 10178ms
+Processing 491 of 629 at 12:40:17 (17.01.20)
+  Restoring commit took 556ms
+Handling (+writing) KH output took 629ms
+Processing 492 of 629 at 12:40:18 (17.01.20)
+  Restoring commit took 44014ms
+Handling (+writing) KH output took 44166ms
+Processing 493 of 629 at 12:41:02 (17.01.20)
+Handling (+writing) KH output took 24886ms
+Processing 494 of 629 at 12:41:27 (17.01.20)
+  Restoring commit took 38446ms
+    1 files produced, start merging them
+    Read file: 1 (33966 bytes)
+  Metric execution (+ merging 1 results) took 09:14.116
+  Running metrics took 554117ms
+Handling (+writing) KH output took 592820ms
+Processing 495 of 629 at 12:51:19 (17.01.20)
+  Restoring commit took 12313ms
+    1 files produced, start merging them
+    Read file: 1 (0 bytes)
+  Metric execution (+ merging 0 results) took 09:44.225
+  Running metrics took 584226ms
+Handling (+writing) KH output took 596569ms
+Processing 496 of 629 at 13:01:16 (17.01.20)
+  Restoring commit took 2663ms
+    1 files produced, start merging them
+    Read file: 1 (33039 bytes)
+  Metric execution (+ merging 1 results) took 10:06.654
+  Running metrics took 606655ms
+Handling (+writing) KH output took 609376ms
+Processing 497 of 629 at 13:11:25 (17.01.20)
+  Restoring commit took 14932ms
+    1 files produced, start merging them
+    Read file: 1 (33588 bytes)
+  Metric execution (+ merging 1 results) took 10:32.680
+  Running metrics took 632681ms
+Handling (+writing) KH output took 647710ms
+Processing 498 of 629 at 13:22:13 (17.01.20)
+  Restoring commit took 3251ms
+    1 files produced, start merging them
+    Read file: 1 (33772 bytes)
+  Metric execution (+ merging 1 results) took 10:57.373
+  Running metrics took 657374ms
+Handling (+writing) KH output took 660934ms
+Processing 499 of 629 at 13:33:14 (17.01.20)
+  Restoring commit took 12125ms
+Handling (+writing) KH output took 12161ms
+Processing 500 of 629 at 13:33:26 (17.01.20)
+  Restoring commit took 9080ms
+    1 files produced, start merging them
+    Read file: 1 (33057 bytes)
+  Metric execution (+ merging 1 results) took 10:57.173
+  Running metrics took 657174ms
+Handling (+writing) KH output took 666321ms
+Processing 501 of 629 at 13:44:33 (17.01.20)
+  Restoring commit took 34441ms
+    1 files produced, start merging them
+    Read file: 1 (33474 bytes)
+  Metric execution (+ merging 1 results) took 10:51.908
+  Running metrics took 651908ms
+Handling (+writing) KH output took 686391ms
+Processing 502 of 629 at 13:55:59 (17.01.20)
+  Restoring commit took 10607ms
+Handling (+writing) KH output took 10636ms
+Processing 503 of 629 at 13:56:10 (17.01.20)
+  Restoring commit took 10252ms
+Handling (+writing) KH output took 10268ms
+Processing 504 of 629 at 13:56:20 (17.01.20)
+  Restoring commit took 7529ms
+    1 files produced, start merging them
+    Read file: 1 (33861 bytes)
+  Metric execution (+ merging 1 results) took 10:51.705
+  Running metrics took 651705ms
+Handling (+writing) KH output took 659275ms
+Processing 505 of 629 at 14:07:19 (17.01.20)
+  Restoring commit took 10330ms
+    1 files produced, start merging them
+    Read file: 1 (33537 bytes)
+  Metric execution (+ merging 1 results) took 10:09.096
+  Running metrics took 609096ms
+Handling (+writing) KH output took 619462ms
+Processing 506 of 629 at 14:17:39 (17.01.20)
+  Restoring commit took 667ms
+    1 files produced, start merging them
+    Read file: 1 (32937 bytes)
+  Metric execution (+ merging 1 results) took 11:11.137
+  Running metrics took 671139ms
+Handling (+writing) KH output took 671837ms
+Processing 507 of 629 at 14:28:50 (17.01.20)
+  Restoring commit took 229ms
+    1 files produced, start merging them
+    Read file: 1 (33435 bytes)
+  Metric execution (+ merging 1 results) took 09:42.509
+  Running metrics took 582510ms
+Handling (+writing) KH output took 582762ms
+Processing 508 of 629 at 14:38:33 (17.01.20)
+  Restoring commit took 27819ms
+    1 files produced, start merging them
+    Read file: 1 (33581 bytes)
+  Metric execution (+ merging 1 results) took 10:34.548
+  Running metrics took 634548ms
+Handling (+writing) KH output took 662398ms
+Processing 509 of 629 at 14:49:36 (17.01.20)
+  Restoring commit took 36051ms
+    1 files produced, start merging them
+    Read file: 1 (33285 bytes)
+  Metric execution (+ merging 1 results) took 10:57.159
+  Running metrics took 657160ms
+Handling (+writing) KH output took 693278ms
+Processing 510 of 629 at 15:01:09 (17.01.20)
+  Restoring commit took 16816ms
+    1 files produced, start merging them
+    Read file: 1 (32966 bytes)
+  Metric execution (+ merging 1 results) took 10:27.841
+  Running metrics took 627842ms
+Handling (+writing) KH output took 644724ms
+Processing 511 of 629 at 15:11:54 (17.01.20)
+  Restoring commit took 9658ms
+Handling (+writing) KH output took 9818ms
+Processing 512 of 629 at 15:12:03 (17.01.20)
+  Restoring commit took 9442ms
+    1 files produced, start merging them
+    Read file: 1 (33242 bytes)
+  Metric execution (+ merging 1 results) took 09:38.659
+  Running metrics took 578659ms
+Handling (+writing) KH output took 588130ms
+Processing 513 of 629 at 15:21:51 (17.01.20)
+  Restoring commit took 7292ms
+    1 files produced, start merging them
+    Read file: 1 (58620 bytes)
+  Metric execution (+ merging 9 results) took 10:00.802
+  Running metrics took 600803ms
+Handling (+writing) KH output took 608234ms
+Processing 514 of 629 at 15:32:00 (17.01.20)
+Handling (+writing) KH output took 21882ms
+Processing 515 of 629 at 15:32:22 (17.01.20)
+  Restoring commit took 8196ms
+    1 files produced, start merging them
+    Read file: 1 (33280 bytes)
+  Metric execution (+ merging 1 results) took 09:03.952
+  Running metrics took 543952ms
+Handling (+writing) KH output took 552415ms
+Processing 516 of 629 at 15:41:34 (17.01.20)
+  Restoring commit took 3091ms
+    1 files produced, start merging them
+    Read file: 1 (33280 bytes)
+  Metric execution (+ merging 1 results) took 08:08.668
+  Running metrics took 488669ms
+Handling (+writing) KH output took 491979ms
+Processing 517 of 629 at 15:49:46 (17.01.20)
+  Restoring commit took 9006ms
+    1 files produced, start merging them
+    Read file: 1 (33651 bytes)
+  Metric execution (+ merging 1 results) took 08:20.148
+  Running metrics took 500148ms
+Handling (+writing) KH output took 509389ms
+Processing 518 of 629 at 15:58:15 (17.01.20)
+  Restoring commit took 2936ms
+    1 files produced, start merging them
+    Read file: 1 (33651 bytes)
+  Metric execution (+ merging 1 results) took 07:57.822
+  Running metrics took 477823ms
+Handling (+writing) KH output took 480946ms
+Processing 519 of 629 at 16:06:16 (17.01.20)
+Handling (+writing) KH output took 23494ms
+Processing 520 of 629 at 16:06:40 (17.01.20)
+  Restoring commit took 7057ms
+Handling (+writing) KH output took 7071ms
+Processing 521 of 629 at 16:06:47 (17.01.20)
+  Restoring commit took 4604ms
+    1 files produced, start merging them
+    Read file: 1 (36024 bytes)
+  Metric execution (+ merging 2 results) took 08:52.037
+  Running metrics took 532038ms
+Handling (+writing) KH output took 536669ms
+Processing 522 of 629 at 16:15:44 (17.01.20)
+  Restoring commit took 31848ms
+    1 files produced, start merging them
+    Read file: 1 (32910 bytes)
+  Metric execution (+ merging 1 results) took 10:03.933
+  Running metrics took 603935ms
+Handling (+writing) KH output took 635845ms
+Processing 523 of 629 at 16:26:19 (17.01.20)
+Handling (+writing) KH output took 24914ms
+Processing 524 of 629 at 16:26:44 (17.01.20)
+  Restoring commit took 43046ms
+Handling (+writing) KH output took 43068ms
+Processing 525 of 629 at 16:27:27 (17.01.20)
+  Restoring commit took 14187ms
+    1 files produced, start merging them
+    Read file: 1 (32943 bytes)
+  Metric execution (+ merging 1 results) took 10:47.473
+  Running metrics took 647474ms
+Handling (+writing) KH output took 661724ms
+Processing 526 of 629 at 16:38:29 (17.01.20)
+  Restoring commit took 14520ms
+    1 files produced, start merging them
+    Read file: 1 (32950 bytes)
+  Metric execution (+ merging 1 results) took 10:12.112
+  Running metrics took 612113ms
+Handling (+writing) KH output took 626706ms
+Processing 527 of 629 at 16:48:56 (17.01.20)
+Handling (+writing) KH output took 36665ms
+Processing 528 of 629 at 16:49:32 (17.01.20)
+Handling (+writing) KH output took 24822ms
+Processing 529 of 629 at 16:49:57 (17.01.20)
+Handling (+writing) KH output took 24638ms
+Processing 530 of 629 at 16:50:22 (17.01.20)
+Handling (+writing) KH output took 34519ms
+Processing 531 of 629 at 16:50:56 (17.01.20)
+  Restoring commit took 14504ms
+    1 files produced, start merging them
+    Read file: 1 (33072 bytes)
+  Metric execution (+ merging 1 results) took 10:22.687
+  Running metrics took 622689ms
+Handling (+writing) KH output took 637259ms
+Processing 532 of 629 at 17:01:34 (17.01.20)
+Handling (+writing) KH output took 26365ms
+Processing 533 of 629 at 17:02:00 (17.01.20)
+  Restoring commit took 12478ms
+    1 files produced, start merging them
+    Read file: 1 (33742 bytes)
+  Metric execution (+ merging 1 results) took 10:21.355
+  Running metrics took 621356ms
+Handling (+writing) KH output took 633930ms
+Processing 534 of 629 at 17:12:34 (17.01.20)
+Handling (+writing) KH output took 27809ms
+Processing 535 of 629 at 17:13:02 (17.01.20)
+Handling (+writing) KH output took 25394ms
+Processing 536 of 629 at 17:13:27 (17.01.20)
+Handling (+writing) KH output took 24395ms
+Processing 537 of 629 at 17:13:52 (17.01.20)
+Handling (+writing) KH output took 23275ms
+Processing 538 of 629 at 17:14:15 (17.01.20)
+Handling (+writing) KH output took 49ms
+Processing 539 of 629 at 17:14:15 (17.01.20)
+Handling (+writing) KH output took 24556ms
+Processing 540 of 629 at 17:14:40 (17.01.20)
+  Restoring commit took 27381ms
+    1 files produced, start merging them
+    Read file: 1 (39047 bytes)
+  Metric execution (+ merging 3 results) took 09:18.756
+  Running metrics took 558757ms
+Handling (+writing) KH output took 586183ms
+Processing 541 of 629 at 17:24:26 (17.01.20)
+  Restoring commit took 25805ms
+    1 files produced, start merging them
+    Read file: 1 (33324 bytes)
+  Metric execution (+ merging 1 results) took 10:13.867
+  Running metrics took 613867ms
+Handling (+writing) KH output took 639843ms
+Processing 542 of 629 at 17:35:06 (17.01.20)
+  Restoring commit took 28349ms
+    1 files produced, start merging them
+    Read file: 1 (33518 bytes)
+  Metric execution (+ merging 1 results) took 09:18.886
+  Running metrics took 558886ms
+Handling (+writing) KH output took 587278ms
+Processing 543 of 629 at 17:44:53 (17.01.20)
+Handling (+writing) KH output took 23044ms
+Processing 544 of 629 at 17:45:16 (17.01.20)
+  Restoring commit took 8044ms
+    1 files produced, start merging them
+    Read file: 1 (33448 bytes)
+  Metric execution (+ merging 1 results) took 09:25.866
+  Running metrics took 565866ms
+Handling (+writing) KH output took 573970ms
+Processing 545 of 629 at 17:54:50 (17.01.20)
+Handling (+writing) KH output took 4302ms
+Processing 546 of 629 at 17:54:54 (17.01.20)
+Handling (+writing) KH output took 23136ms
+Processing 547 of 629 at 17:55:17 (17.01.20)
+  Restoring commit took 32404ms
+    1 files produced, start merging them
+    Read file: 1 (32910 bytes)
+  Metric execution (+ merging 1 results) took 08:49.402
+  Running metrics took 529402ms
+Handling (+writing) KH output took 561849ms
+Processing 548 of 629 at 18:04:39 (17.01.20)
+  Restoring commit took 30807ms
+    1 files produced, start merging them
+    Read file: 1 (33273 bytes)
+  Metric execution (+ merging 1 results) took 08:33.423
+  Running metrics took 513423ms
+Handling (+writing) KH output took 544270ms
+Processing 549 of 629 at 18:13:43 (17.01.20)
+Handling (+writing) KH output took 67057ms
+Processing 550 of 629 at 18:14:50 (17.01.20)
+Handling (+writing) KH output took 23754ms
+Processing 551 of 629 at 18:15:14 (17.01.20)
+Handling (+writing) KH output took 31465ms
+Processing 552 of 629 at 18:15:46 (17.01.20)
+Handling (+writing) KH output took 22849ms
+Processing 553 of 629 at 18:16:09 (17.01.20)
+Handling (+writing) KH output took 21706ms
+Processing 554 of 629 at 18:16:30 (17.01.20)
+Handling (+writing) KH output took 19646ms
+Processing 555 of 629 at 18:16:50 (17.01.20)
+Handling (+writing) KH output took 31208ms
+Processing 556 of 629 at 18:17:21 (17.01.20)
+Handling (+writing) KH output took 26211ms
+Processing 557 of 629 at 18:17:47 (17.01.20)
+Handling (+writing) KH output took 23191ms
+Processing 558 of 629 at 18:18:10 (17.01.20)
+  Restoring commit took 33594ms
+    1 files produced, start merging them
+    Read file: 1 (33343 bytes)
+  Metric execution (+ merging 1 results) took 09:30.608
+  Running metrics took 570609ms
+Handling (+writing) KH output took 604261ms
+Processing 559 of 629 at 18:28:15 (17.01.20)
+  Restoring commit took 34221ms
+    1 files produced, start merging them
+    Read file: 1 (46610 bytes)
+  Metric execution (+ merging 5 results) took 09:29.511
+  Running metrics took 569512ms
+Handling (+writing) KH output took 603836ms
+Processing 560 of 629 at 18:38:19 (17.01.20)
+  Restoring commit took 11032ms
+    1 files produced, start merging them
+    Read file: 1 (33066 bytes)
+  Metric execution (+ merging 1 results) took 10:34.707
+  Running metrics took 634708ms
+Handling (+writing) KH output took 645810ms
+Processing 561 of 629 at 18:49:04 (17.01.20)
+Handling (+writing) KH output took 42ms
+Processing 562 of 629 at 18:49:04 (17.01.20)
+Handling (+writing) KH output took 44ms
+Processing 563 of 629 at 18:49:04 (17.01.20)
+Handling (+writing) KH output took 39ms
+Processing 564 of 629 at 18:49:05 (17.01.20)
+Handling (+writing) KH output took 39ms
+Processing 565 of 629 at 18:49:05 (17.01.20)
+Handling (+writing) KH output took 39ms
+Processing 566 of 629 at 18:49:05 (17.01.20)
+  Restoring commit took 6903ms
+    1 files produced, start merging them
+    Read file: 1 (33208 bytes)
+  Metric execution (+ merging 1 results) took 10:33.244
+  Running metrics took 633244ms
+Handling (+writing) KH output took 640199ms
+Processing 567 of 629 at 18:59:45 (17.01.20)
+  Restoring commit took 11422ms
+Handling (+writing) KH output took 11524ms
+Processing 568 of 629 at 18:59:56 (17.01.20)
+Handling (+writing) KH output took 26399ms
+Processing 569 of 629 at 19:00:23 (17.01.20)
+Handling (+writing) KH output took 40442ms
+Processing 570 of 629 at 19:01:03 (17.01.20)
+  Restoring commit took 7489ms
+    1 files produced, start merging them
+    Read file: 1 (33537 bytes)
+  Metric execution (+ merging 1 results) took 10:53.009
+  Running metrics took 653010ms
+Handling (+writing) KH output took 660558ms
+Processing 571 of 629 at 19:12:04 (17.01.20)
+  Restoring commit took 30766ms
+    1 files produced, start merging them
+    Read file: 1 (32934 bytes)
+  Metric execution (+ merging 1 results) took 10:06.722
+  Running metrics took 606723ms
+Handling (+writing) KH output took 637796ms
+Processing 572 of 629 at 19:22:42 (17.01.20)
+Handling (+writing) KH output took 31715ms
+Processing 573 of 629 at 19:23:13 (17.01.20)
+Handling (+writing) KH output took 32662ms
+Processing 574 of 629 at 19:23:46 (17.01.20)
+  Restoring commit took 8317ms
+    1 files produced, start merging them
+    Read file: 1 (33396 bytes)
+  Metric execution (+ merging 1 results) took 09:41.745
+  Running metrics took 581745ms
+Handling (+writing) KH output took 590145ms
+Processing 575 of 629 at 19:33:36 (17.01.20)
+  Restoring commit took 9633ms
+Handling (+writing) KH output took 9683ms
+Processing 576 of 629 at 19:33:46 (17.01.20)
+  Restoring commit took 3366ms
+Handling (+writing) KH output took 4034ms
+Processing 577 of 629 at 19:33:50 (17.01.20)
+  Restoring commit took 4077ms
+Handling (+writing) KH output took 4477ms
+Processing 578 of 629 at 19:33:54 (17.01.20)
+  Restoring commit took 7146ms
+    1 files produced, start merging them
+    Read file: 1 (0 bytes)
+  Metric execution (+ merging 0 results) took 10:26.034
+  Running metrics took 626035ms
+Handling (+writing) KH output took 633802ms
+Processing 579 of 629 at 19:44:28 (17.01.20)
+  Restoring commit took 7875ms
+Handling (+writing) KH output took 7970ms
+Processing 580 of 629 at 19:44:36 (17.01.20)
+Handling (+writing) KH output took 24990ms
+Processing 581 of 629 at 19:45:01 (17.01.20)
+Handling (+writing) KH output took 22529ms
+Processing 582 of 629 at 19:45:24 (17.01.20)
+  Restoring commit took 7022ms
+    1 files produced, start merging them
+    Read file: 1 (33597 bytes)
+  Metric execution (+ merging 1 results) took 10:00.473
+  Running metrics took 600474ms
+Handling (+writing) KH output took 607589ms
+Processing 583 of 629 at 19:55:31 (17.01.20)
+  Restoring commit took 33863ms
+    1 files produced, start merging them
+    Read file: 1 (34099 bytes)
+  Metric execution (+ merging 1 results) took 09:07.852
+  Running metrics took 547853ms
+Handling (+writing) KH output took 581834ms
+Processing 584 of 629 at 20:05:13 (17.01.20)
+  Restoring commit took 34863ms
+    1 files produced, start merging them
+    Read file: 1 (32976 bytes)
+  Metric execution (+ merging 1 results) took 09:55.593
+  Running metrics took 595595ms
+Handling (+writing) KH output took 630631ms
+Processing 585 of 629 at 20:15:44 (17.01.20)
+  Restoring commit took 6528ms
+    1 files produced, start merging them
+    Read file: 1 (33437 bytes)
+  Metric execution (+ merging 1 results) took 09:50.437
+  Running metrics took 590437ms
+Handling (+writing) KH output took 596991ms
+Processing 586 of 629 at 20:25:41 (17.01.20)
+Handling (+writing) KH output took 304ms
+Processing 587 of 629 at 20:25:41 (17.01.20)
+  Restoring commit took 12783ms
+    1 files produced, start merging them
+    Read file: 1 (33114 bytes)
+  Metric execution (+ merging 1 results) took 09:43.184
+  Running metrics took 583184ms
+Handling (+writing) KH output took 596046ms
+Processing 588 of 629 at 20:35:37 (17.01.20)
+  Restoring commit took 10684ms
+    1 files produced, start merging them
+    Read file: 1 (33217 bytes)
+  Metric execution (+ merging 1 results) took 09:26.837
+  Running metrics took 566838ms
+Handling (+writing) KH output took 577544ms
+Processing 589 of 629 at 20:45:14 (17.01.20)
+Handling (+writing) KH output took 22641ms
+Processing 590 of 629 at 20:45:37 (17.01.20)
+Handling (+writing) KH output took 27529ms
+Processing 591 of 629 at 20:46:05 (17.01.20)
+Handling (+writing) KH output took 22748ms
+Processing 592 of 629 at 20:46:27 (17.01.20)
+Handling (+writing) KH output took 23495ms
+Processing 593 of 629 at 20:46:51 (17.01.20)
+Handling (+writing) KH output took 24379ms
+Processing 594 of 629 at 20:47:15 (17.01.20)
+Handling (+writing) KH output took 23169ms
+Processing 595 of 629 at 20:47:38 (17.01.20)
+  Restoring commit took 10403ms
+    1 files produced, start merging them
+    Read file: 1 (36382 bytes)
+  Metric execution (+ merging 2 results) took 10:31.358
+  Running metrics took 631358ms
+Handling (+writing) KH output took 642072ms
+Processing 596 of 629 at 20:58:20 (17.01.20)
+Handling (+writing) KH output took 27592ms
+Processing 597 of 629 at 20:58:48 (17.01.20)
+Handling (+writing) KH output took 28098ms
+Processing 598 of 629 at 20:59:16 (17.01.20)
+Handling (+writing) KH output took 27261ms
+Processing 599 of 629 at 20:59:43 (17.01.20)
+Handling (+writing) KH output took 31390ms
+Processing 600 of 629 at 21:00:15 (17.01.20)
+Handling (+writing) KH output took 26070ms
+Processing 601 of 629 at 21:00:41 (17.01.20)
+Handling (+writing) KH output took 22530ms
+Processing 602 of 629 at 21:01:03 (17.01.20)
+  Restoring commit took 10259ms
+    1 files produced, start merging them
+    Read file: 1 (33748 bytes)
+  Metric execution (+ merging 1 results) took 09:56.068
+  Running metrics took 596069ms
+Handling (+writing) KH output took 606440ms
+Processing 603 of 629 at 21:11:10 (17.01.20)
+Handling (+writing) KH output took 304ms
+Processing 604 of 629 at 21:11:10 (17.01.20)
+  Restoring commit took 13287ms
+    1 files produced, start merging them
+    Read file: 1 (33443 bytes)
+  Metric execution (+ merging 1 results) took 10:26.721
+  Running metrics took 626721ms
+Handling (+writing) KH output took 640085ms
+Processing 605 of 629 at 21:21:50 (17.01.20)
+  Restoring commit took 6889ms
+Handling (+writing) KH output took 8020ms
+Processing 606 of 629 at 21:21:58 (17.01.20)
+  Restoring commit took 251ms
+Handling (+writing) KH output took 1134ms
+Processing 607 of 629 at 21:21:59 (17.01.20)
+Handling (+writing) KH output took 21289ms
+Processing 608 of 629 at 21:22:21 (17.01.20)
+  Restoring commit took 30837ms
+    1 files produced, start merging them
+    Read file: 1 (33250 bytes)
+  Metric execution (+ merging 1 results) took 09:52.116
+  Running metrics took 592118ms
+Handling (+writing) KH output took 623359ms
+Processing 609 of 629 at 21:32:44 (17.01.20)
+  Restoring commit took 10075ms
+    1 files produced, start merging them
+    Read file: 1 (0 bytes)
+  Metric execution (+ merging 0 results) took 10:24.746
+  Running metrics took 624747ms
+Handling (+writing) KH output took 635235ms
+Processing 610 of 629 at 21:43:19 (17.01.20)
+  Restoring commit took 35162ms
+Handling (+writing) KH output took 35203ms
+Processing 611 of 629 at 21:43:55 (17.01.20)
+  Restoring commit took 11292ms
+Handling (+writing) KH output took 11347ms
+Processing 612 of 629 at 21:44:06 (17.01.20)
+  Restoring commit took 29990ms
+    1 files produced, start merging them
+    Read file: 1 (33122 bytes)
+  Metric execution (+ merging 1 results) took 10:34.977
+  Running metrics took 634978ms
+Handling (+writing) KH output took 665360ms
+Processing 613 of 629 at 21:55:11 (17.01.20)
+  Restoring commit took 29266ms
+Handling (+writing) KH output took 29514ms
+Processing 614 of 629 at 21:55:41 (17.01.20)
+  Restoring commit took 29286ms
+Handling (+writing) KH output took 29308ms
+Processing 615 of 629 at 21:56:10 (17.01.20)
+  Restoring commit took 27908ms
+    1 files produced, start merging them
+    Read file: 1 (46735 bytes)
+  Metric execution (+ merging 5 results) took 10:16.752
+  Running metrics took 616752ms
+Handling (+writing) KH output took 644787ms
+Processing 616 of 629 at 22:06:55 (17.01.20)
+  Restoring commit took 5519ms
+    1 files produced, start merging them
+    Read file: 1 (46298 bytes)
+  Metric execution (+ merging 5 results) took 10:49.666
+  Running metrics took 649667ms
+Handling (+writing) KH output took 655570ms
+Processing 617 of 629 at 22:17:50 (17.01.20)
+  Restoring commit took 33672ms
+    1 files produced, start merging them
+    Read file: 1 (0 bytes)
+  Metric execution (+ merging 0 results) took 10:51.785
+  Running metrics took 651786ms
+Handling (+writing) KH output took 685573ms
+Processing 618 of 629 at 22:29:16 (17.01.20)
+  Restoring commit took 34173ms
+    1 files produced, start merging them
+    Read file: 1 (0 bytes)
+  Metric execution (+ merging 0 results) took 13:32.221
+  Running metrics took 812223ms
+Handling (+writing) KH output took 846425ms
+Processing 619 of 629 at 22:43:22 (17.01.20)
+  Restoring commit took 9005ms
+    1 files produced, start merging them
+    Read file: 1 (0 bytes)
+  Metric execution (+ merging 0 results) took 11:00.099
+  Running metrics took 660100ms
+Handling (+writing) KH output took 669255ms
+Processing 620 of 629 at 22:54:32 (17.01.20)
+Handling (+writing) KH output took 26205ms
+Processing 621 of 629 at 22:54:58 (17.01.20)
+Handling (+writing) KH output took 28183ms
+Processing 622 of 629 at 22:55:26 (17.01.20)
+  Restoring commit took 28732ms
+    1 files produced, start merging them
+    Read file: 1 (33350 bytes)
+  Metric execution (+ merging 1 results) took 10:24.119
+  Running metrics took 624120ms
+Handling (+writing) KH output took 653303ms
+Processing 623 of 629 at 23:06:19 (17.01.20)
+Handling (+writing) KH output took 25859ms
+Processing 624 of 629 at 23:06:45 (17.01.20)
+Handling (+writing) KH output took 25127ms
+Processing 625 of 629 at 23:07:10 (17.01.20)
+Handling (+writing) KH output took 22280ms
+Processing 626 of 629 at 23:07:33 (17.01.20)
+Handling (+writing) KH output took 23318ms
+Processing 627 of 629 at 23:07:56 (17.01.20)
+  Restoring commit took 32317ms
+    1 files produced, start merging them
+    Read file: 1 (0 bytes)
+  Metric execution (+ merging 0 results) took 10:33.117
+  Running metrics took 633117ms
+Handling (+writing) KH output took 665497ms
+Processing 628 of 629 at 23:19:01 (17.01.20)
+Handling (+writing) KH output took 61ms
+Processing 629 of 629 at 23:19:01 (17.01.20)
+  Restoring commit took 6369ms
+Handling (+writing) KH output took 6526ms
