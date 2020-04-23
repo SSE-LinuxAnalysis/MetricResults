@@ -1,6 +1,15 @@
 # MetricResults
 Metric Results of [MetricHaven](https://github.com/KernelHaven/MetricHaven).
 
+## Baselines ##
+* [Linux v4.9.211](Baselines/linux-4.9.211/linux-4.9.211.csv.zip)
+* [Linux v4.4.211](Baselines/linux-4.4.211/linux-4.4.211.csv.zip)
+
+## Data sets ##
+Duplicates removed from problem reports, merged, and combined by a baseline.
+* [Compilation Errors x 4.9.211](Datasets/DS%20on%20ERROR%20x%20Linux-4.9.211.csv.zip)
+* [Vulnerabilities x 4.9.211](Datasets/DS%20on%20CVEs%20x%20Linux-4.9.211.csv.zip)
+
 ## CVEs Results ##
 List of identified CVEs set provided by [Gabriel Ferreira](https://www.cs.cmu.edu/~gferreir/).
  * [CVEs 2011 - 2015](CVEs/CVEs-Results.xlsx)
