@@ -11,8 +11,8 @@ Duplicates removed from problem reports, merged, and combined by a baseline.
 * [Vulnerabilities x 4.9.211](Datasets/DS%20on%20CVEs%20x%20Linux-4.9.211.csv.zip)
 
 ## CVEs Results ##
-List of identified CVEs set provided by [Gabriel Ferreira](https://www.cs.cmu.edu/~gferreir/).
- * [CVEs 2011 - 2015](CVEs/CVEs-Results.xlsx)
+ * [Self extracted CVE list 2006 - 2017] (CVEs/Self-extracted/CVE-Measures.xlsx)
+ * [CVEs 2011 - 2015 by Gabriel Ferreira (https://www.cs.cmu.edu/~gferreir/)](CVEs/Ferreira/CVEs-Results.xlsx)
 
 ## Kbuild Test Robot Results ##
 Analysis of defects reported by the Kbuild Test Robot at [kbuild-all mailinglist](https://lists.01.org/pipermail/kbuild-all/).
