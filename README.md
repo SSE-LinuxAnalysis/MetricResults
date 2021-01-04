@@ -7,12 +7,18 @@ Metric Results of [MetricHaven](https://github.com/KernelHaven/MetricHaven).
 
 ## Data sets ##
 Duplicates removed from problem reports, merged, and combined by a baseline.
+The self extracted list contains 1612 CVE measures, the list provided by Gabriel Ferreira
+contains only 144 CVE measures.
 * [Compilation Errors x 4.9.211](Datasets/DS%20on%20ERROR%20x%20Linux-4.9.211.csv.zip)
-* [Vulnerabilities x 4.9.211](Datasets/DS%20on%20CVEs%20x%20Linux-4.9.211.csv.zip)
+* [Vulnerabilities (self extracted) x 4.9.211](Datasets/DS%20on%20CVEs%20(self)%20x%20Linux-4.9.211.csv.zip)
+* [Vulnerabilities (Gabriel Ferreira) x 4.9.211](Datasets/DS%20on%20CVEs%20x%20Linux-4.9.211.csv.zip)
 
 ## CVEs Results ##
- * [Self extracted CVE list 2006 - 2017] (CVEs/Self-extracted/CVE-Measures.xlsx)
- * [CVEs 2011 - 2015 by Gabriel Ferreira (https://www.cs.cmu.edu/~gferreir/)](CVEs/Ferreira/CVEs-Results.xlsx)
+Preferably, the self extracted list should be used, because it is more complete.
+The self extracted list contains 1612 measures, the list provided by Gabriel Ferreira
+contains only 144 measures.
+ * [Self extracted CVE list 2006 - 2017](CVEs/Self-extracted/CVE-Measures.xlsx)
+ * [CVEs 2011 - 2015 by Gabriel Ferreira (https://www.cs.cmu.edu/~gferreir/)](CVEs/Ferreira/CVEs.xlsx)
 
 ## Kbuild Test Robot Results ##
 Analysis of defects reported by the Kbuild Test Robot at [kbuild-all mailinglist](https://lists.01.org/pipermail/kbuild-all/).
