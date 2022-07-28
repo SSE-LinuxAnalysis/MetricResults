@@ -1,0 +1,56 @@
+Feature,StartSubset
+EV Classical Fan-Out(global),LNV
+EV Classical Fan-In(global),LNV
+EV Classical Fan-In(local),LNV
+EV VP Fan-In(local),LPV
+EV VP Fan-Out(global),LPV
+ALL_WITH_BUILD_VARS Vars per Function,LPV
+EV VP Fan-In(global),LPV
+EV VP Fan-Out(local),LPV
+EV DC Fan-Out(global x No ext. VPs),LCV
+EV DC Fan-Out(local),LCV
+EV DC Fan-In(local),LCV
+DC Fan-Out(global x No Stubs),LCV
+EV DC Fan-Out(global x No Stubs),LCV
+Combined ND_Avg,LCV
+EV DC Fan-Out(local x No Stubs x No ext. VPs),LCV
+EV DC Fan-Out(global),LCV
+EV DC Fan-In(global),LCV
+ALL_WITH_BUILD_VARS Vars per Function x OUTGOING_CONNECTIONS,GPV
+EXTERNAL_WITH_BUILD_VARS Vars per Function x POSITIVE_SIZES,GPV
+ALL_WITH_BUILD_VARS Vars per Function x INCOMIG_CONNECTIONS,GPV
+EXTERNAL_WITH_BUILD_VARS Vars per Function x SD_VP,GPV
+EV VP Fan-In(local),GPV
+EXTERNAL_WITH_BUILD_VARS Vars per Function x COC,GPV
+ALL_WITH_BUILD_VARS Vars per Function x SD_FILE,GPV
+EXTERNAL_WITH_BUILD_VARS Vars per Function x TOTAL_SIZES,GPV
+EXTERNAL_WITH_BUILD_VARS Vars per Function x ALL_CTCR,GPV
+ALL_WITH_BUILD_VARS Vars per Function x POSITIVE_SIZES,GPV
+EV VP Fan-Out(global),GPV
+ALL_WITH_BUILD_VARS Vars per Function x NUMBER_OF_CHILDREN,GPV
+ALL_WITH_BUILD_VARS Vars per Function x ALL_CTCR,GPV
+ALL_WITH_BUILD_VARS Vars per Function x SD_VP,GPV
+ALL_WITH_BUILD_VARS Vars per Function x Hierarchy Levels,GPV
+EV VP Fan-In(global),GPV
+ALL_WITH_BUILD_VARS Vars per Function x COC,GPV
+EXTERNAL_WITH_BUILD_VARS Vars per Function x NUMBER_OF_CHILDREN,GPV
+EXTERNAL_WITH_BUILD_VARS Vars per Function x INCOMIG_CONNECTIONS,GPV
+ALL_WITH_BUILD_VARS Vars per Function x TOTAL_SIZES,GPV
+EV DC Fan-In(local) x Feature distance,GCV
+EV DC Fan-In(local) x POSITIVE_SIZES,GCV
+EV DC Fan-In(local) x TOTAL_SIZES,GCV
+EV DC Fan-In(local) x OUTGOING_CONNECTIONS,GCV
+EV DC Fan-In(local) x NUMBER_OF_CHILDREN,GCV
+EV DC Fan-In(local) x Hierarchy Types(0-1-0),GCV
+EV DC Fan-In(local) x Hierarchy Types(0-0-1),GCV
+EV DC Fan-In(local) x SD_FILE,GCV
+EV DC Fan-Out(global) x Feature distance,GCV
+EXTERNAL_WITH_BUILD_VARS Vars per Function x INCOMIG_CONNECTIONS,ALL
+EXTERNAL_WITH_BUILD_VARS Vars per Function x COC,ALL
+ALL_WITH_BUILD_VARS Vars per Function x POSITIVE_SIZES,ALL
+ALL_WITH_BUILD_VARS Vars per Function x TOTAL_SIZES,ALL
+EV DC Fan-In(local) x Feature distance,ALL
+EXTERNAL_WITH_BUILD_VARS Vars per Function x TOTAL_SIZES,ALL
+EXTERNAL_WITH_BUILD_VARS Vars per Function x POSITIVE_SIZES,ALL
+EV DC Fan-In(local) x NUMBER_OF_CHILDREN,ALL
+EV DC Fan-In(local) x POSITIVE_SIZES,ALL

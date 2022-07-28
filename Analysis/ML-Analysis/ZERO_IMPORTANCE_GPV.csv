@@ -1,0 +1,11 @@
+,0
+0,VP ND_Avg x Feature Type(hex=1)
+1,Visible-TD x Feature Type(hex=1)
+2,ALL_WITH_BUILD_VARS Vars per Function x Feature Type(hex=1)
+3,ALL Vars per Function x Feature Type(hex=1)
+4,VP ND_Max x Feature Type(hex=1)
+5,CC on VPs x Feature Type(hex=1)
+6,EXTERNAL_WITH_BUILD_VARS Vars per Function x Feature Type(hex=1)
+7,EXTERNAL Vars per Function x Feature Type(hex=1)
+8,Full-TD x Feature Type(hex=1)
+9,INTERNAL Vars per Function x Feature Type(hex=1)
